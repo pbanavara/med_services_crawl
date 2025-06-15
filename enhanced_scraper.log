@@ -1,0 +1,2035 @@
+2025-06-15 14:15:14,108 - INFO - Starting Enhanced Physician Group Website Scraper
+2025-06-15 14:15:14,108 - INFO - Initializing enhanced scraper with Excel file: Physician Groups in US.xlsx
+2025-06-15 14:15:14,108 - INFO - Output directory: output
+2025-06-15 14:15:14,108 - INFO - Will process maximum 20 rows
+2025-06-15 14:15:14,108 - INFO - Starting enhanced data processing...
+2025-06-15 14:15:14,108 - INFO - Loading Excel file: Physician Groups in US.xlsx
+2025-06-15 14:15:28,695 - INFO - Limited to first 20 rows for testing
+2025-06-15 14:15:28,695 - INFO - Successfully loaded Excel file. Shape: (20, 12)
+2025-06-15 14:15:28,695 - INFO - Columns found: ['Definitive ID', 'Ambulatory EMR', 'Physician Group Name', 'Physician Group Type', 'Main Specialty', 'Address', 'Address1', 'City', 'State', 'PG Address', 'Full Address', 'Primary Hospital Affiliations']
+2025-06-15 14:15:28,695 - INFO - Processing 20 rows from Excel file
+2025-06-15 14:15:28,696 - INFO - Processing row 1/20: Greenville Pathology PA
+2025-06-15 14:15:28,696 - INFO - Searching for website with query: Greenville Pathology PA Greenville Pathology PA 2515 Bowman Gray Dr official website
+2025-06-15 14:15:28,816 - INFO - Found 5 search results
+2025-06-15 14:15:28,817 - INFO - Found suitable website: https://greenvillepathology.com/
+2025-06-15 14:15:28,817 - INFO - Found website: https://greenvillepathology.com/
+2025-06-15 14:15:28,817 - INFO - Crawling URL (depth 0): https://greenvillepathology.com/
+2025-06-15 14:15:29,003 - ERROR - Error scraping https://greenvillepathology.com/: HTTPSConnectionPool(host='greenvillepathology.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1007)')))
+2025-06-15 14:15:29,004 - INFO - Extracted 0 services for Greenville Pathology PA
+2025-06-15 14:15:29,004 - INFO - Extracting social media presence...
+2025-06-15 14:15:46,392 - INFO - Extracting patient reviews...
+2025-06-15 14:16:02,752 - INFO - Extracting competitors...
+2025-06-15 14:16:04,919 - INFO - Extracting location data...
+2025-06-15 14:16:04,922 - INFO - Saved enhanced results to: output/enhanced_Greenville_Pathology_PA.json
+2025-06-15 14:16:07,926 - INFO - Processing row 2/20: Spring Lake Park Chiropractic Pa
+2025-06-15 14:16:07,926 - INFO - Searching for website with query: Spring Lake Park Chiropractic Pa Spring Lake Park Chiropractic Pa 1611 County Highway 10 official website
+2025-06-15 14:16:08,014 - INFO - Found 5 search results
+2025-06-15 14:16:08,014 - INFO - Found suitable website: https://www.springlakeparkchiro.com/
+2025-06-15 14:16:08,015 - INFO - Found website: https://www.springlakeparkchiro.com/
+2025-06-15 14:16:08,015 - INFO - Crawling URL (depth 0): https://www.springlakeparkchiro.com/
+2025-06-15 14:16:08,918 - INFO - Found 6 services on current page
+2025-06-15 14:16:08,919 - INFO - Crawling URL (depth 1): https://www.springlakeparkchiro.com/chiropractic-care-kids/
+2025-06-15 14:16:09,339 - INFO - Found 5 services on current page
+2025-06-15 14:16:09,341 - INFO - Crawling URL (depth 2): https://www.springlakeparkchiro.com/wellness-care/
+2025-06-15 14:16:09,752 - INFO - Found 4 services on current page
+2025-06-15 14:16:09,752 - INFO - Total services found at depth 2: 4
+2025-06-15 14:16:09,752 - INFO - Crawling URL (depth 2): https://www.springlakeparkchiro.com/healthcare-disclaimer/
+2025-06-15 14:16:10,890 - INFO - Found 4 services on current page
+2025-06-15 14:16:10,890 - INFO - Total services found at depth 2: 4
+2025-06-15 14:16:10,890 - INFO - Crawling URL (depth 2): https://www.springlakeparkchiro.com/terms-service/
+2025-06-15 14:16:11,316 - INFO - Found 4 services on current page
+2025-06-15 14:16:11,316 - INFO - Total services found at depth 2: 4
+2025-06-15 14:16:11,317 - INFO - Total services found at depth 1: 5
+2025-06-15 14:16:11,317 - INFO - Total services found at depth 0: 7
+2025-06-15 14:16:11,317 - INFO - Extracted 7 services for Spring Lake Park Chiropractic Pa
+2025-06-15 14:16:11,317 - INFO - Extracting social media presence...
+2025-06-15 14:16:38,893 - INFO - Extracting patient reviews...
+2025-06-15 14:16:57,432 - INFO - Extracting competitors...
+2025-06-15 14:16:58,988 - INFO - Extracting location data...
+2025-06-15 14:16:58,990 - INFO - Saved enhanced results to: output/enhanced_Spring_Lake_Park_Chiropractic_Pa.json
+2025-06-15 14:17:01,996 - INFO - Processing row 3/20: Women Center LA
+2025-06-15 14:17:01,997 - INFO - Searching for website with query: Women Center LA Women Center LA 5901 W Olympic Blvd official website
+2025-06-15 14:17:02,089 - INFO - Found 5 search results
+2025-06-15 14:17:02,090 - INFO - Found suitable website: https://www.laser90210.com/
+2025-06-15 14:17:02,090 - INFO - Found website: https://www.laser90210.com/
+2025-06-15 14:17:02,090 - INFO - Crawling URL (depth 0): https://www.laser90210.com/
+2025-06-15 14:17:02,420 - INFO - Found 12 services on current page
+2025-06-15 14:17:02,421 - INFO - Total services found at depth 0: 12
+2025-06-15 14:17:02,421 - INFO - Extracted 12 services for Women Center LA
+2025-06-15 14:17:02,421 - INFO - Extracting social media presence...
+2025-06-15 14:17:24,454 - INFO - Extracting patient reviews...
+2025-06-15 14:17:50,972 - INFO - Extracting competitors...
+2025-06-15 14:17:52,849 - INFO - Extracting location data...
+2025-06-15 14:17:52,851 - INFO - Saved enhanced results to: output/enhanced_Women_Center_LA.json
+2025-06-15 14:17:55,853 - INFO - Processing row 4/20: Ara Keshishian MD
+2025-06-15 14:17:55,853 - INFO - Searching for website with query: Ara Keshishian MD Ara Keshishian MD 10 Congress St official website
+2025-06-15 14:17:55,944 - INFO - Found 5 search results
+2025-06-15 14:17:55,945 - INFO - Found suitable website: https://www.dssurgery.com/about-us/ara-keshishian-md/
+2025-06-15 14:17:55,945 - INFO - Found website: https://www.dssurgery.com/about-us/ara-keshishian-md/
+2025-06-15 14:17:55,945 - INFO - Crawling URL (depth 0): https://www.dssurgery.com/about-us/ara-keshishian-md/
+2025-06-15 14:17:56,091 - WARNING - Failed to load https://www.dssurgery.com/about-us/ara-keshishian-md/: HTTP 403
+2025-06-15 14:17:56,091 - INFO - Extracted 0 services for Ara Keshishian MD
+2025-06-15 14:17:56,091 - INFO - Extracting social media presence...
+2025-06-15 14:18:11,304 - INFO - Extracting patient reviews...
+2025-06-15 14:18:27,030 - INFO - Extracting competitors...
+2025-06-15 14:18:30,753 - INFO - Extracting location data...
+2025-06-15 14:18:30,756 - INFO - Saved enhanced results to: output/enhanced_Ara_Keshishian_MD.json
+2025-06-15 14:18:33,762 - INFO - Processing row 5/20: Chiropractic Health & Rehabilitation Center
+2025-06-15 14:18:33,762 - INFO - Searching for website with query: Chiropractic Health & Rehabilitation Center Chiropractic Health & Rehabilitation Center N1734 Municipal Dr official website
+2025-06-15 14:18:33,845 - INFO - Found 5 search results
+2025-06-15 14:18:33,845 - INFO - Found suitable website: https://www.greenvillechiropracticcenter.com/
+2025-06-15 14:18:33,846 - INFO - Found website: https://www.greenvillechiropracticcenter.com/
+2025-06-15 14:18:33,847 - INFO - Crawling URL (depth 0): https://www.greenvillechiropracticcenter.com/
+2025-06-15 14:18:34,562 - INFO - Found 2 services on current page
+2025-06-15 14:18:34,563 - INFO - Crawling URL (depth 1): https://www.greenvillechiropracticcenter.com/chiropractic-treatment
+2025-06-15 14:18:35,065 - INFO - Found 3 services on current page
+2025-06-15 14:18:35,066 - INFO - Total services found at depth 1: 3
+2025-06-15 14:18:35,066 - INFO - Total services found at depth 0: 4
+2025-06-15 14:18:35,066 - INFO - Extracted 4 services for Chiropractic Health & Rehabilitation Center
+2025-06-15 14:18:35,066 - INFO - Extracting social media presence...
+2025-06-15 14:18:47,200 - INFO - Extracting patient reviews...
+2025-06-15 14:19:14,466 - INFO - Extracting competitors...
+2025-06-15 14:19:16,101 - INFO - Extracting location data...
+2025-06-15 14:19:16,110 - INFO - Saved enhanced results to: output/enhanced_Chiropractic_Health__Rehabilitation_Center.json
+2025-06-15 14:19:19,116 - INFO - Processing row 6/20: Armine Sarkisianmdinc
+2025-06-15 14:19:19,117 - INFO - Searching for website with query: Armine Sarkisianmdinc Armine Sarkisianmdinc 912 W Glenoaks Blvd official website
+2025-06-15 14:19:19,209 - INFO - Found 5 search results
+2025-06-15 14:19:19,210 - INFO - Found suitable website: https://www.dignityhealth.org/ourdoctors/1346429339-armine-sarkisian
+2025-06-15 14:19:19,210 - INFO - Found website: https://www.dignityhealth.org/ourdoctors/1346429339-armine-sarkisian
+2025-06-15 14:19:19,211 - INFO - Crawling URL (depth 0): https://www.dignityhealth.org/ourdoctors/1346429339-armine-sarkisian
+2025-06-15 14:19:19,711 - INFO - Found 6 services on current page
+2025-06-15 14:19:19,712 - INFO - Crawling URL (depth 1): https://www.dignityhealth.org/my-care/billing-help-and-faq
+2025-06-15 14:19:20,070 - INFO - Found 10 services on current page
+2025-06-15 14:19:20,072 - INFO - Crawling URL (depth 2): https://www.dignityhealth.org/emergency-care
+2025-06-15 14:19:20,474 - INFO - Found 8 services on current page
+2025-06-15 14:19:20,475 - INFO - Total services found at depth 2: 8
+2025-06-15 14:19:20,475 - INFO - Crawling URL (depth 2): https://www.dignityhealth.org/conditions-and-treatments
+2025-06-15 14:19:21,078 - INFO - Found 10 services on current page
+2025-06-15 14:19:21,078 - INFO - Total services found at depth 2: 10
+2025-06-15 14:19:21,079 - INFO - Total services found at depth 1: 16
+2025-06-15 14:19:21,080 - INFO - Total services found at depth 0: 16
+2025-06-15 14:19:21,080 - INFO - Extracted 16 services for Armine Sarkisianmdinc
+2025-06-15 14:19:21,080 - INFO - Extracting social media presence...
+2025-06-15 14:19:34,056 - INFO - Extracting patient reviews...
+2025-06-15 14:19:50,733 - INFO - Extracting competitors...
+2025-06-15 14:19:52,524 - INFO - Extracting location data...
+2025-06-15 14:19:52,527 - INFO - Saved enhanced results to: output/enhanced_Armine_Sarkisianmdinc.json
+2025-06-15 14:19:55,530 - INFO - Processing row 7/20: The Spec Shoppe
+2025-06-15 14:19:55,531 - INFO - Searching for website with query: The Spec Shoppe The Spec Shoppe 2925 N Belt Hwy official website
+2025-06-15 14:19:55,626 - INFO - Found 5 search results
+2025-06-15 14:19:55,627 - INFO - Found suitable website: https://www.specshoppe.com/
+2025-06-15 14:19:55,627 - INFO - Found website: https://www.specshoppe.com/
+2025-06-15 14:19:55,628 - INFO - Crawling URL (depth 0): https://www.specshoppe.com/
+2025-06-15 14:19:55,919 - INFO - Found 0 services on current page
+2025-06-15 14:19:55,920 - INFO - Crawling URL (depth 1): https://www.specshoppe.com/services.html
+2025-06-15 14:19:56,146 - INFO - Found 0 services on current page
+2025-06-15 14:19:56,147 - INFO - Crawling URL (depth 2): https://www.specshoppe.com/eye-care-articles.html
+2025-06-15 14:19:56,353 - INFO - Found 2 services on current page
+2025-06-15 14:19:56,353 - INFO - Total services found at depth 2: 2
+2025-06-15 14:19:56,354 - INFO - Total services found at depth 1: 2
+2025-06-15 14:19:56,355 - INFO - Total services found at depth 0: 2
+2025-06-15 14:19:56,355 - INFO - Extracted 2 services for The Spec Shoppe
+2025-06-15 14:19:56,355 - INFO - Extracting social media presence...
+2025-06-15 14:20:18,245 - INFO - Extracting patient reviews...
+2025-06-15 14:20:35,087 - INFO - Extracting competitors...
+2025-06-15 14:20:36,900 - INFO - Extracting location data...
+2025-06-15 14:20:36,902 - INFO - Saved enhanced results to: output/enhanced_The_Spec_Shoppe.json
+2025-06-15 14:20:39,908 - INFO - Processing row 8/20: Valley Eye Associates PC
+2025-06-15 14:20:39,909 - INFO - Searching for website with query: Valley Eye Associates PC Valley Eye Associates PC 935 E Westpoint Dr official website
+2025-06-15 14:20:39,998 - INFO - Found 5 search results
+2025-06-15 14:20:39,998 - INFO - Found suitable website: https://www.valleyeyeassociatesak.com/
+2025-06-15 14:20:39,998 - INFO - Found website: https://www.valleyeyeassociatesak.com/
+2025-06-15 14:20:39,999 - INFO - Crawling URL (depth 0): https://www.valleyeyeassociatesak.com/
+2025-06-15 14:20:40,270 - INFO - Found 0 services on current page
+2025-06-15 14:20:40,271 - INFO - Total services found at depth 0: 0
+2025-06-15 14:20:40,271 - INFO - Extracted 0 services for Valley Eye Associates PC
+2025-06-15 14:20:40,271 - INFO - Extracting social media presence...
+2025-06-15 14:20:55,958 - INFO - Extracting patient reviews...
+2025-06-15 14:21:01,829 - INFO - Extracting competitors...
+2025-06-15 14:21:01,999 - INFO - Extracting location data...
+2025-06-15 14:21:02,001 - INFO - Saved enhanced results to: output/enhanced_Valley_Eye_Associates_PC.json
+2025-06-15 14:21:05,006 - INFO - Processing row 9/20: In Focus Vision
+2025-06-15 14:21:05,006 - INFO - Searching for website with query: In Focus Vision In Focus Vision 1100 Centennial Ave official website
+2025-06-15 14:21:05,095 - INFO - Found 5 search results
+2025-06-15 14:21:05,096 - INFO - Found suitable website: https://www.in-focusvision.com/
+2025-06-15 14:21:05,097 - INFO - Found website: https://www.in-focusvision.com/
+2025-06-15 14:21:05,098 - INFO - Crawling URL (depth 0): https://www.in-focusvision.com/
+2025-06-15 14:21:05,788 - INFO - Found 5 services on current page
+2025-06-15 14:21:05,789 - INFO - Crawling URL (depth 1): https://www.in-focusvision.com/all-services-page.html
+2025-06-15 14:21:06,240 - INFO - Found 2 services on current page
+2025-06-15 14:21:06,241 - INFO - Crawling URL (depth 2): https://www.in-focusvision.com/services/eye-exams.html
+2025-06-15 14:21:06,677 - INFO - Found 5 services on current page
+2025-06-15 14:21:06,677 - INFO - Total services found at depth 2: 5
+2025-06-15 14:21:06,677 - INFO - Crawling URL (depth 2): https://www.in-focusvision.com/services/computerized-refration.html
+2025-06-15 14:21:07,128 - INFO - Found 0 services on current page
+2025-06-15 14:21:07,128 - INFO - Total services found at depth 2: 0
+2025-06-15 14:21:07,129 - INFO - Crawling URL (depth 2): https://www.in-focusvision.com/services/contacts-glasses.html
+2025-06-15 14:21:07,592 - INFO - Found 0 services on current page
+2025-06-15 14:21:07,592 - INFO - Total services found at depth 2: 0
+2025-06-15 14:21:07,592 - INFO - Crawling URL (depth 2): https://www.in-focusvision.com/services/digital-lenses-designer-frames.html
+2025-06-15 14:21:08,027 - INFO - Found 5 services on current page
+2025-06-15 14:21:08,028 - INFO - Total services found at depth 2: 5
+2025-06-15 14:21:08,028 - INFO - Crawling URL (depth 2): https://www.in-focusvision.com/services/pediatric-eye-exams.html
+2025-06-15 14:21:08,510 - INFO - Found 6 services on current page
+2025-06-15 14:21:08,510 - INFO - Total services found at depth 2: 6
+2025-06-15 14:21:08,510 - INFO - Crawling URL (depth 2): https://www.in-focusvision.com/services/myopia-control.html
+2025-06-15 14:21:08,958 - INFO - Found 3 services on current page
+2025-06-15 14:21:08,958 - INFO - Total services found at depth 2: 3
+2025-06-15 14:21:08,958 - INFO - Crawling URL (depth 2): https://www.in-focusvision.com/services/orthokeratology.html
+2025-06-15 14:21:09,412 - INFO - Found 0 services on current page
+2025-06-15 14:21:09,412 - INFO - Total services found at depth 2: 0
+2025-06-15 14:21:09,412 - INFO - Crawling URL (depth 2): https://www.in-focusvision.com/services/specialty-contact-lenses.html
+2025-06-15 14:21:09,841 - INFO - Found 0 services on current page
+2025-06-15 14:21:09,841 - INFO - Total services found at depth 2: 0
+2025-06-15 14:21:09,842 - INFO - Crawling URL (depth 2): https://www.in-focusvision.com/services/dry-eye-treatment.html
+2025-06-15 14:21:10,304 - INFO - Found 6 services on current page
+2025-06-15 14:21:10,305 - INFO - Total services found at depth 2: 6
+2025-06-15 14:21:10,305 - INFO - Crawling URL (depth 2): https://www.in-focusvision.com/services/lasik-evaluations.html
+2025-06-15 14:21:10,745 - INFO - Found 5 services on current page
+2025-06-15 14:21:10,745 - INFO - Total services found at depth 2: 5
+2025-06-15 14:21:10,745 - INFO - Crawling URL (depth 2): https://www.in-focusvision.com/services/keratoconus-management.html
+2025-06-15 14:21:11,183 - INFO - Found 2 services on current page
+2025-06-15 14:21:11,183 - INFO - Total services found at depth 2: 2
+2025-06-15 14:21:11,183 - INFO - Crawling URL (depth 2): https://www.in-focusvision.com/services/sports-eyewear.html
+2025-06-15 14:21:11,618 - INFO - Found 0 services on current page
+2025-06-15 14:21:11,618 - INFO - Total services found at depth 2: 0
+2025-06-15 14:21:11,618 - INFO - Crawling URL (depth 2): https://www.in-focusvision.com/services/glaucoma-management.html
+2025-06-15 14:21:12,076 - INFO - Found 6 services on current page
+2025-06-15 14:21:12,076 - INFO - Total services found at depth 2: 6
+2025-06-15 14:21:12,076 - INFO - Crawling URL (depth 2): https://www.in-focusvision.com/services/cataract-evaluations.html
+2025-06-15 14:21:12,527 - INFO - Found 6 services on current page
+2025-06-15 14:21:12,527 - INFO - Total services found at depth 2: 6
+2025-06-15 14:21:12,527 - INFO - Crawling URL (depth 2): https://www.in-focusvision.com/services/diabetic-eye-exam.html
+2025-06-15 14:21:13,009 - INFO - Found 6 services on current page
+2025-06-15 14:21:13,009 - INFO - Total services found at depth 2: 6
+2025-06-15 14:21:13,009 - INFO - Crawling URL (depth 2): https://www.in-focusvision.com/services/eye-disease-treatment.html
+2025-06-15 14:21:13,441 - INFO - Found 6 services on current page
+2025-06-15 14:21:13,441 - INFO - Total services found at depth 2: 6
+2025-06-15 14:21:13,441 - INFO - Crawling URL (depth 2): https://www.in-focusvision.com/corneal-refractive-therapy.html
+2025-06-15 14:21:14,292 - INFO - Found 4 services on current page
+2025-06-15 14:21:14,293 - INFO - Total services found at depth 2: 4
+2025-06-15 14:21:14,293 - INFO - Crawling URL (depth 2): https://www.in-focusvision.com/eye-disease-treatment.html
+2025-06-15 14:21:14,986 - INFO - Found 5 services on current page
+2025-06-15 14:21:14,987 - INFO - Total services found at depth 2: 5
+2025-06-15 14:21:14,987 - INFO - Crawling URL (depth 2): https://www.in-focusvision.com/dry-eye-treatment.html
+2025-06-15 14:21:15,683 - INFO - Found 4 services on current page
+2025-06-15 14:21:15,683 - INFO - Total services found at depth 2: 4
+2025-06-15 14:21:15,684 - INFO - Crawling URL (depth 2): https://www.in-focusvision.com/vision-therapy.html
+2025-06-15 14:21:16,406 - INFO - Found 3 services on current page
+2025-06-15 14:21:16,406 - INFO - Total services found at depth 2: 3
+2025-06-15 14:21:16,406 - INFO - Crawling URL (depth 2): https://www.in-focusvision.com/cosmetic-services.html
+2025-06-15 14:21:16,823 - INFO - Found 3 services on current page
+2025-06-15 14:21:16,823 - INFO - Total services found at depth 2: 3
+2025-06-15 14:21:16,824 - INFO - Crawling URL (depth 2): https://www.in-focusvision.com/keratoconus-and-your-treatment-options.html
+2025-06-15 14:21:17,519 - INFO - Found 1 services on current page
+2025-06-15 14:21:17,519 - INFO - Total services found at depth 2: 1
+2025-06-15 14:21:17,519 - INFO - Crawling URL (depth 2): https://www.in-focusvision.com/lasik-procedure.html
+2025-06-15 14:21:18,174 - INFO - Found 5 services on current page
+2025-06-15 14:21:18,174 - INFO - Total services found at depth 2: 5
+2025-06-15 14:21:18,174 - INFO - Crawling URL (depth 2): https://www.in-focusvision.com/specialty-contact-lenses.html
+2025-06-15 14:21:18,872 - INFO - Found 0 services on current page
+2025-06-15 14:21:18,872 - INFO - Total services found at depth 2: 0
+2025-06-15 14:21:18,872 - INFO - Crawling URL (depth 2): https://www.in-focusvision.com/glaucoma-treatment.html
+2025-06-15 14:21:19,617 - INFO - Found 5 services on current page
+2025-06-15 14:21:19,617 - INFO - Total services found at depth 2: 5
+2025-06-15 14:21:19,618 - INFO - Total services found at depth 1: 86
+2025-06-15 14:21:19,618 - INFO - Crawling URL (depth 1): https://www.in-focusvision.com/ervices/specialty-contact-lenses.html
+2025-06-15 14:21:20,635 - INFO - Found 0 services on current page
+2025-06-15 14:21:20,637 - INFO - Total services found at depth 1: 0
+2025-06-15 14:21:20,637 - INFO - Total services found at depth 0: 90
+2025-06-15 14:21:20,637 - INFO - Extracted 90 services for In Focus Vision
+2025-06-15 14:21:20,637 - INFO - Extracting social media presence...
+2025-06-15 14:21:26,479 - INFO - Extracting patient reviews...
+2025-06-15 14:21:32,284 - INFO - Extracting competitors...
+2025-06-15 14:21:32,452 - INFO - Extracting location data...
+2025-06-15 14:21:32,456 - INFO - Saved enhanced results to: output/enhanced_In_Focus_Vision.json
+2025-06-15 14:21:35,461 - INFO - Processing row 10/20: Moore Optometry (AKA Dr J Solomon Moore OD and Associates Inc)
+2025-06-15 14:21:35,462 - INFO - Searching for website with query: Moore Optometry (AKA Dr J Solomon Moore OD and Associates Inc) Moore Optometry (AKA Dr J Solomon Moore OD and Associates Inc) 14434 Hamlin St official website
+2025-06-15 14:21:35,556 - INFO - Found 5 search results
+2025-06-15 14:21:35,557 - INFO - Found suitable website: https://mooreoptometry.com/
+2025-06-15 14:21:35,557 - INFO - Found website: https://mooreoptometry.com/
+2025-06-15 14:21:35,557 - INFO - Crawling URL (depth 0): https://mooreoptometry.com/
+2025-06-15 14:21:35,756 - INFO - Found 10 services on current page
+2025-06-15 14:21:35,758 - INFO - Crawling URL (depth 1): https://mooreoptometry.com/vision-care-products/
+2025-06-15 14:21:36,352 - INFO - Found 7 services on current page
+2025-06-15 14:21:36,353 - INFO - Crawling URL (depth 2): https://mooreoptometry.com/vision-care-products/lenses-and-frames/
+2025-06-15 14:21:36,976 - INFO - Found 10 services on current page
+2025-06-15 14:21:36,976 - INFO - Total services found at depth 2: 10
+2025-06-15 14:21:36,977 - INFO - Crawling URL (depth 2): https://mooreoptometry.com/vision-care-products/contacts/
+2025-06-15 14:21:37,614 - INFO - Found 7 services on current page
+2025-06-15 14:21:37,614 - INFO - Total services found at depth 2: 7
+2025-06-15 14:21:37,615 - INFO - Crawling URL (depth 2): https://mooreoptometry.com/vision-care-products/vision-correction/
+2025-06-15 14:21:38,222 - INFO - Found 9 services on current page
+2025-06-15 14:21:38,222 - INFO - Total services found at depth 2: 9
+2025-06-15 14:21:38,222 - INFO - Crawling URL (depth 2): https://mooreoptometry.com/vision-care-products/eye-conditions/
+2025-06-15 14:21:38,820 - INFO - Found 11 services on current page
+2025-06-15 14:21:38,821 - INFO - Total services found at depth 2: 11
+2025-06-15 14:21:38,821 - INFO - Crawling URL (depth 2): https://mooreoptometry.com/vision-care-products/eye-diseases/
+2025-06-15 14:21:39,426 - INFO - Found 10 services on current page
+2025-06-15 14:21:39,426 - INFO - Total services found at depth 2: 10
+2025-06-15 14:21:39,426 - INFO - Crawling URL (depth 2): https://mooreoptometry.com/vision-care-products/vision-problems/
+2025-06-15 14:21:40,064 - INFO - Found 9 services on current page
+2025-06-15 14:21:40,065 - INFO - Total services found at depth 2: 9
+2025-06-15 14:21:40,065 - INFO - Total services found at depth 1: 21
+2025-06-15 14:21:40,066 - INFO - Total services found at depth 0: 25
+2025-06-15 14:21:40,066 - INFO - Extracted 25 services for Moore Optometry (AKA Dr J Solomon Moore OD and Associates Inc)
+2025-06-15 14:21:40,066 - INFO - Extracting social media presence...
+2025-06-15 14:21:46,402 - INFO - Extracting patient reviews...
+2025-06-15 14:21:52,192 - INFO - Extracting competitors...
+2025-06-15 14:21:52,353 - INFO - Extracting location data...
+2025-06-15 14:21:52,356 - INFO - Saved enhanced results to: output/enhanced_Moore_Optometry_AKA_Dr_J_Solomon_Moore_OD_and_Associates_Inc.json
+2025-06-15 14:21:55,361 - INFO - Processing row 11/20: 20/20 Family Vision SF (FKA Family Optometry PC)
+2025-06-15 14:21:55,361 - INFO - Searching for website with query: 20/20 Family Vision SF (FKA Family Optometry PC) 20/20 Family Vision SF (FKA Family Optometry PC) 26771 W 12 Mile Rd official website
+2025-06-15 14:21:55,453 - INFO - Found 5 search results
+2025-06-15 14:21:55,453 - INFO - Found suitable website: https://www.familyeyedoc.com/
+2025-06-15 14:21:55,454 - INFO - Found website: https://www.familyeyedoc.com/
+2025-06-15 14:21:55,454 - INFO - Crawling URL (depth 0): https://www.familyeyedoc.com/
+2025-06-15 14:21:55,651 - INFO - Found 9 services on current page
+2025-06-15 14:21:55,652 - INFO - Crawling URL (depth 1): https://www.familyeyedoc.com/services
+2025-06-15 14:21:55,738 - INFO - Found 7 services on current page
+2025-06-15 14:21:55,738 - INFO - Crawling URL (depth 2): https://www.familyeyedoc.com/services/glaucoma
+2025-06-15 14:21:55,834 - INFO - Found 15 services on current page
+2025-06-15 14:21:55,834 - INFO - Total services found at depth 2: 15
+2025-06-15 14:21:55,834 - INFO - Crawling URL (depth 2): https://www.familyeyedoc.com/services/diabetes
+2025-06-15 14:21:55,940 - INFO - Found 12 services on current page
+2025-06-15 14:21:55,940 - INFO - Total services found at depth 2: 12
+2025-06-15 14:21:55,940 - INFO - Crawling URL (depth 2): https://www.familyeyedoc.com/services/macular-degeneration
+2025-06-15 14:21:56,052 - INFO - Found 11 services on current page
+2025-06-15 14:21:56,052 - INFO - Total services found at depth 2: 11
+2025-06-15 14:21:56,052 - INFO - Crawling URL (depth 2): https://www.familyeyedoc.com/services/keratoconus
+2025-06-15 14:21:56,155 - INFO - Found 10 services on current page
+2025-06-15 14:21:56,155 - INFO - Total services found at depth 2: 10
+2025-06-15 14:21:56,155 - INFO - Crawling URL (depth 2): https://www.familyeyedoc.com/services/comprehensive-eye-exams
+2025-06-15 14:21:56,262 - INFO - Found 11 services on current page
+2025-06-15 14:21:56,262 - INFO - Total services found at depth 2: 11
+2025-06-15 14:21:56,262 - INFO - Crawling URL (depth 2): https://www.familyeyedoc.com/services/contact-lenses
+2025-06-15 14:21:56,382 - INFO - Found 9 services on current page
+2025-06-15 14:21:56,382 - INFO - Total services found at depth 2: 9
+2025-06-15 14:21:56,382 - INFO - Crawling URL (depth 2): https://www.familyeyedoc.com/services/dry-eyes
+2025-06-15 14:21:56,476 - INFO - Found 12 services on current page
+2025-06-15 14:21:56,476 - INFO - Total services found at depth 2: 12
+2025-06-15 14:21:56,476 - INFO - Crawling URL (depth 2): https://www.familyeyedoc.com/services/eyeglasses
+2025-06-15 14:21:56,572 - INFO - Found 12 services on current page
+2025-06-15 14:21:56,572 - INFO - Total services found at depth 2: 12
+2025-06-15 14:21:56,573 - INFO - Crawling URL (depth 2): https://www.familyeyedoc.com/services/upneeq
+2025-06-15 14:21:56,682 - INFO - Found 9 services on current page
+2025-06-15 14:21:56,682 - INFO - Total services found at depth 2: 9
+2025-06-15 14:21:56,682 - INFO - Crawling URL (depth 2): https://www.familyeyedoc.com/services/optilight
+2025-06-15 14:21:56,809 - INFO - Found 11 services on current page
+2025-06-15 14:21:56,809 - INFO - Total services found at depth 2: 11
+2025-06-15 14:21:56,809 - INFO - Total services found at depth 1: 40
+2025-06-15 14:21:56,809 - INFO - Crawling URL (depth 1): https://www.familyeyedoc.com/blog/routine-and-emergency-eye-care-in-southfield-mi
+2025-06-15 14:21:56,908 - INFO - Found 8 services on current page
+2025-06-15 14:21:56,909 - INFO - Total services found at depth 1: 8
+2025-06-15 14:21:56,909 - INFO - Total services found at depth 0: 42
+2025-06-15 14:21:56,909 - INFO - Extracted 42 services for 20/20 Family Vision SF (FKA Family Optometry PC)
+2025-06-15 14:21:56,909 - INFO - Extracting social media presence...
+2025-06-15 14:22:02,680 - INFO - Extracting patient reviews...
+2025-06-15 14:22:08,471 - INFO - Extracting competitors...
+2025-06-15 14:22:08,626 - INFO - Extracting location data...
+2025-06-15 14:22:08,629 - INFO - Saved enhanced results to: output/enhanced_2020_Family_Vision_SF_FKA_Family_Optometry_PC.json
+2025-06-15 14:22:11,634 - INFO - Processing row 12/20: Professional Visioncare Associates
+2025-06-15 14:22:11,635 - INFO - Searching for website with query: Professional Visioncare Associates Professional Visioncare Associates 14607 Ventura Blvd official website
+2025-06-15 14:22:11,734 - INFO - Found 5 search results
+2025-06-15 14:22:11,735 - INFO - Found suitable website: https://www.provisioncare.com/
+2025-06-15 14:22:11,735 - INFO - Found website: https://www.provisioncare.com/
+2025-06-15 14:22:11,736 - INFO - Crawling URL (depth 0): https://www.provisioncare.com/
+2025-06-15 14:22:12,024 - INFO - Found 1 services on current page
+2025-06-15 14:22:12,024 - INFO - Crawling URL (depth 1): https://www.provisioncare.com/www.provisioncare.com/
+2025-06-15 14:22:12,157 - WARNING - Failed to load https://www.provisioncare.com/www.provisioncare.com/: HTTP 404
+2025-06-15 14:22:12,158 - INFO - Crawling URL (depth 1): https://www.provisioncare.com/about
+2025-06-15 14:22:12,352 - INFO - Found 2 services on current page
+2025-06-15 14:22:12,353 - INFO - Crawling URL (depth 2): https://www.provisioncare.com/team
+2025-06-15 14:22:12,548 - INFO - Found 0 services on current page
+2025-06-15 14:22:12,548 - INFO - Total services found at depth 2: 0
+2025-06-15 14:22:12,549 - INFO - Crawling URL (depth 2): https://www.provisioncare.com/dr-greenspoon
+2025-06-15 14:22:12,709 - INFO - Found 0 services on current page
+2025-06-15 14:22:12,709 - INFO - Total services found at depth 2: 0
+2025-06-15 14:22:12,710 - INFO - Crawling URL (depth 2): https://www.provisioncare.com/services
+2025-06-15 14:22:13,016 - INFO - Found 5 services on current page
+2025-06-15 14:22:13,016 - INFO - Total services found at depth 2: 5
+2025-06-15 14:22:13,017 - INFO - Crawling URL (depth 2): https://www.provisioncare.com/eye-conditions
+2025-06-15 14:22:13,217 - INFO - Found 5 services on current page
+2025-06-15 14:22:13,217 - INFO - Total services found at depth 2: 5
+2025-06-15 14:22:13,218 - INFO - Crawling URL (depth 2): https://www.provisioncare.com/forms
+2025-06-15 14:22:13,410 - INFO - Found 0 services on current page
+2025-06-15 14:22:13,410 - INFO - Total services found at depth 2: 0
+2025-06-15 14:22:13,410 - INFO - Crawling URL (depth 2): https://www.provisioncare.com/contact
+2025-06-15 14:22:13,607 - INFO - Found 1 services on current page
+2025-06-15 14:22:13,607 - INFO - Total services found at depth 2: 1
+2025-06-15 14:22:13,607 - INFO - Total services found at depth 1: 13
+2025-06-15 14:22:13,608 - INFO - Crawling URL (depth 1): https://www.provisioncare.com/social
+2025-06-15 14:22:13,755 - INFO - Found 0 services on current page
+2025-06-15 14:22:13,756 - INFO - Total services found at depth 1: 0
+2025-06-15 14:22:13,757 - INFO - Total services found at depth 0: 14
+2025-06-15 14:22:13,758 - INFO - Extracted 14 services for Professional Visioncare Associates
+2025-06-15 14:22:13,758 - INFO - Extracting social media presence...
+2025-06-15 14:22:19,539 - INFO - Extracting patient reviews...
+2025-06-15 14:22:25,368 - INFO - Extracting competitors...
+2025-06-15 14:22:25,521 - INFO - Extracting location data...
+2025-06-15 14:22:25,523 - INFO - Saved enhanced results to: output/enhanced_Professional_Visioncare_Associates.json
+2025-06-15 14:22:28,526 - INFO - Processing row 13/20: Paradise Canyon Eye Care Inc
+2025-06-15 14:22:28,526 - INFO - Searching for website with query: Paradise Canyon Eye Care Inc Paradise Canyon Eye Care Inc 1449 N 1400 W official website
+2025-06-15 14:22:28,618 - INFO - Found 5 search results
+2025-06-15 14:22:28,619 - INFO - Found suitable website: https://www.paradiseeye.com/
+2025-06-15 14:22:28,619 - INFO - Found website: https://www.paradiseeye.com/
+2025-06-15 14:22:28,619 - INFO - Crawling URL (depth 0): https://www.paradiseeye.com/
+2025-06-15 14:22:28,990 - INFO - Found 9 services on current page
+2025-06-15 14:22:28,991 - INFO - Crawling URL (depth 1): https://www.paradiseeye.com/treatment-for-dry-eye.html
+2025-06-15 14:22:29,483 - INFO - Found 8 services on current page
+2025-06-15 14:22:29,484 - INFO - Crawling URL (depth 2): https://www.paradiseeye.com/low-level-light-therapy.html
+2025-06-15 14:22:30,373 - INFO - Found 3 services on current page
+2025-06-15 14:22:30,373 - INFO - Total services found at depth 2: 3
+2025-06-15 14:22:30,373 - INFO - Crawling URL (depth 2): https://www.paradiseeye.com/optometry-services.html
+2025-06-15 14:22:30,661 - INFO - Found 11 services on current page
+2025-06-15 14:22:30,661 - INFO - Total services found at depth 2: 11
+2025-06-15 14:22:30,661 - INFO - Crawling URL (depth 2): https://www.paradiseeye.com/ocular-disease-testing-treatment.html
+2025-06-15 14:22:30,933 - INFO - Found 7 services on current page
+2025-06-15 14:22:30,933 - INFO - Total services found at depth 2: 7
+2025-06-15 14:22:30,933 - INFO - Crawling URL (depth 2): https://www.paradiseeye.com/vision-therapy.html
+2025-06-15 14:22:31,238 - INFO - Found 4 services on current page
+2025-06-15 14:22:31,238 - INFO - Total services found at depth 2: 4
+2025-06-15 14:22:31,238 - INFO - Crawling URL (depth 2): https://www.paradiseeye.com/keratoconus-and-your-treatment-options.html
+2025-06-15 14:22:31,628 - INFO - Found 2 services on current page
+2025-06-15 14:22:31,628 - INFO - Total services found at depth 2: 2
+2025-06-15 14:22:31,628 - INFO - Crawling URL (depth 2): https://www.paradiseeye.com/dry-eye-treatment.html
+2025-06-15 14:22:31,809 - INFO - Found 6 services on current page
+2025-06-15 14:22:31,809 - INFO - Total services found at depth 2: 6
+2025-06-15 14:22:31,809 - INFO - Crawling URL (depth 2): https://www.paradiseeye.com/lasik-procedure.html
+2025-06-15 14:22:32,162 - INFO - Found 6 services on current page
+2025-06-15 14:22:32,162 - INFO - Total services found at depth 2: 6
+2025-06-15 14:22:32,162 - INFO - Crawling URL (depth 2): https://www.paradiseeye.com/cosmetic-services.html
+2025-06-15 14:22:32,400 - INFO - Found 4 services on current page
+2025-06-15 14:22:32,401 - INFO - Total services found at depth 2: 4
+2025-06-15 14:22:32,401 - INFO - Crawling URL (depth 2): https://www.paradiseeye.com/glaucoma-treatment.html
+2025-06-15 14:22:32,635 - INFO - Found 6 services on current page
+2025-06-15 14:22:32,635 - INFO - Total services found at depth 2: 6
+2025-06-15 14:22:32,636 - INFO - Crawling URL (depth 2): https://www.paradiseeye.com/eye-disease-treatment.html
+2025-06-15 14:22:32,861 - INFO - Found 6 services on current page
+2025-06-15 14:22:32,861 - INFO - Total services found at depth 2: 6
+2025-06-15 14:22:32,861 - INFO - Total services found at depth 1: 51
+2025-06-15 14:22:32,862 - INFO - Total services found at depth 0: 59
+2025-06-15 14:22:32,862 - INFO - Extracted 59 services for Paradise Canyon Eye Care Inc
+2025-06-15 14:22:32,862 - INFO - Extracting social media presence...
+2025-06-15 14:22:38,688 - INFO - Extracting patient reviews...
+2025-06-15 14:22:44,483 - INFO - Extracting competitors...
+2025-06-15 14:22:44,667 - INFO - Extracting location data...
+2025-06-15 14:22:44,670 - INFO - Saved enhanced results to: output/enhanced_Paradise_Canyon_Eye_Care_Inc.json
+2025-06-15 14:22:47,675 - INFO - Processing row 14/20: Avery Ranch Eye Care
+2025-06-15 14:22:47,675 - INFO - Searching for website with query: Avery Ranch Eye Care Avery Ranch Eye Care 15004 Avery Ranch Blvd official website
+2025-06-15 14:22:47,768 - INFO - Found 4 search results
+2025-06-15 14:22:47,769 - INFO - Found suitable website: https://locations.myeyedr.com/tx/austin/15004-avery-ranch-blvd
+2025-06-15 14:22:47,769 - INFO - Found website: https://locations.myeyedr.com/tx/austin/15004-avery-ranch-blvd
+2025-06-15 14:22:47,769 - INFO - Crawling URL (depth 0): https://locations.myeyedr.com/tx/austin/15004-avery-ranch-blvd
+2025-06-15 14:22:47,930 - INFO - Found 0 services on current page
+2025-06-15 14:22:47,931 - INFO - Total services found at depth 0: 0
+2025-06-15 14:22:47,932 - INFO - Extracted 0 services for Avery Ranch Eye Care
+2025-06-15 14:22:47,932 - INFO - Extracting social media presence...
+2025-06-15 14:22:53,735 - INFO - Extracting patient reviews...
+2025-06-15 14:22:59,589 - INFO - Extracting competitors...
+2025-06-15 14:22:59,735 - INFO - Extracting location data...
+2025-06-15 14:22:59,738 - INFO - Saved enhanced results to: output/enhanced_Avery_Ranch_Eye_Care.json
+2025-06-15 14:23:02,744 - INFO - Processing row 15/20: Evergreen Vision Clinic Pc
+2025-06-15 14:23:02,744 - INFO - Searching for website with query: Evergreen Vision Clinic Pc Evergreen Vision Clinic Pc 30960 Stagecoach Blvd official website
+2025-06-15 14:23:02,833 - INFO - Found 5 search results
+2025-06-15 14:23:02,834 - INFO - Found suitable website: https://evergreenvision.com/
+2025-06-15 14:23:02,834 - INFO - Found website: https://evergreenvision.com/
+2025-06-15 14:23:02,834 - INFO - Crawling URL (depth 0): https://evergreenvision.com/
+2025-06-15 14:23:06,396 - INFO - Found 8 services on current page
+2025-06-15 14:23:06,397 - INFO - Crawling URL (depth 1): https://evergreenvision.com/services/
+2025-06-15 14:23:09,620 - INFO - Found 8 services on current page
+2025-06-15 14:23:09,621 - INFO - Crawling URL (depth 2): https://evergreenvision.com/services/comprehensive-eyecare/
+2025-06-15 14:23:12,784 - INFO - Found 7 services on current page
+2025-06-15 14:23:12,785 - INFO - Total services found at depth 2: 7
+2025-06-15 14:23:12,785 - INFO - Crawling URL (depth 2): https://evergreenvision.com/services/medical-eye-care/
+2025-06-15 14:23:15,905 - INFO - Found 6 services on current page
+2025-06-15 14:23:15,905 - INFO - Total services found at depth 2: 6
+2025-06-15 14:23:15,906 - INFO - Crawling URL (depth 2): https://evergreenvision.com/services/dry-eye-treatment/
+2025-06-15 14:23:19,124 - INFO - Found 6 services on current page
+2025-06-15 14:23:19,124 - INFO - Total services found at depth 2: 6
+2025-06-15 14:23:19,124 - INFO - Crawling URL (depth 2): https://evergreenvision.com/services/comprehensive-eyecare/#computer-vision
+2025-06-15 14:23:22,091 - INFO - Found 7 services on current page
+2025-06-15 14:23:22,091 - INFO - Total services found at depth 2: 7
+2025-06-15 14:23:22,091 - INFO - Crawling URL (depth 2): https://evergreenvision.com/services/comprehensive-eyecare/#pediatrics
+2025-06-15 14:23:25,243 - INFO - Found 7 services on current page
+2025-06-15 14:23:25,243 - INFO - Total services found at depth 2: 7
+2025-06-15 14:23:25,243 - INFO - Crawling URL (depth 2): https://evergreenvision.com/services/medical-eye-care/#myopia-control
+2025-06-15 14:23:28,313 - INFO - Found 6 services on current page
+2025-06-15 14:23:28,313 - INFO - Total services found at depth 2: 6
+2025-06-15 14:23:28,313 - INFO - Crawling URL (depth 2): https://evergreenvision.com/services/medical-eye-care/#concussion-rehabilitation
+2025-06-15 14:23:31,409 - INFO - Found 6 services on current page
+2025-06-15 14:23:31,409 - INFO - Total services found at depth 2: 6
+2025-06-15 14:23:31,410 - INFO - Crawling URL (depth 2): https://evergreenvision.com/vision-therapy/
+2025-06-15 14:23:34,587 - WARNING - Failed to load https://evergreenvision.com/vision-therapy/: HTTP 404
+2025-06-15 14:23:34,589 - INFO - Total services found at depth 1: 12
+2025-06-15 14:23:34,590 - INFO - Total services found at depth 0: 14
+2025-06-15 14:23:34,591 - INFO - Extracted 14 services for Evergreen Vision Clinic Pc
+2025-06-15 14:23:34,591 - INFO - Extracting social media presence...
+2025-06-15 14:23:40,385 - INFO - Extracting patient reviews...
+2025-06-15 14:23:46,310 - INFO - Extracting competitors...
+2025-06-15 14:23:46,477 - INFO - Extracting location data...
+2025-06-15 14:23:46,478 - INFO - Saved enhanced results to: output/enhanced_Evergreen_Vision_Clinic_Pc.json
+2025-06-15 14:23:49,484 - INFO - Processing row 16/20: Jay C Johnston MD Inc
+2025-06-15 14:23:49,485 - INFO - Searching for website with query: Jay C Johnston MD Inc Jay C Johnston MD Inc 4200 W Memorial Rd official website
+2025-06-15 14:23:49,599 - INFO - Found 5 search results
+2025-06-15 14:23:49,599 - INFO - Found suitable website: https://johnstoneyeokc.com/
+2025-06-15 14:23:49,600 - INFO - Found website: https://johnstoneyeokc.com/
+2025-06-15 14:23:49,600 - INFO - Crawling URL (depth 0): https://johnstoneyeokc.com/
+2025-06-15 14:23:49,838 - INFO - Found 18 services on current page
+2025-06-15 14:23:49,839 - INFO - Crawling URL (depth 1): https://johnstoneyeokc.com/about-us/mercy-hospital-eyecare/
+2025-06-15 14:23:49,971 - INFO - Found 13 services on current page
+2025-06-15 14:23:49,971 - INFO - Crawling URL (depth 2): https://johnstoneyeokc.com/eyecare-services/
+2025-06-15 14:23:50,127 - INFO - Found 13 services on current page
+2025-06-15 14:23:50,127 - INFO - Total services found at depth 2: 13
+2025-06-15 14:23:50,128 - INFO - Crawling URL (depth 2): https://johnstoneyeokc.com/eyecare-services/comprehensive-primary-eye-care/
+2025-06-15 14:23:50,300 - INFO - Found 13 services on current page
+2025-06-15 14:23:50,300 - INFO - Total services found at depth 2: 13
+2025-06-15 14:23:50,301 - INFO - Crawling URL (depth 2): https://johnstoneyeokc.com/eyecare-services/macular-degeneration/
+2025-06-15 14:23:50,461 - INFO - Found 15 services on current page
+2025-06-15 14:23:50,461 - INFO - Total services found at depth 2: 15
+2025-06-15 14:23:50,461 - INFO - Crawling URL (depth 2): https://johnstoneyeokc.com/eyecare-services/contact-lens-service/
+2025-06-15 14:23:50,610 - INFO - Found 12 services on current page
+2025-06-15 14:23:50,610 - INFO - Total services found at depth 2: 12
+2025-06-15 14:23:50,610 - INFO - Crawling URL (depth 2): https://johnstoneyeokc.com/eyecare-services/emergency-eye-care/
+2025-06-15 14:23:50,758 - INFO - Found 12 services on current page
+2025-06-15 14:23:50,758 - INFO - Total services found at depth 2: 12
+2025-06-15 14:23:50,759 - INFO - Crawling URL (depth 2): https://johnstoneyeokc.com/eyecare-services/dry-eye/
+2025-06-15 14:23:50,904 - INFO - Found 21 services on current page
+2025-06-15 14:23:50,905 - INFO - Total services found at depth 2: 21
+2025-06-15 14:23:50,905 - INFO - Crawling URL (depth 2): https://johnstoneyeokc.com/eyecare-services/glaucoma/
+2025-06-15 14:23:51,051 - INFO - Found 15 services on current page
+2025-06-15 14:23:51,051 - INFO - Total services found at depth 2: 15
+2025-06-15 14:23:51,052 - INFO - Crawling URL (depth 2): https://johnstoneyeokc.com/eyecare-services/diabetes/
+2025-06-15 14:23:51,210 - INFO - Found 13 services on current page
+2025-06-15 14:23:51,210 - INFO - Total services found at depth 2: 13
+2025-06-15 14:23:51,210 - INFO - Crawling URL (depth 2): https://johnstoneyeokc.com/eyecare-services/eyedrops-for-presbyopia/
+2025-06-15 14:23:51,374 - INFO - Found 12 services on current page
+2025-06-15 14:23:51,374 - INFO - Total services found at depth 2: 12
+2025-06-15 14:23:51,374 - INFO - Crawling URL (depth 2): https://johnstoneyeokc.com/surgical-procedures/
+2025-06-15 14:23:51,542 - INFO - Found 12 services on current page
+2025-06-15 14:23:51,542 - INFO - Total services found at depth 2: 12
+2025-06-15 14:23:51,542 - INFO - Crawling URL (depth 2): https://johnstoneyeokc.com/surgical-procedures/cataract-surgery/
+2025-06-15 14:23:51,697 - INFO - Found 16 services on current page
+2025-06-15 14:23:51,697 - INFO - Total services found at depth 2: 16
+2025-06-15 14:23:51,697 - INFO - Crawling URL (depth 2): https://johnstoneyeokc.com/surgical-procedures/lasik-prk/
+2025-06-15 14:23:51,852 - INFO - Found 18 services on current page
+2025-06-15 14:23:51,852 - INFO - Total services found at depth 2: 18
+2025-06-15 14:23:51,852 - INFO - Crawling URL (depth 2): https://johnstoneyeokc.com/surgical-procedures/selective-laser-trabeculoplasty/
+2025-06-15 14:23:52,006 - INFO - Found 12 services on current page
+2025-06-15 14:23:52,006 - INFO - Total services found at depth 2: 12
+2025-06-15 14:23:52,006 - INFO - Crawling URL (depth 2): https://johnstoneyeokc.com/surgical-procedures/yag-capsulotomy/
+2025-06-15 14:23:52,177 - INFO - Found 12 services on current page
+2025-06-15 14:23:52,177 - INFO - Total services found at depth 2: 12
+2025-06-15 14:23:52,177 - INFO - Crawling URL (depth 2): https://johnstoneyeokc.com/surgical-procedures/amniotic-membrane-grafts/
+2025-06-15 14:23:52,333 - INFO - Found 12 services on current page
+2025-06-15 14:23:52,333 - INFO - Total services found at depth 2: 12
+2025-06-15 14:23:52,334 - INFO - Crawling URL (depth 2): https://johnstoneyeokc.com/surgical-procedures/collagen-cross-linking/
+2025-06-15 14:23:52,495 - INFO - Found 12 services on current page
+2025-06-15 14:23:52,496 - INFO - Total services found at depth 2: 12
+2025-06-15 14:23:52,496 - INFO - Total services found at depth 1: 41
+2025-06-15 14:23:52,497 - INFO - Total services found at depth 0: 47
+2025-06-15 14:23:52,497 - INFO - Extracted 47 services for Jay C Johnston MD Inc
+2025-06-15 14:23:52,497 - INFO - Extracting social media presence...
+2025-06-15 14:23:58,357 - INFO - Extracting patient reviews...
+2025-06-15 14:24:04,136 - INFO - Extracting competitors...
+2025-06-15 14:24:04,308 - INFO - Extracting location data...
+2025-06-15 14:24:04,310 - INFO - Saved enhanced results to: output/enhanced_Jay_C_Johnston_MD_Inc.json
+2025-06-15 14:24:07,316 - INFO - Processing row 17/20: Lakeline Vision Source
+2025-06-15 14:24:07,317 - INFO - Searching for website with query: Lakeline Vision Source Lakeline Vision Source 3419 El Salido Pkwy official website
+2025-06-15 14:24:07,433 - INFO - Found 5 search results
+2025-06-15 14:24:07,433 - INFO - Found suitable website: https://www.lakelinevision.com/
+2025-06-15 14:24:07,434 - INFO - Found website: https://www.lakelinevision.com/
+2025-06-15 14:24:07,434 - INFO - Crawling URL (depth 0): https://www.lakelinevision.com/
+2025-06-15 14:24:08,103 - INFO - Found 23 services on current page
+2025-06-15 14:24:08,105 - INFO - Crawling URL (depth 1): https://www.lakelinevision.com/eye-care-services/
+2025-06-15 14:24:08,638 - INFO - Found 21 services on current page
+2025-06-15 14:24:08,639 - INFO - Crawling URL (depth 2): https://www.lakelinevision.com/eye-care-services/comprehensive-eye-exams/
+2025-06-15 14:24:09,218 - INFO - Found 24 services on current page
+2025-06-15 14:24:09,218 - INFO - Total services found at depth 2: 24
+2025-06-15 14:24:09,218 - INFO - Crawling URL (depth 2): https://www.lakelinevision.com/eye-care-services/pediatric-eye-exams/
+2025-06-15 14:24:09,784 - INFO - Found 24 services on current page
+2025-06-15 14:24:09,784 - INFO - Total services found at depth 2: 24
+2025-06-15 14:24:09,784 - INFO - Crawling URL (depth 2): https://www.lakelinevision.com/eye-care-services/geriatric-eye-exams-help-prevent-blindness-vision-loss/
+2025-06-15 14:24:10,326 - INFO - Found 25 services on current page
+2025-06-15 14:24:10,326 - INFO - Total services found at depth 2: 25
+2025-06-15 14:24:10,326 - INFO - Crawling URL (depth 2): https://www.lakelinevision.com/eye-care-services/emergency-eye-care-for-pink-eye/emergency-eye-care/
+2025-06-15 14:24:10,946 - INFO - Found 26 services on current page
+2025-06-15 14:24:10,946 - INFO - Total services found at depth 2: 26
+2025-06-15 14:24:10,946 - INFO - Crawling URL (depth 2): https://www.lakelinevision.com/eye-care-services/advanced-technology/cutting-edge-technology/
+2025-06-15 14:24:11,511 - INFO - Found 22 services on current page
+2025-06-15 14:24:11,511 - INFO - Total services found at depth 2: 22
+2025-06-15 14:24:11,511 - INFO - Crawling URL (depth 2): https://www.lakelinevision.com/are-you-looking-for-new-eyeglasses-in-austin/specialty-eyewear/neurolens/
+2025-06-15 14:24:12,036 - INFO - Found 20 services on current page
+2025-06-15 14:24:12,036 - INFO - Total services found at depth 2: 20
+2025-06-15 14:24:12,036 - INFO - Crawling URL (depth 2): https://www.lakelinevision.com/eye-care-services/myopia-management-optometrist/
+2025-06-15 14:24:12,595 - INFO - Found 22 services on current page
+2025-06-15 14:24:12,595 - INFO - Total services found at depth 2: 22
+2025-06-15 14:24:12,596 - INFO - Crawling URL (depth 2): https://www.lakelinevision.com/specialty-contact-lenses-austin-tx/scleral-lenses-optometrist/
+2025-06-15 14:24:13,128 - INFO - Found 25 services on current page
+2025-06-15 14:24:13,128 - INFO - Total services found at depth 2: 25
+2025-06-15 14:24:13,128 - INFO - Crawling URL (depth 2): https://www.lakelinevision.com/eye-care-services/corneal-refractive-therapycrt/orthokeratology-crt-vst/orthokeratology-for-adults-the-safer-alternative-to-lasik/
+2025-06-15 14:24:13,657 - INFO - Found 24 services on current page
+2025-06-15 14:24:13,657 - INFO - Total services found at depth 2: 24
+2025-06-15 14:24:13,658 - INFO - Crawling URL (depth 2): https://www.lakelinevision.com/eye-care-services/corneal-refractive-therapycrt/
+2025-06-15 14:24:14,217 - INFO - Found 20 services on current page
+2025-06-15 14:24:14,217 - INFO - Total services found at depth 2: 20
+2025-06-15 14:24:14,217 - INFO - Crawling URL (depth 2): https://www.lakelinevision.com/specialty-contact-lenses-austin-tx/
+2025-06-15 14:24:14,760 - INFO - Found 20 services on current page
+2025-06-15 14:24:14,760 - INFO - Total services found at depth 2: 20
+2025-06-15 14:24:14,760 - INFO - Crawling URL (depth 2): https://www.lakelinevision.com/specialty-contact-lenses-austin-tx/eyeprintpro/
+2025-06-15 14:24:15,303 - INFO - Found 24 services on current page
+2025-06-15 14:24:15,303 - INFO - Total services found at depth 2: 24
+2025-06-15 14:24:15,303 - INFO - Crawling URL (depth 2): https://www.lakelinevision.com/eye-care-services/management-of-ocular-diseases/
+2025-06-15 14:24:15,833 - INFO - Found 23 services on current page
+2025-06-15 14:24:15,833 - INFO - Total services found at depth 2: 23
+2025-06-15 14:24:15,834 - INFO - Crawling URL (depth 2): https://www.lakelinevision.com/eye-care-services/treatments-for-keratoconus/
+2025-06-15 14:24:16,385 - INFO - Found 25 services on current page
+2025-06-15 14:24:16,385 - INFO - Total services found at depth 2: 25
+2025-06-15 14:24:16,385 - INFO - Crawling URL (depth 2): https://www.lakelinevision.com/eye-care-services/eye-conditions/
+2025-06-15 14:24:16,935 - INFO - Found 22 services on current page
+2025-06-15 14:24:16,935 - INFO - Total services found at depth 2: 22
+2025-06-15 14:24:16,936 - INFO - Crawling URL (depth 2): https://www.lakelinevision.com/eye-care-services/lipiflow-treatment-for-dry-eyes/
+2025-06-15 14:24:17,453 - INFO - Found 21 services on current page
+2025-06-15 14:24:17,453 - INFO - Total services found at depth 2: 21
+2025-06-15 14:24:17,454 - INFO - Crawling URL (depth 2): https://www.lakelinevision.com/eye-care-services/dry-eye-treatment/
+2025-06-15 14:24:18,762 - INFO - Found 31 services on current page
+2025-06-15 14:24:18,762 - INFO - Total services found at depth 2: 31
+2025-06-15 14:24:18,762 - INFO - Crawling URL (depth 2): https://www.lakelinevision.com/eye-care-services/eye-allergies-what-they-are-and-how-to-treat-them/
+2025-06-15 14:24:19,286 - INFO - Found 24 services on current page
+2025-06-15 14:24:19,286 - INFO - Total services found at depth 2: 24
+2025-06-15 14:24:19,286 - INFO - Crawling URL (depth 2): https://www.lakelinevision.com/eye-care-services/marco-equinox-low-level-light-therapy-lllt/
+2025-06-15 14:24:19,815 - INFO - Found 21 services on current page
+2025-06-15 14:24:19,815 - INFO - Total services found at depth 2: 21
+2025-06-15 14:24:19,815 - INFO - Crawling URL (depth 2): https://www.lakelinevision.com/eye-care-services/blephex/
+2025-06-15 14:24:20,363 - INFO - Found 20 services on current page
+2025-06-15 14:24:20,363 - INFO - Total services found at depth 2: 20
+2025-06-15 14:24:20,364 - INFO - Crawling URL (depth 2): https://www.lakelinevision.com/eye-care-services/advanced-technology/
+2025-06-15 14:24:20,884 - INFO - Found 24 services on current page
+2025-06-15 14:24:20,884 - INFO - Total services found at depth 2: 24
+2025-06-15 14:24:20,884 - INFO - Crawling URL (depth 2): https://www.lakelinevision.com/eye-care-services/emergency-eye-care-for-pink-eye/
+2025-06-15 14:24:21,422 - INFO - Found 23 services on current page
+2025-06-15 14:24:21,423 - INFO - Total services found at depth 2: 23
+2025-06-15 14:24:21,423 - INFO - Crawling URL (depth 2): https://www.lakelinevision.com/eye-care-services/binocular-vision-dysfunction/
+2025-06-15 14:24:22,829 - INFO - Found 10 services on current page
+2025-06-15 14:24:22,829 - INFO - Total services found at depth 2: 10
+2025-06-15 14:24:22,829 - INFO - Crawling URL (depth 2): https://www.lakelinevision.com/eye-care-services/lasik-surgery/
+2025-06-15 14:24:23,374 - INFO - Found 21 services on current page
+2025-06-15 14:24:23,374 - INFO - Total services found at depth 2: 21
+2025-06-15 14:24:23,374 - INFO - Crawling URL (depth 2): https://www.lakelinevision.com/eye-care-services/low-vision/
+2025-06-15 14:24:23,896 - INFO - Found 25 services on current page
+2025-06-15 14:24:23,896 - INFO - Total services found at depth 2: 25
+2025-06-15 14:24:23,897 - INFO - Total services found at depth 1: 104
+2025-06-15 14:24:23,898 - INFO - Total services found at depth 0: 107
+2025-06-15 14:24:23,898 - INFO - Extracted 107 services for Lakeline Vision Source
+2025-06-15 14:24:23,898 - INFO - Extracting social media presence...
+2025-06-15 14:24:29,691 - INFO - Extracting patient reviews...
+2025-06-15 14:24:35,499 - INFO - Extracting competitors...
+2025-06-15 14:24:35,670 - INFO - Extracting location data...
+2025-06-15 14:24:35,674 - INFO - Saved enhanced results to: output/enhanced_Lakeline_Vision_Source.json
+2025-06-15 14:24:38,681 - INFO - Processing row 18/20: Bothell Vision Center (AKA Kirkland Eye Clinic PS)
+2025-06-15 14:24:38,681 - INFO - Searching for website with query: Bothell Vision Center (AKA Kirkland Eye Clinic PS) Bothell Vision Center (AKA Kirkland Eye Clinic PS) 10202 Ne 185th St official website
+2025-06-15 14:24:38,766 - INFO - Found 5 search results
+2025-06-15 14:24:38,766 - INFO - Found suitable website: https://visionsource-bothell.com/
+2025-06-15 14:24:38,766 - INFO - Found website: https://visionsource-bothell.com/
+2025-06-15 14:24:38,767 - INFO - Crawling URL (depth 0): https://visionsource-bothell.com/
+2025-06-15 14:24:38,972 - INFO - Found 12 services on current page
+2025-06-15 14:24:38,973 - INFO - Crawling URL (depth 1): https://visionsource-bothell.com/vision-care-products/
+2025-06-15 14:24:39,836 - INFO - Found 12 services on current page
+2025-06-15 14:24:39,838 - INFO - Crawling URL (depth 2): https://visionsource-bothell.com/vision-care-products/lenses-and-frames/
+2025-06-15 14:24:40,453 - INFO - Found 12 services on current page
+2025-06-15 14:24:40,453 - INFO - Total services found at depth 2: 12
+2025-06-15 14:24:40,454 - INFO - Crawling URL (depth 2): https://visionsource-bothell.com/vision-care-products/contacts/
+2025-06-15 14:24:40,602 - INFO - Found 12 services on current page
+2025-06-15 14:24:40,602 - INFO - Total services found at depth 2: 12
+2025-06-15 14:24:40,602 - INFO - Crawling URL (depth 2): https://visionsource-bothell.com/vision-care-products/comprehensive-eye-exams/
+2025-06-15 14:24:41,232 - INFO - Found 13 services on current page
+2025-06-15 14:24:41,232 - INFO - Total services found at depth 2: 13
+2025-06-15 14:24:41,232 - INFO - Crawling URL (depth 2): https://visionsource-bothell.com/vision-care-products/pediatric-eye-health-care/
+2025-06-15 14:24:41,833 - INFO - Found 14 services on current page
+2025-06-15 14:24:41,833 - INFO - Total services found at depth 2: 14
+2025-06-15 14:24:41,833 - INFO - Crawling URL (depth 2): https://visionsource-bothell.com/vision-care-products/eye-disease-treatment/
+2025-06-15 14:24:42,453 - INFO - Found 15 services on current page
+2025-06-15 14:24:42,453 - INFO - Total services found at depth 2: 15
+2025-06-15 14:24:42,453 - INFO - Crawling URL (depth 2): https://visionsource-bothell.com/vision-care-products/eye-disease-treatment/macular-degeneration-amd/
+2025-06-15 14:24:43,057 - INFO - Found 13 services on current page
+2025-06-15 14:24:43,057 - INFO - Total services found at depth 2: 13
+2025-06-15 14:24:43,057 - INFO - Crawling URL (depth 2): https://visionsource-bothell.com/vision-care-products/eye-disease-treatment/glaucoma/
+2025-06-15 14:24:43,677 - INFO - Found 16 services on current page
+2025-06-15 14:24:43,678 - INFO - Total services found at depth 2: 16
+2025-06-15 14:24:43,678 - INFO - Crawling URL (depth 2): https://visionsource-bothell.com/vision-care-products/eye-disease-treatment/cataracts/
+2025-06-15 14:24:44,266 - INFO - Found 17 services on current page
+2025-06-15 14:24:44,266 - INFO - Total services found at depth 2: 17
+2025-06-15 14:24:44,266 - INFO - Crawling URL (depth 2): https://visionsource-bothell.com/vision-care-products/eye-disease-treatment/diabetic-retinopathy/
+2025-06-15 14:24:44,860 - INFO - Found 13 services on current page
+2025-06-15 14:24:44,860 - INFO - Total services found at depth 2: 13
+2025-06-15 14:24:44,860 - INFO - Crawling URL (depth 2): https://visionsource-bothell.com/vision-care-products/dry-eye-treatment/
+2025-06-15 14:24:45,481 - INFO - Found 15 services on current page
+2025-06-15 14:24:45,481 - INFO - Total services found at depth 2: 15
+2025-06-15 14:24:45,481 - INFO - Crawling URL (depth 2): https://visionsource-bothell.com/vision-care-products/myopia-control/
+2025-06-15 14:24:46,071 - INFO - Found 12 services on current page
+2025-06-15 14:24:46,072 - INFO - Total services found at depth 2: 12
+2025-06-15 14:24:46,072 - INFO - Crawling URL (depth 2): https://visionsource-bothell.com/vision-care-products/myopia-control/orthokeratology/
+2025-06-15 14:24:46,646 - INFO - Found 12 services on current page
+2025-06-15 14:24:46,647 - INFO - Total services found at depth 2: 12
+2025-06-15 14:24:46,647 - INFO - Crawling URL (depth 2): https://visionsource-bothell.com/vision-care-products/myopia-control/misight-1-day-contact-lenses/
+2025-06-15 14:24:46,805 - INFO - Found 12 services on current page
+2025-06-15 14:24:46,805 - INFO - Total services found at depth 2: 12
+2025-06-15 14:24:46,806 - INFO - Total services found at depth 1: 34
+2025-06-15 14:24:46,807 - INFO - Total services found at depth 0: 37
+2025-06-15 14:24:46,807 - INFO - Extracted 37 services for Bothell Vision Center (AKA Kirkland Eye Clinic PS)
+2025-06-15 14:24:46,807 - INFO - Extracting social media presence...
+2025-06-15 14:24:52,640 - INFO - Extracting patient reviews...
+2025-06-15 14:24:58,502 - INFO - Extracting competitors...
+2025-06-15 14:24:58,662 - INFO - Extracting location data...
+2025-06-15 14:24:58,664 - INFO - Saved enhanced results to: output/enhanced_Bothell_Vision_Center_AKA_Kirkland_Eye_Clinic_PS.json
+2025-06-15 14:25:01,666 - INFO - Processing row 19/20: Freehold Family Eyecare PC
+2025-06-15 14:25:01,666 - INFO - Searching for website with query: Freehold Family Eyecare PC Freehold Family Eyecare PC 3333 Highway 9 North Chadwick Square official website
+2025-06-15 14:25:01,761 - INFO - Found 5 search results
+2025-06-15 14:25:01,761 - INFO - Found suitable website: https://www.freeholdfamilyeyecare.com/
+2025-06-15 14:25:01,761 - INFO - Found website: https://www.freeholdfamilyeyecare.com/
+2025-06-15 14:25:01,761 - INFO - Crawling URL (depth 0): https://www.freeholdfamilyeyecare.com/
+2025-06-15 14:25:02,017 - INFO - Found 1 services on current page
+2025-06-15 14:25:02,017 - INFO - Crawling URL (depth 1): https://www.freeholdfamilyeyecare.com
+2025-06-15 14:25:02,215 - INFO - Found 1 services on current page
+2025-06-15 14:25:02,216 - INFO - Crawling URL (depth 2): https://www.freeholdfamilyeyecare.com/about-us
+2025-06-15 14:25:02,489 - INFO - Found 1 services on current page
+2025-06-15 14:25:02,489 - INFO - Total services found at depth 2: 1
+2025-06-15 14:25:02,489 - INFO - Crawling URL (depth 2): https://www.freeholdfamilyeyecare.com/contact
+2025-06-15 14:25:02,678 - INFO - Found 1 services on current page
+2025-06-15 14:25:02,678 - INFO - Total services found at depth 2: 1
+2025-06-15 14:25:02,678 - INFO - Crawling URL (depth 2): https://www.freeholdfamilyeyecare.com/insurance
+2025-06-15 14:25:02,842 - INFO - Found 1 services on current page
+2025-06-15 14:25:02,842 - INFO - Total services found at depth 2: 1
+2025-06-15 14:25:02,842 - INFO - Crawling URL (depth 2): https://www.freeholdfamilyeyecare.com/patient-forms
+2025-06-15 14:25:03,017 - INFO - Found 1 services on current page
+2025-06-15 14:25:03,017 - INFO - Total services found at depth 2: 1
+2025-06-15 14:25:03,017 - INFO - Crawling URL (depth 2): https://www.freeholdfamilyeyecare.com/contacts
+2025-06-15 14:25:03,192 - INFO - Found 1 services on current page
+2025-06-15 14:25:03,192 - INFO - Total services found at depth 2: 1
+2025-06-15 14:25:03,192 - INFO - Crawling URL (depth 2): https://www.freeholdfamilyeyecare.com/eyewear
+2025-06-15 14:25:03,402 - INFO - Found 2 services on current page
+2025-06-15 14:25:03,402 - INFO - Total services found at depth 2: 2
+2025-06-15 14:25:03,402 - INFO - Crawling URL (depth 2): https://www.freeholdfamilyeyecare.com/eye-exams
+2025-06-15 14:25:03,562 - INFO - Found 2 services on current page
+2025-06-15 14:25:03,562 - INFO - Total services found at depth 2: 2
+2025-06-15 14:25:03,562 - INFO - Total services found at depth 1: 3
+2025-06-15 14:25:03,562 - INFO - Total services found at depth 0: 3
+2025-06-15 14:25:03,562 - INFO - Extracted 3 services for Freehold Family Eyecare PC
+2025-06-15 14:25:03,562 - INFO - Extracting social media presence...
+2025-06-15 14:25:09,379 - INFO - Extracting patient reviews...
+2025-06-15 14:25:15,169 - INFO - Extracting competitors...
+2025-06-15 14:25:15,324 - INFO - Extracting location data...
+2025-06-15 14:25:15,328 - INFO - Saved enhanced results to: output/enhanced_Freehold_Family_Eyecare_PC.json
+2025-06-15 14:25:18,333 - INFO - Processing row 20/20: Dr Marilyn Mann & Dr Margaret Siegrist Ptrs
+2025-06-15 14:25:18,333 - INFO - Searching for website with query: Dr Marilyn Mann & Dr Margaret Siegrist Ptrs Dr Marilyn Mann & Dr Margaret Siegrist Ptrs 612 Corporate Way official website
+2025-06-15 14:25:18,416 - INFO - Found 5 search results
+2025-06-15 14:25:18,416 - INFO - Found suitable website: https://www.sharecare.com/doctor/marilyn-mann-2tj9b
+2025-06-15 14:25:18,416 - INFO - Found website: https://www.sharecare.com/doctor/marilyn-mann-2tj9b
+2025-06-15 14:25:18,416 - INFO - Crawling URL (depth 0): https://www.sharecare.com/doctor/marilyn-mann-2tj9b
+2025-06-15 14:25:19,788 - INFO - Found 2 services on current page
+2025-06-15 14:25:19,790 - INFO - Crawling URL (depth 1): https://www.sharecare.com
+2025-06-15 14:25:20,391 - INFO - Found 9 services on current page
+2025-06-15 14:25:20,393 - INFO - Crawling URL (depth 2): https://www.sharecare.com/solutions/employer
+2025-06-15 14:25:21,012 - INFO - Found 10 services on current page
+2025-06-15 14:25:21,012 - INFO - Total services found at depth 2: 10
+2025-06-15 14:25:21,013 - INFO - Crawling URL (depth 2): https://www.sharecare.com/solutions/health-plan
+2025-06-15 14:25:21,521 - INFO - Found 11 services on current page
+2025-06-15 14:25:21,522 - INFO - Total services found at depth 2: 11
+2025-06-15 14:25:21,522 - INFO - Crawling URL (depth 2): https://www.sharecare.com/solutions/public-sector
+2025-06-15 14:25:22,132 - INFO - Found 10 services on current page
+2025-06-15 14:25:22,132 - INFO - Total services found at depth 2: 10
+2025-06-15 14:25:22,132 - INFO - Crawling URL (depth 2): https://www.sharecare.com/solutions/brokers-consultants
+2025-06-15 14:25:22,746 - INFO - Found 10 services on current page
+2025-06-15 14:25:22,746 - INFO - Total services found at depth 2: 10
+2025-06-15 14:25:22,746 - INFO - Crawling URL (depth 2): https://www.sharecare.com/solutions/provider
+2025-06-15 14:25:23,348 - INFO - Found 12 services on current page
+2025-06-15 14:25:23,348 - INFO - Total services found at depth 2: 12
+2025-06-15 14:25:23,348 - INFO - Crawling URL (depth 2): https://www.sharecare.com/solutions/pharma
+2025-06-15 14:25:23,941 - INFO - Found 11 services on current page
+2025-06-15 14:25:23,941 - INFO - Total services found at depth 2: 11
+2025-06-15 14:25:23,941 - INFO - Crawling URL (depth 2): https://www.sharecare.com/solutions/partners
+2025-06-15 14:25:24,442 - INFO - Found 11 services on current page
+2025-06-15 14:25:24,442 - INFO - Total services found at depth 2: 11
+2025-06-15 14:25:24,442 - INFO - Crawling URL (depth 2): https://www.sharecare.com/solutions/plus
+2025-06-15 14:25:25,052 - INFO - Found 9 services on current page
+2025-06-15 14:25:25,052 - INFO - Total services found at depth 2: 9
+2025-06-15 14:25:25,052 - INFO - Crawling URL (depth 2): https://www.sharecare.com/digital-therapeutics
+2025-06-15 14:25:25,576 - INFO - Found 10 services on current page
+2025-06-15 14:25:25,576 - INFO - Total services found at depth 2: 10
+2025-06-15 14:25:25,577 - INFO - Crawling URL (depth 2): https://www.sharecare.com/askmd/get-started
+2025-06-15 14:25:26,397 - INFO - Found 0 services on current page
+2025-06-15 14:25:26,397 - INFO - Total services found at depth 2: 0
+2025-06-15 14:25:26,399 - INFO - Crawling URL (depth 2): https://www.sharecare.com/digital-therapeutics/sharecare-windows
+2025-06-15 14:25:26,901 - INFO - Found 13 services on current page
+2025-06-15 14:25:26,901 - INFO - Total services found at depth 2: 13
+2025-06-15 14:25:26,901 - INFO - Crawling URL (depth 2): https://www.sharecare.com/rx
+2025-06-15 14:25:27,968 - INFO - Found 8 services on current page
+2025-06-15 14:25:27,968 - INFO - Total services found at depth 2: 8
+2025-06-15 14:25:27,968 - INFO - Crawling URL (depth 2): https://www.sharecare.com/inside-out
+2025-06-15 14:25:28,458 - INFO - Found 9 services on current page
+2025-06-15 14:25:28,458 - INFO - Total services found at depth 2: 9
+2025-06-15 14:25:28,459 - INFO - Crawling URL (depth 2): https://www.sharecare.com/vital-voices
+2025-06-15 14:25:29,064 - INFO - Found 9 services on current page
+2025-06-15 14:25:29,064 - INFO - Total services found at depth 2: 9
+2025-06-15 14:25:29,064 - INFO - Crawling URL (depth 2): https://www.sharecare.com/mental-health-behavior/anxiety-depression/major-depression-mdd
+2025-06-15 14:25:29,869 - INFO - Found 8 services on current page
+2025-06-15 14:25:29,869 - INFO - Total services found at depth 2: 8
+2025-06-15 14:25:29,869 - INFO - Crawling URL (depth 2): https://www.sharecare.com/eye-health/understanding-treating-thyroid-eye-disease
+2025-06-15 14:25:30,542 - INFO - Found 8 services on current page
+2025-06-15 14:25:30,542 - INFO - Total services found at depth 2: 8
+2025-06-15 14:25:30,542 - INFO - Crawling URL (depth 2): https://www.sharecare.com/thyroid-issues/patients-guide-graves-disease-thyroid
+2025-06-15 14:25:31,339 - INFO - Found 8 services on current page
+2025-06-15 14:25:31,339 - INFO - Total services found at depth 2: 8
+2025-06-15 14:25:31,339 - INFO - Crawling URL (depth 2): https://www.sharecare.com/digestive-health/crohns-disease/understanding-treating-crohns-disease
+2025-06-15 14:25:32,243 - INFO - Found 8 services on current page
+2025-06-15 14:25:32,243 - INFO - Total services found at depth 2: 8
+2025-06-15 14:25:32,243 - INFO - Crawling URL (depth 2): https://www.sharecare.com/skin-health/eczema/more-than-atopic-dermatitis
+2025-06-15 14:25:33,036 - INFO - Found 8 services on current page
+2025-06-15 14:25:33,036 - INFO - Total services found at depth 2: 8
+2025-06-15 14:25:33,036 - INFO - Crawling URL (depth 2): https://www.sharecare.com/multiple-sclerosis/understanding-treatment-options-ms
+2025-06-15 14:25:33,776 - INFO - Found 8 services on current page
+2025-06-15 14:25:33,776 - INFO - Total services found at depth 2: 8
+2025-06-15 14:25:33,776 - INFO - Crawling URL (depth 2): https://www.sharecare.com/eye-health/living-well-with-macular-degeneration
+2025-06-15 14:25:34,532 - INFO - Found 8 services on current page
+2025-06-15 14:25:34,532 - INFO - Total services found at depth 2: 8
+2025-06-15 14:25:34,532 - INFO - Crawling URL (depth 2): https://www.sharecare.com/joint-health/arthritis/patients-guide-managing-ankylosing-spondylitis
+2025-06-15 14:25:35,170 - INFO - Found 8 services on current page
+2025-06-15 14:25:35,170 - INFO - Total services found at depth 2: 8
+2025-06-15 14:25:35,171 - INFO - Crawling URL (depth 2): https://www.sharecare.com/joint-health/psoriatic-arthritis/managing-slowing-progression-psa
+2025-06-15 14:25:35,815 - INFO - Found 8 services on current page
+2025-06-15 14:25:35,815 - INFO - Total services found at depth 2: 8
+2025-06-15 14:25:35,815 - INFO - Crawling URL (depth 2): https://www.sharecare.com/mental-health-behavior/add-adhd/manage-child-adhd
+2025-06-15 14:25:36,591 - INFO - Found 8 services on current page
+2025-06-15 14:25:36,591 - INFO - Total services found at depth 2: 8
+2025-06-15 14:25:36,591 - INFO - Crawling URL (depth 2): https://www.sharecare.com/diabetes/type-2-diabetes/taking-control-type2-diabetes
+2025-06-15 14:25:37,482 - INFO - Found 8 services on current page
+2025-06-15 14:25:37,482 - INFO - Total services found at depth 2: 8
+2025-06-15 14:25:37,482 - INFO - Crawling URL (depth 2): https://www.sharecare.com/condition-education-centers
+2025-06-15 14:25:38,793 - INFO - Found 8 services on current page
+2025-06-15 14:25:38,793 - INFO - Total services found at depth 2: 8
+2025-06-15 14:25:38,793 - INFO - Crawling URL (depth 2): https://www.sharecare.com/alzheimers-disease
+2025-06-15 14:25:39,987 - INFO - Found 13 services on current page
+2025-06-15 14:25:39,987 - INFO - Total services found at depth 2: 13
+2025-06-15 14:25:39,987 - INFO - Crawling URL (depth 2): https://www.sharecare.com/mental-health-behavior
+2025-06-15 14:25:40,977 - INFO - Found 8 services on current page
+2025-06-15 14:25:40,977 - INFO - Total services found at depth 2: 8
+2025-06-15 14:25:40,978 - INFO - Crawling URL (depth 2): https://www.sharecare.com/lung-health/asthma
+2025-06-15 14:25:42,011 - INFO - Found 14 services on current page
+2025-06-15 14:25:42,011 - INFO - Total services found at depth 2: 14
+2025-06-15 14:25:42,011 - INFO - Crawling URL (depth 2): https://www.sharecare.com/headaches-migraines/migraines
+2025-06-15 14:25:43,087 - INFO - Found 17 services on current page
+2025-06-15 14:25:43,087 - INFO - Total services found at depth 2: 17
+2025-06-15 14:25:43,087 - INFO - Crawling URL (depth 2): https://www.sharecare.com/cancer/breast-cancer
+2025-06-15 14:25:44,254 - INFO - Found 17 services on current page
+2025-06-15 14:25:44,254 - INFO - Total services found at depth 2: 17
+2025-06-15 14:25:44,254 - INFO - Crawling URL (depth 2): https://www.sharecare.com/multiple-sclerosis
+2025-06-15 14:25:45,338 - INFO - Found 15 services on current page
+2025-06-15 14:25:45,338 - INFO - Total services found at depth 2: 15
+2025-06-15 14:25:45,338 - INFO - Crawling URL (depth 2): https://www.sharecare.com/cancer
+2025-06-15 14:25:46,544 - INFO - Found 18 services on current page
+2025-06-15 14:25:46,544 - INFO - Total services found at depth 2: 18
+2025-06-15 14:25:46,544 - INFO - Crawling URL (depth 2): https://www.sharecare.com/parkinsons-disease
+2025-06-15 14:25:47,650 - INFO - Found 10 services on current page
+2025-06-15 14:25:47,651 - INFO - Total services found at depth 2: 10
+2025-06-15 14:25:47,651 - INFO - Crawling URL (depth 2): https://www.sharecare.com/covid19
+2025-06-15 14:25:48,663 - INFO - Found 8 services on current page
+2025-06-15 14:25:48,664 - INFO - Total services found at depth 2: 8
+2025-06-15 14:25:48,664 - INFO - Crawling URL (depth 2): https://www.sharecare.com/skin-health/psoriasis
+2025-06-15 14:25:49,937 - INFO - Found 11 services on current page
+2025-06-15 14:25:49,937 - INFO - Total services found at depth 2: 11
+2025-06-15 14:25:49,938 - INFO - Crawling URL (depth 2): https://www.sharecare.com/digestive-health/crohns-disease
+2025-06-15 14:25:51,061 - INFO - Found 12 services on current page
+2025-06-15 14:25:51,061 - INFO - Total services found at depth 2: 12
+2025-06-15 14:25:51,061 - INFO - Crawling URL (depth 2): https://www.sharecare.com/joint-health/rheumatoid-arthritis
+2025-06-15 14:25:52,168 - INFO - Found 17 services on current page
+2025-06-15 14:25:52,168 - INFO - Total services found at depth 2: 17
+2025-06-15 14:25:52,168 - INFO - Crawling URL (depth 2): https://www.sharecare.com/diet-nutrition
+2025-06-15 14:25:53,571 - INFO - Found 9 services on current page
+2025-06-15 14:25:53,571 - INFO - Total services found at depth 2: 9
+2025-06-15 14:25:53,571 - INFO - Crawling URL (depth 2): https://www.sharecare.com/sexual-health
+2025-06-15 14:25:54,766 - INFO - Found 8 services on current page
+2025-06-15 14:25:54,766 - INFO - Total services found at depth 2: 8
+2025-06-15 14:25:54,766 - INFO - Crawling URL (depth 2): https://www.sharecare.com/digestive-health
+2025-06-15 14:25:55,664 - INFO - Found 9 services on current page
+2025-06-15 14:25:55,664 - INFO - Total services found at depth 2: 9
+2025-06-15 14:25:55,664 - INFO - Crawling URL (depth 2): https://www.sharecare.com/skin-health
+2025-06-15 14:25:56,611 - INFO - Found 9 services on current page
+2025-06-15 14:25:56,611 - INFO - Total services found at depth 2: 9
+2025-06-15 14:25:56,611 - INFO - Crawling URL (depth 2): https://www.sharecare.com/exercise-fitness
+2025-06-15 14:25:57,594 - INFO - Found 8 services on current page
+2025-06-15 14:25:57,594 - INFO - Total services found at depth 2: 8
+2025-06-15 14:25:57,594 - INFO - Crawling URL (depth 2): https://www.sharecare.com/sleep-disorders
+2025-06-15 14:25:58,769 - INFO - Found 11 services on current page
+2025-06-15 14:25:58,769 - INFO - Total services found at depth 2: 11
+2025-06-15 14:25:58,769 - INFO - Crawling URL (depth 2): https://www.sharecare.com/heart-health
+2025-06-15 14:25:59,767 - INFO - Found 9 services on current page
+2025-06-15 14:25:59,767 - INFO - Total services found at depth 2: 9
+2025-06-15 14:25:59,768 - INFO - Crawling URL (depth 2): https://www.sharecare.com/transgender-health
+2025-06-15 14:26:00,760 - INFO - Found 8 services on current page
+2025-06-15 14:26:00,760 - INFO - Total services found at depth 2: 8
+2025-06-15 14:26:00,760 - INFO - Crawling URL (depth 2): https://www.sharecare.com/infections/hepatitis-c
+2025-06-15 14:26:01,817 - INFO - Found 21 services on current page
+2025-06-15 14:26:01,818 - INFO - Total services found at depth 2: 21
+2025-06-15 14:26:01,818 - INFO - Crawling URL (depth 2): https://www.sharecare.com/diabetes/type-2-diabetes
+2025-06-15 14:26:02,851 - INFO - Found 10 services on current page
+2025-06-15 14:26:02,851 - INFO - Total services found at depth 2: 10
+2025-06-15 14:26:02,851 - INFO - Crawling URL (depth 2): https://www.sharecare.com/inflammation
+2025-06-15 14:26:04,140 - INFO - Found 10 services on current page
+2025-06-15 14:26:04,141 - INFO - Total services found at depth 2: 10
+2025-06-15 14:26:04,141 - INFO - Crawling URL (depth 2): https://www.sharecare.com/vaccinations-immunizations
+2025-06-15 14:26:05,137 - INFO - Found 8 services on current page
+2025-06-15 14:26:05,137 - INFO - Total services found at depth 2: 8
+2025-06-15 14:26:05,137 - INFO - Crawling URL (depth 2): https://www.sharecare.com/cancer/lung-cancer
+2025-06-15 14:26:06,241 - INFO - Found 18 services on current page
+2025-06-15 14:26:06,242 - INFO - Total services found at depth 2: 18
+2025-06-15 14:26:06,242 - INFO - Crawling URL (depth 2): https://www.sharecare.com/weight-management
+2025-06-15 14:26:07,255 - INFO - Found 9 services on current page
+2025-06-15 14:26:07,255 - INFO - Total services found at depth 2: 9
+2025-06-15 14:26:07,256 - INFO - Crawling URL (depth 2): https://www.sharecare.com/eye-health/macular-degeneration
+2025-06-15 14:26:08,308 - INFO - Found 13 services on current page
+2025-06-15 14:26:08,308 - INFO - Total services found at depth 2: 13
+2025-06-15 14:26:08,308 - INFO - Crawling URL (depth 2): https://www.sharecare.com/womens-health
+2025-06-15 14:26:09,363 - INFO - Found 9 services on current page
+2025-06-15 14:26:09,363 - INFO - Total services found at depth 2: 9
+2025-06-15 14:26:09,363 - INFO - Crawling URL (depth 2): https://www.sharecare.com/mens-health
+2025-06-15 14:26:10,229 - INFO - Found 8 services on current page
+2025-06-15 14:26:10,229 - INFO - Total services found at depth 2: 8
+2025-06-15 14:26:10,229 - INFO - Crawling URL (depth 2): https://www.sharecare.com/topics
+2025-06-15 14:26:11,653 - INFO - Found 8 services on current page
+2025-06-15 14:26:11,653 - INFO - Total services found at depth 2: 8
+2025-06-15 14:26:11,653 - INFO - Crawling URL (depth 2): https://www.sharecare.com/anemia
+2025-06-15 14:26:13,100 - INFO - Found 11 services on current page
+2025-06-15 14:26:13,100 - INFO - Total services found at depth 2: 11
+2025-06-15 14:26:13,101 - INFO - Crawling URL (depth 2): https://www.sharecare.com/joint-health/arthritis
+2025-06-15 14:26:14,451 - INFO - Found 12 services on current page
+2025-06-15 14:26:14,452 - INFO - Total services found at depth 2: 12
+2025-06-15 14:26:14,452 - INFO - Crawling URL (depth 2): https://www.sharecare.com/mental-health-behavior/autism
+2025-06-15 14:26:15,531 - INFO - Found 15 services on current page
+2025-06-15 14:26:15,531 - INFO - Total services found at depth 2: 15
+2025-06-15 14:26:15,531 - INFO - Crawling URL (depth 2): https://www.sharecare.com/mental-health-behavior/bipolar-disorder
+2025-06-15 14:26:16,806 - INFO - Found 11 services on current page
+2025-06-15 14:26:16,806 - INFO - Total services found at depth 2: 11
+2025-06-15 14:26:16,807 - INFO - Crawling URL (depth 2): https://www.sharecare.com/digestive-health/constipation
+2025-06-15 14:26:17,886 - INFO - Found 11 services on current page
+2025-06-15 14:26:17,886 - INFO - Total services found at depth 2: 11
+2025-06-15 14:26:17,886 - INFO - Crawling URL (depth 2): https://www.sharecare.com/lung-health/copd
+2025-06-15 14:26:19,020 - INFO - Found 20 services on current page
+2025-06-15 14:26:19,020 - INFO - Total services found at depth 2: 20
+2025-06-15 14:26:19,021 - INFO - Crawling URL (depth 2): https://www.sharecare.com/healthy-aging/dementia
+2025-06-15 14:26:20,202 - INFO - Found 13 services on current page
+2025-06-15 14:26:20,202 - INFO - Total services found at depth 2: 13
+2025-06-15 14:26:20,202 - INFO - Crawling URL (depth 2): https://www.sharecare.com/womens-health/endometriosis
+2025-06-15 14:26:21,438 - INFO - Found 14 services on current page
+2025-06-15 14:26:21,438 - INFO - Total services found at depth 2: 14
+2025-06-15 14:26:21,439 - INFO - Crawling URL (depth 2): https://www.sharecare.com/skin-health/eczema
+2025-06-15 14:26:22,567 - INFO - Found 11 services on current page
+2025-06-15 14:26:22,567 - INFO - Total services found at depth 2: 11
+2025-06-15 14:26:22,568 - INFO - Crawling URL (depth 2): https://www.sharecare.com/chronic-pain/fibromyalgia
+2025-06-15 14:26:23,701 - INFO - Found 18 services on current page
+2025-06-15 14:26:23,702 - INFO - Total services found at depth 2: 18
+2025-06-15 14:26:23,702 - INFO - Crawling URL (depth 2): https://www.sharecare.com/heart-health/heart-attack
+2025-06-15 14:26:24,970 - INFO - Found 10 services on current page
+2025-06-15 14:26:24,970 - INFO - Total services found at depth 2: 10
+2025-06-15 14:26:24,970 - INFO - Crawling URL (depth 2): https://www.sharecare.com/heart-health/hypertension
+2025-06-15 14:26:26,059 - INFO - Found 10 services on current page
+2025-06-15 14:26:26,059 - INFO - Total services found at depth 2: 10
+2025-06-15 14:26:26,059 - INFO - Crawling URL (depth 2): https://www.sharecare.com/sleep-disorders/insomnia
+2025-06-15 14:26:27,192 - INFO - Found 16 services on current page
+2025-06-15 14:26:27,192 - INFO - Total services found at depth 2: 16
+2025-06-15 14:26:27,192 - INFO - Crawling URL (depth 2): https://www.sharecare.com/cancer/leukemia
+2025-06-15 14:26:28,339 - INFO - Found 13 services on current page
+2025-06-15 14:26:28,339 - INFO - Total services found at depth 2: 13
+2025-06-15 14:26:28,340 - INFO - Crawling URL (depth 2): https://www.sharecare.com/immune-system/lupus
+2025-06-15 14:26:29,526 - INFO - Found 12 services on current page
+2025-06-15 14:26:29,526 - INFO - Total services found at depth 2: 12
+2025-06-15 14:26:29,526 - INFO - Crawling URL (depth 2): https://www.sharecare.com/womens-health/menopause
+2025-06-15 14:26:30,575 - INFO - Found 17 services on current page
+2025-06-15 14:26:30,575 - INFO - Total services found at depth 2: 17
+2025-06-15 14:26:30,575 - INFO - Crawling URL (depth 2): https://www.sharecare.com/cancer/multiple-myeloma
+2025-06-15 14:26:31,697 - INFO - Found 16 services on current page
+2025-06-15 14:26:31,697 - INFO - Total services found at depth 2: 16
+2025-06-15 14:26:31,697 - INFO - Crawling URL (depth 2): https://www.sharecare.com/joint-health/osteoarthritis
+2025-06-15 14:26:32,757 - INFO - Found 11 services on current page
+2025-06-15 14:26:32,757 - INFO - Total services found at depth 2: 11
+2025-06-15 14:26:32,757 - INFO - Crawling URL (depth 2): https://www.sharecare.com/osteoporosis
+2025-06-15 14:26:33,703 - INFO - Found 9 services on current page
+2025-06-15 14:26:33,704 - INFO - Total services found at depth 2: 9
+2025-06-15 14:26:33,704 - INFO - Crawling URL (depth 2): https://www.sharecare.com/cancer/pancreatic-cancer
+2025-06-15 14:26:34,666 - INFO - Found 20 services on current page
+2025-06-15 14:26:34,666 - INFO - Total services found at depth 2: 20
+2025-06-15 14:26:34,666 - INFO - Crawling URL (depth 2): https://www.sharecare.com/womens-health/pregnancy
+2025-06-15 14:26:49,764 - ERROR - Error scraping https://www.sharecare.com/womens-health/pregnancy: HTTPSConnectionPool(host='www.sharecare.com', port=443): Read timed out.
+2025-06-15 14:26:49,765 - INFO - Crawling URL (depth 2): https://www.sharecare.com/cancer/prostate-cancer
+2025-06-15 14:26:50,923 - INFO - Found 28 services on current page
+2025-06-15 14:26:50,923 - INFO - Total services found at depth 2: 28
+2025-06-15 14:26:50,923 - INFO - Crawling URL (depth 2): https://www.sharecare.com/joint-health/psoriatic-arthritis
+2025-06-15 14:26:52,069 - INFO - Found 13 services on current page
+2025-06-15 14:26:52,069 - INFO - Total services found at depth 2: 13
+2025-06-15 14:26:52,069 - INFO - Crawling URL (depth 2): https://www.sharecare.com/skin-health/rosacea
+2025-06-15 14:26:53,289 - INFO - Found 13 services on current page
+2025-06-15 14:26:53,289 - INFO - Total services found at depth 2: 13
+2025-06-15 14:26:53,289 - INFO - Crawling URL (depth 2): https://www.sharecare.com/skin-health/shingles
+2025-06-15 14:26:55,298 - INFO - Found 10 services on current page
+2025-06-15 14:26:55,299 - INFO - Total services found at depth 2: 10
+2025-06-15 14:26:55,299 - INFO - Crawling URL (depth 2): https://www.sharecare.com/cancer/skin-cancer
+2025-06-15 14:26:56,627 - INFO - Found 17 services on current page
+2025-06-15 14:26:56,627 - INFO - Total services found at depth 2: 17
+2025-06-15 14:26:56,628 - INFO - Crawling URL (depth 2): https://www.sharecare.com/sleep-disorders/sleep-apnea
+2025-06-15 14:26:57,895 - INFO - Found 14 services on current page
+2025-06-15 14:26:57,895 - INFO - Total services found at depth 2: 14
+2025-06-15 14:26:57,895 - INFO - Crawling URL (depth 2): https://www.sharecare.com/brain-health-nervous-system/stroke
+2025-06-15 14:26:58,929 - INFO - Found 15 services on current page
+2025-06-15 14:26:58,929 - INFO - Total services found at depth 2: 15
+2025-06-15 14:26:58,929 - INFO - Crawling URL (depth 2): https://www.sharecare.com/diabetes/type-1-diabetes
+2025-06-15 14:26:59,962 - INFO - Found 13 services on current page
+2025-06-15 14:26:59,962 - INFO - Total services found at depth 2: 13
+2025-06-15 14:26:59,962 - INFO - Crawling URL (depth 2): https://www.sharecare.com/digestive-health/ulcerative-colitis
+2025-06-15 14:27:00,999 - INFO - Found 14 services on current page
+2025-06-15 14:27:00,999 - INFO - Total services found at depth 2: 14
+2025-06-15 14:27:00,999 - INFO - Crawling URL (depth 2): https://www.sharecare.com/hcp/brain-health-nervous-system/acute-ischemic-stroke
+2025-06-15 14:27:01,502 - INFO - Found 0 services on current page
+2025-06-15 14:27:01,503 - INFO - Total services found at depth 2: 0
+2025-06-15 14:27:01,503 - INFO - Crawling URL (depth 2): https://www.sharecare.com/hcp/cardiology/hcp-aortic-stenosis
+2025-06-15 14:27:01,892 - INFO - Found 0 services on current page
+2025-06-15 14:27:01,892 - INFO - Total services found at depth 2: 0
+2025-06-15 14:27:01,892 - INFO - Crawling URL (depth 2): https://www.sharecare.com/hcp/diabetes/diabetic-peripheral-neuropathy
+2025-06-15 14:27:02,277 - INFO - Found 0 services on current page
+2025-06-15 14:27:02,277 - INFO - Total services found at depth 2: 0
+2025-06-15 14:27:02,278 - INFO - Crawling URL (depth 2): https://www.sharecare.com/hcp/lung-health/copd
+2025-06-15 14:27:02,656 - INFO - Found 0 services on current page
+2025-06-15 14:27:02,657 - INFO - Total services found at depth 2: 0
+2025-06-15 14:27:02,657 - INFO - Crawling URL (depth 2): https://www.sharecare.com/hcp/hematology-oncology/indolent-systemic-mastocytosis
+2025-06-15 14:27:03,047 - INFO - Found 0 services on current page
+2025-06-15 14:27:03,047 - INFO - Total services found at depth 2: 0
+2025-06-15 14:27:03,048 - INFO - Crawling URL (depth 2): https://www.sharecare.com/hcp/cancer/multiple-myeloma
+2025-06-15 14:27:03,453 - INFO - Found 0 services on current page
+2025-06-15 14:27:03,453 - INFO - Total services found at depth 2: 0
+2025-06-15 14:27:03,453 - INFO - Crawling URL (depth 2): https://www.sharecare.com/hcp/gastroenterology/nash
+2025-06-15 14:27:03,840 - INFO - Found 0 services on current page
+2025-06-15 14:27:03,840 - INFO - Total services found at depth 2: 0
+2025-06-15 14:27:03,840 - INFO - Crawling URL (depth 2): https://www.sharecare.com/hcp
+2025-06-15 14:27:04,339 - INFO - Found 8 services on current page
+2025-06-15 14:27:04,339 - INFO - Total services found at depth 2: 8
+2025-06-15 14:27:04,340 - INFO - Crawling URL (depth 2): https://www.sharecare.com/terms/cookie-policy
+2025-06-15 14:27:04,967 - INFO - Found 8 services on current page
+2025-06-15 14:27:04,968 - INFO - Total services found at depth 2: 8
+2025-06-15 14:27:04,968 - INFO - Crawling URL (depth 2): https://www.sharecare.com/terms/privacypolicy
+2025-06-15 14:27:05,484 - INFO - Found 8 services on current page
+2025-06-15 14:27:05,484 - INFO - Total services found at depth 2: 8
+2025-06-15 14:27:05,484 - INFO - Crawling URL (depth 2): https://www.sharecare.com/terms/consumer-health-data-privacy-policy
+2025-06-15 14:27:05,971 - INFO - Found 8 services on current page
+2025-06-15 14:27:05,971 - INFO - Total services found at depth 2: 8
+2025-06-15 14:27:05,971 - INFO - Crawling URL (depth 2): https://www.sharecare.com/terms/terms
+2025-06-15 14:27:06,558 - INFO - Found 8 services on current page
+2025-06-15 14:27:06,558 - INFO - Total services found at depth 2: 8
+2025-06-15 14:27:06,558 - INFO - Crawling URL (depth 2): https://www.sharecare.com/static/sitemap
+2025-06-15 14:27:07,256 - INFO - Found 8 services on current page
+2025-06-15 14:27:07,256 - INFO - Total services found at depth 2: 8
+2025-06-15 14:27:07,257 - INFO - Total services found at depth 1: 225
+2025-06-15 14:27:07,257 - INFO - Crawling URL (depth 1): https://www.sharecare.com/well-being-connect
+2025-06-15 14:27:07,862 - INFO - Found 9 services on current page
+2025-06-15 14:27:07,866 - INFO - Total services found at depth 1: 9
+2025-06-15 14:27:07,866 - INFO - Crawling URL (depth 1): https://www.sharecare.com/blue-zones-project
+2025-06-15 14:27:08,746 - INFO - Found 9 services on current page
+2025-06-15 14:27:08,750 - INFO - Total services found at depth 1: 9
+2025-06-15 14:27:08,750 - INFO - Crawling URL (depth 1): https://www.sharecare.com/find-a-doctor
+2025-06-15 14:27:09,704 - INFO - Found 3 services on current page
+2025-06-15 14:27:09,706 - INFO - Crawling URL (depth 2): https://www.sharecare.com/hcp/heart-health/hcp-aortic-stenosis
+2025-06-15 14:27:10,202 - INFO - Found 0 services on current page
+2025-06-15 14:27:10,202 - INFO - Total services found at depth 2: 0
+2025-06-15 14:27:10,203 - INFO - Crawling URL (depth 2): https://www.sharecare.com/health-guides
+2025-06-15 14:27:11,635 - INFO - Found 8 services on current page
+2025-06-15 14:27:11,635 - INFO - Total services found at depth 2: 8
+2025-06-15 14:27:11,636 - INFO - Crawling URL (depth 2): https://www.sharecare.com/cec/major-depression-mdd
+2025-06-15 14:27:12,428 - INFO - Found 8 services on current page
+2025-06-15 14:27:12,428 - INFO - Total services found at depth 2: 8
+2025-06-15 14:27:12,429 - INFO - Crawling URL (depth 2): https://www.sharecare.com/cec/understanding-treating-thyroid-eye-disease
+2025-06-15 14:27:13,219 - INFO - Found 8 services on current page
+2025-06-15 14:27:13,219 - INFO - Total services found at depth 2: 8
+2025-06-15 14:27:13,219 - INFO - Crawling URL (depth 2): https://www.sharecare.com/cec/patients-guide-graves-disease-thyroid
+2025-06-15 14:27:14,128 - INFO - Found 8 services on current page
+2025-06-15 14:27:14,128 - INFO - Total services found at depth 2: 8
+2025-06-15 14:27:14,128 - INFO - Crawling URL (depth 2): https://www.sharecare.com/cec/understanding-treating-crohns-disease
+2025-06-15 14:27:14,929 - INFO - Found 8 services on current page
+2025-06-15 14:27:14,929 - INFO - Total services found at depth 2: 8
+2025-06-15 14:27:14,930 - INFO - Crawling URL (depth 2): https://www.sharecare.com/cec/more-than-atopic-dermatitis
+2025-06-15 14:27:15,698 - INFO - Found 8 services on current page
+2025-06-15 14:27:15,698 - INFO - Total services found at depth 2: 8
+2025-06-15 14:27:15,699 - INFO - Crawling URL (depth 2): https://www.sharecare.com/cec/understanding-treatment-options-ms
+2025-06-15 14:27:16,944 - INFO - Found 8 services on current page
+2025-06-15 14:27:16,945 - INFO - Total services found at depth 2: 8
+2025-06-15 14:27:16,945 - INFO - Crawling URL (depth 2): https://www.sharecare.com/cec/living-well-with-macular-degeneration
+2025-06-15 14:27:17,932 - INFO - Found 8 services on current page
+2025-06-15 14:27:17,932 - INFO - Total services found at depth 2: 8
+2025-06-15 14:27:17,932 - INFO - Crawling URL (depth 2): https://www.sharecare.com/cec/patients-guide-managing-ankylosing-spondylitis
+2025-06-15 14:27:18,732 - INFO - Found 8 services on current page
+2025-06-15 14:27:18,732 - INFO - Total services found at depth 2: 8
+2025-06-15 14:27:18,732 - INFO - Crawling URL (depth 2): https://www.sharecare.com/cec/managing-slowing-progression-psa
+2025-06-15 14:27:19,465 - INFO - Found 8 services on current page
+2025-06-15 14:27:19,465 - INFO - Total services found at depth 2: 8
+2025-06-15 14:27:19,465 - INFO - Crawling URL (depth 2): https://www.sharecare.com/cec/manage-child-adhd
+2025-06-15 14:27:20,356 - INFO - Found 8 services on current page
+2025-06-15 14:27:20,356 - INFO - Total services found at depth 2: 8
+2025-06-15 14:27:20,356 - INFO - Crawling URL (depth 2): https://www.sharecare.com/cec/taking-control-type2-diabetes
+2025-06-15 14:27:21,292 - INFO - Found 8 services on current page
+2025-06-15 14:27:21,292 - INFO - Total services found at depth 2: 8
+2025-06-15 14:27:21,292 - INFO - Total services found at depth 1: 10
+2025-06-15 14:27:21,294 - INFO - Crawling URL (depth 1): https://www.sharecare.com/doctor/dr-noga-harizman?mtcc=MTPROV&mtsc=nypres&mtfc=5A9573
+2025-06-15 14:27:22,636 - INFO - Found 2 services on current page
+2025-06-15 14:27:22,641 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/group-profile/ny-new-york/new-york/practice-u33l7jn
+2025-06-15 14:27:23,759 - INFO - Found 3 services on current page
+2025-06-15 14:27:23,759 - INFO - Total services found at depth 2: 3
+2025-06-15 14:27:23,759 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/group-profile/ny-new-york/new-york/practice-u39jhcf
+2025-06-15 14:27:24,867 - INFO - Found 2 services on current page
+2025-06-15 14:27:24,867 - INFO - Total services found at depth 2: 2
+2025-06-15 14:27:24,868 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Glaucoma
+2025-06-15 14:27:26,490 - INFO - Found 3 services on current page
+2025-06-15 14:27:26,490 - INFO - Total services found at depth 2: 3
+2025-06-15 14:27:26,490 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Optic Neuritis
+2025-06-15 14:27:28,056 - INFO - Found 3 services on current page
+2025-06-15 14:27:28,056 - INFO - Total services found at depth 2: 3
+2025-06-15 14:27:28,056 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Ocular Hypertension
+2025-06-15 14:27:29,776 - INFO - Found 3 services on current page
+2025-06-15 14:27:29,776 - INFO - Total services found at depth 2: 3
+2025-06-15 14:27:29,776 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Accommodation Disorders
+2025-06-15 14:27:31,398 - INFO - Found 4 services on current page
+2025-06-15 14:27:31,398 - INFO - Total services found at depth 2: 4
+2025-06-15 14:27:31,399 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Age-Related Macular Degeneration
+2025-06-15 14:27:32,946 - INFO - Found 3 services on current page
+2025-06-15 14:27:32,946 - INFO - Total services found at depth 2: 3
+2025-06-15 14:27:32,946 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=All Headaches (incl. Migraine)
+2025-06-15 14:27:34,644 - INFO - Found 3 services on current page
+2025-06-15 14:27:34,644 - INFO - Total services found at depth 2: 3
+2025-06-15 14:27:34,644 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Astigmatism
+2025-06-15 14:27:36,232 - INFO - Found 3 services on current page
+2025-06-15 14:27:36,232 - INFO - Total services found at depth 2: 3
+2025-06-15 14:27:36,233 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Benign Neoplasm of Choroid
+2025-06-15 14:27:37,921 - INFO - Found 3 services on current page
+2025-06-15 14:27:37,921 - INFO - Total services found at depth 2: 3
+2025-06-15 14:27:37,921 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Benign Neoplasm of Eye
+2025-06-15 14:27:39,491 - INFO - Found 3 services on current page
+2025-06-15 14:27:39,491 - INFO - Total services found at depth 2: 3
+2025-06-15 14:27:39,491 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Blepharitis
+2025-06-15 14:27:41,253 - INFO - Found 3 services on current page
+2025-06-15 14:27:41,253 - INFO - Total services found at depth 2: 3
+2025-06-15 14:27:41,254 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Cataract
+2025-06-15 14:27:42,733 - INFO - Found 3 services on current page
+2025-06-15 14:27:42,733 - INFO - Total services found at depth 2: 3
+2025-06-15 14:27:42,733 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Conjunctival Hemorrhage
+2025-06-15 14:27:44,381 - INFO - Found 3 services on current page
+2025-06-15 14:27:44,381 - INFO - Total services found at depth 2: 3
+2025-06-15 14:27:44,382 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Corneal Diseases
+2025-06-15 14:27:45,918 - INFO - Found 3 services on current page
+2025-06-15 14:27:45,918 - INFO - Total services found at depth 2: 3
+2025-06-15 14:27:45,918 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Drusen
+2025-06-15 14:27:47,604 - INFO - Found 3 services on current page
+2025-06-15 14:27:47,604 - INFO - Total services found at depth 2: 3
+2025-06-15 14:27:47,605 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Dry Eyes
+2025-06-15 14:27:49,163 - INFO - Found 3 services on current page
+2025-06-15 14:27:49,163 - INFO - Total services found at depth 2: 3
+2025-06-15 14:27:49,163 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Exotropia
+2025-06-15 14:27:53,563 - INFO - Found 4 services on current page
+2025-06-15 14:27:53,563 - INFO - Total services found at depth 2: 4
+2025-06-15 14:27:53,564 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Eye Cancer
+2025-06-15 14:27:55,243 - INFO - Found 4 services on current page
+2025-06-15 14:27:55,243 - INFO - Total services found at depth 2: 4
+2025-06-15 14:27:55,243 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Eye Infections
+2025-06-15 14:27:56,759 - INFO - Found 3 services on current page
+2025-06-15 14:27:56,759 - INFO - Total services found at depth 2: 3
+2025-06-15 14:27:56,759 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Eyelid Disorders
+2025-06-15 14:27:58,547 - INFO - Found 3 services on current page
+2025-06-15 14:27:58,548 - INFO - Total services found at depth 2: 3
+2025-06-15 14:27:58,548 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Farsightedness
+2025-06-15 14:28:00,300 - INFO - Found 3 services on current page
+2025-06-15 14:28:00,300 - INFO - Total services found at depth 2: 3
+2025-06-15 14:28:00,300 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Floaters
+2025-06-15 14:28:01,819 - INFO - Found 3 services on current page
+2025-06-15 14:28:01,819 - INFO - Total services found at depth 2: 3
+2025-06-15 14:28:01,819 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Fuchs' Corneal Dystrophy
+2025-06-15 14:28:03,385 - INFO - Found 3 services on current page
+2025-06-15 14:28:03,385 - INFO - Total services found at depth 2: 3
+2025-06-15 14:28:03,385 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Iridocyclitis
+2025-06-15 14:28:04,913 - INFO - Found 3 services on current page
+2025-06-15 14:28:04,913 - INFO - Total services found at depth 2: 3
+2025-06-15 14:28:04,913 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Keratitis
+2025-06-15 14:28:06,465 - INFO - Found 3 services on current page
+2025-06-15 14:28:06,465 - INFO - Total services found at depth 2: 3
+2025-06-15 14:28:06,466 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Lacrimal Gland Disorder
+2025-06-15 14:28:08,146 - INFO - Found 3 services on current page
+2025-06-15 14:28:08,146 - INFO - Total services found at depth 2: 3
+2025-06-15 14:28:08,146 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Macular Hole
+2025-06-15 14:28:10,003 - INFO - Found 3 services on current page
+2025-06-15 14:28:10,003 - INFO - Total services found at depth 2: 3
+2025-06-15 14:28:10,003 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Macular or Retinal Edema
+2025-06-15 14:28:11,688 - INFO - Found 3 services on current page
+2025-06-15 14:28:11,688 - INFO - Total services found at depth 2: 3
+2025-06-15 14:28:11,688 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Nearsightedness
+2025-06-15 14:28:13,234 - INFO - Found 3 services on current page
+2025-06-15 14:28:13,234 - INFO - Total services found at depth 2: 3
+2025-06-15 14:28:13,234 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Presbyopia
+2025-06-15 14:28:14,866 - INFO - Found 4 services on current page
+2025-06-15 14:28:14,866 - INFO - Total services found at depth 2: 4
+2025-06-15 14:28:14,867 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Pterygium
+2025-06-15 14:28:16,571 - INFO - Found 3 services on current page
+2025-06-15 14:28:16,571 - INFO - Total services found at depth 2: 3
+2025-06-15 14:28:16,571 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Retinal Dystrophy
+2025-06-15 14:28:18,198 - INFO - Found 3 services on current page
+2025-06-15 14:28:18,198 - INFO - Total services found at depth 2: 3
+2025-06-15 14:28:18,198 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Retinal Vascular Occlusion
+2025-06-15 14:28:19,777 - INFO - Found 3 services on current page
+2025-06-15 14:28:19,777 - INFO - Total services found at depth 2: 3
+2025-06-15 14:28:19,777 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Retinitis Pigmentosa (RP)
+2025-06-15 14:28:21,404 - INFO - Found 3 services on current page
+2025-06-15 14:28:21,404 - INFO - Total services found at depth 2: 3
+2025-06-15 14:28:21,404 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Senile Cataracts
+2025-06-15 14:28:22,902 - INFO - Found 3 services on current page
+2025-06-15 14:28:22,902 - INFO - Total services found at depth 2: 3
+2025-06-15 14:28:22,902 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Strabismus
+2025-06-15 14:28:24,487 - INFO - Found 4 services on current page
+2025-06-15 14:28:24,487 - INFO - Total services found at depth 2: 4
+2025-06-15 14:28:24,487 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Tear Duct Disorders
+2025-06-15 14:28:26,117 - INFO - Found 3 services on current page
+2025-06-15 14:28:26,117 - INFO - Total services found at depth 2: 3
+2025-06-15 14:28:26,117 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Uveitis
+2025-06-15 14:28:27,551 - INFO - Found 3 services on current page
+2025-06-15 14:28:27,551 - INFO - Total services found at depth 2: 3
+2025-06-15 14:28:27,552 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Cataract Removal Surgery
+2025-06-15 14:28:29,040 - INFO - Found 3 services on current page
+2025-06-15 14:28:29,040 - INFO - Total services found at depth 2: 3
+2025-06-15 14:28:29,040 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Glaucoma Surgery
+2025-06-15 14:28:30,631 - INFO - Found 3 services on current page
+2025-06-15 14:28:30,631 - INFO - Total services found at depth 2: 3
+2025-06-15 14:28:30,632 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Goniotomy
+2025-06-15 14:28:32,235 - INFO - Found 3 services on current page
+2025-06-15 14:28:32,235 - INFO - Total services found at depth 2: 3
+2025-06-15 14:28:32,235 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Acute Endophthalmitis
+2025-06-15 14:28:33,844 - INFO - Found 3 services on current page
+2025-06-15 14:28:33,844 - INFO - Total services found at depth 2: 3
+2025-06-15 14:28:33,845 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Allergic Conjunctivitis
+2025-06-15 14:28:35,445 - INFO - Found 3 services on current page
+2025-06-15 14:28:35,445 - INFO - Total services found at depth 2: 3
+2025-06-15 14:28:35,445 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Anterior Ischemic Optic Neuropathy
+2025-06-15 14:28:36,776 - INFO - Found 2 services on current page
+2025-06-15 14:28:36,776 - INFO - Total services found at depth 2: 2
+2025-06-15 14:28:36,776 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Aphakia and Other Disorders of Lens
+2025-06-15 14:28:38,519 - INFO - Found 3 services on current page
+2025-06-15 14:28:38,519 - INFO - Total services found at depth 2: 3
+2025-06-15 14:28:38,519 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Bell's Palsy
+2025-06-15 14:28:40,163 - INFO - Found 3 services on current page
+2025-06-15 14:28:40,164 - INFO - Total services found at depth 2: 3
+2025-06-15 14:28:40,164 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Blind Hypertensive Eye
+2025-06-15 14:28:41,391 - INFO - Found 2 services on current page
+2025-06-15 14:28:41,391 - INFO - Total services found at depth 2: 2
+2025-06-15 14:28:41,391 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Blind Hypotensive Eye
+2025-06-15 14:28:42,496 - INFO - Found 2 services on current page
+2025-06-15 14:28:42,496 - INFO - Total services found at depth 2: 2
+2025-06-15 14:28:42,496 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Blindness
+2025-06-15 14:28:44,202 - INFO - Found 3 services on current page
+2025-06-15 14:28:44,202 - INFO - Total services found at depth 2: 3
+2025-06-15 14:28:44,202 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Chalazion
+2025-06-15 14:28:45,864 - INFO - Found 3 services on current page
+2025-06-15 14:28:45,864 - INFO - Total services found at depth 2: 3
+2025-06-15 14:28:45,864 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Chorioretinal Scars
+2025-06-15 14:28:47,546 - INFO - Found 3 services on current page
+2025-06-15 14:28:47,546 - INFO - Total services found at depth 2: 3
+2025-06-15 14:28:47,546 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Chorioretinitis
+2025-06-15 14:28:48,770 - INFO - Found 2 services on current page
+2025-06-15 14:28:48,770 - INFO - Total services found at depth 2: 2
+2025-06-15 14:28:48,771 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Chronic Conjunctivitis
+2025-06-15 14:28:50,411 - INFO - Found 3 services on current page
+2025-06-15 14:28:50,411 - INFO - Total services found at depth 2: 3
+2025-06-15 14:28:50,412 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Conjunctiva Cyst
+2025-06-15 14:28:51,981 - INFO - Found 3 services on current page
+2025-06-15 14:28:51,981 - INFO - Total services found at depth 2: 3
+2025-06-15 14:28:51,981 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Conjunctiva Degeneration Deposit
+2025-06-15 14:28:53,599 - INFO - Found 3 services on current page
+2025-06-15 14:28:53,599 - INFO - Total services found at depth 2: 3
+2025-06-15 14:28:53,600 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Corneal Abrasion or Laceration
+2025-06-15 14:28:55,263 - INFO - Found 4 services on current page
+2025-06-15 14:28:55,263 - INFO - Total services found at depth 2: 4
+2025-06-15 14:28:55,263 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Corneal Erosion
+2025-06-15 14:28:56,806 - INFO - Found 4 services on current page
+2025-06-15 14:28:56,806 - INFO - Total services found at depth 2: 4
+2025-06-15 14:28:56,806 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Corneal Ulcer
+2025-06-15 14:28:58,453 - INFO - Found 3 services on current page
+2025-06-15 14:28:58,453 - INFO - Total services found at depth 2: 3
+2025-06-15 14:28:58,454 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Degenerative Disorders of Globe
+2025-06-15 14:29:00,138 - INFO - Found 3 services on current page
+2025-06-15 14:29:00,139 - INFO - Total services found at depth 2: 3
+2025-06-15 14:29:00,139 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Diabetic Cataracts
+2025-06-15 14:29:01,681 - INFO - Found 3 services on current page
+2025-06-15 14:29:01,681 - INFO - Total services found at depth 2: 3
+2025-06-15 14:29:01,682 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Diabetic Macular Edema (DME)
+2025-06-15 14:29:03,302 - INFO - Found 3 services on current page
+2025-06-15 14:29:03,302 - INFO - Total services found at depth 2: 3
+2025-06-15 14:29:03,303 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Diabetic Retinopathy
+2025-06-15 14:29:04,844 - INFO - Found 3 services on current page
+2025-06-15 14:29:04,844 - INFO - Total services found at depth 2: 3
+2025-06-15 14:29:04,845 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Diplopia
+2025-06-15 14:29:06,494 - INFO - Found 3 services on current page
+2025-06-15 14:29:06,494 - INFO - Total services found at depth 2: 3
+2025-06-15 14:29:06,494 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Disorder of Choroid
+2025-06-15 14:29:08,126 - INFO - Found 3 services on current page
+2025-06-15 14:29:08,126 - INFO - Total services found at depth 2: 3
+2025-06-15 14:29:08,126 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Disseminated Chorioretinitis and Disseminated Retinochoroiditis
+2025-06-15 14:29:09,693 - INFO - Found 3 services on current page
+2025-06-15 14:29:09,693 - INFO - Total services found at depth 2: 3
+2025-06-15 14:29:09,693 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Drooping Eyelids (Ptosis)
+2025-06-15 14:29:11,202 - INFO - Found 3 services on current page
+2025-06-15 14:29:11,202 - INFO - Total services found at depth 2: 3
+2025-06-15 14:29:11,203 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Dry Age-Related Macular Degeneration
+2025-06-15 14:29:12,954 - INFO - Found 3 services on current page
+2025-06-15 14:29:12,954 - INFO - Total services found at depth 2: 3
+2025-06-15 14:29:12,955 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Ectropion of Eyelid
+2025-06-15 14:29:14,659 - INFO - Found 3 services on current page
+2025-06-15 14:29:14,660 - INFO - Total services found at depth 2: 3
+2025-06-15 14:29:14,660 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Endophthalmitis
+2025-06-15 14:29:16,425 - INFO - Found 3 services on current page
+2025-06-15 14:29:16,425 - INFO - Total services found at depth 2: 3
+2025-06-15 14:29:16,426 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Entropion
+2025-06-15 14:29:18,321 - INFO - Found 3 services on current page
+2025-06-15 14:29:18,321 - INFO - Total services found at depth 2: 3
+2025-06-15 14:29:18,321 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Esotropia
+2025-06-15 14:29:19,950 - INFO - Found 4 services on current page
+2025-06-15 14:29:19,950 - INFO - Total services found at depth 2: 4
+2025-06-15 14:29:19,951 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Eye Pain
+2025-06-15 14:29:31,584 - INFO - Found 3 services on current page
+2025-06-15 14:29:31,585 - INFO - Total services found at depth 2: 3
+2025-06-15 14:29:31,586 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Eyelid Spasm
+2025-06-15 14:29:33,172 - INFO - Found 3 services on current page
+2025-06-15 14:29:33,172 - INFO - Total services found at depth 2: 3
+2025-06-15 14:29:33,172 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Focal Chorioretinitis and Focal Retinochoroiditis
+2025-06-15 14:29:34,719 - INFO - Found 3 services on current page
+2025-06-15 14:29:34,719 - INFO - Total services found at depth 2: 3
+2025-06-15 14:29:34,720 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Foreign Body in Eye
+2025-06-15 14:29:36,357 - INFO - Found 3 services on current page
+2025-06-15 14:29:36,357 - INFO - Total services found at depth 2: 3
+2025-06-15 14:29:36,358 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Headache
+2025-06-15 14:29:38,426 - INFO - Found 3 services on current page
+2025-06-15 14:29:38,426 - INFO - Total services found at depth 2: 3
+2025-06-15 14:29:38,426 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Herpetic Keratitis
+2025-06-15 14:29:40,107 - INFO - Found 3 services on current page
+2025-06-15 14:29:40,107 - INFO - Total services found at depth 2: 3
+2025-06-15 14:29:40,108 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Hordeolum
+2025-06-15 14:29:41,707 - INFO - Found 3 services on current page
+2025-06-15 14:29:41,707 - INFO - Total services found at depth 2: 3
+2025-06-15 14:29:41,708 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Hypertensive Retinopathy
+2025-06-15 14:29:43,442 - INFO - Found 3 services on current page
+2025-06-15 14:29:43,442 - INFO - Total services found at depth 2: 3
+2025-06-15 14:29:43,443 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Hyphema
+2025-06-15 14:29:45,127 - INFO - Found 3 services on current page
+2025-06-15 14:29:45,127 - INFO - Total services found at depth 2: 3
+2025-06-15 14:29:45,127 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Hypotony of Eye
+2025-06-15 14:29:46,647 - INFO - Found 3 services on current page
+2025-06-15 14:29:46,648 - INFO - Total services found at depth 2: 3
+2025-06-15 14:29:46,648 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Iris Ciliary Degeneration
+2025-06-15 14:29:48,376 - INFO - Found 3 services on current page
+2025-06-15 14:29:48,376 - INFO - Total services found at depth 2: 3
+2025-06-15 14:29:48,377 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Keratoconus
+2025-06-15 14:29:50,040 - INFO - Found 4 services on current page
+2025-06-15 14:29:50,040 - INFO - Total services found at depth 2: 4
+2025-06-15 14:29:50,041 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Lazy Eye
+2025-06-15 14:29:51,677 - INFO - Found 4 services on current page
+2025-06-15 14:29:51,678 - INFO - Total services found at depth 2: 4
+2025-06-15 14:29:51,678 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Migraine
+2025-06-15 14:29:53,340 - INFO - Found 3 services on current page
+2025-06-15 14:29:53,340 - INFO - Total services found at depth 2: 3
+2025-06-15 14:29:53,340 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Miosis
+2025-06-15 14:29:55,003 - INFO - Found 3 services on current page
+2025-06-15 14:29:55,003 - INFO - Total services found at depth 2: 3
+2025-06-15 14:29:55,004 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Non-Magnetic Retained Intraocular Foreign Body
+2025-06-15 14:29:56,616 - INFO - Found 3 services on current page
+2025-06-15 14:29:56,616 - INFO - Total services found at depth 2: 3
+2025-06-15 14:29:56,616 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Nystagmus
+2025-06-15 14:29:58,240 - INFO - Found 3 services on current page
+2025-06-15 14:29:58,240 - INFO - Total services found at depth 2: 3
+2025-06-15 14:29:58,241 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Paralytic Strabismus
+2025-06-15 14:29:59,949 - INFO - Found 3 services on current page
+2025-06-15 14:29:59,949 - INFO - Total services found at depth 2: 3
+2025-06-15 14:29:59,949 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Pigment Dispersion Syndrome
+2025-06-15 14:30:01,604 - INFO - Found 3 services on current page
+2025-06-15 14:30:01,604 - INFO - Total services found at depth 2: 3
+2025-06-15 14:30:01,605 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Pinguecula
+2025-06-15 14:30:03,293 - INFO - Found 3 services on current page
+2025-06-15 14:30:03,293 - INFO - Total services found at depth 2: 3
+2025-06-15 14:30:03,294 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Pinkeye (Conjunctivitis)
+2025-06-15 14:30:04,812 - INFO - Found 3 services on current page
+2025-06-15 14:30:04,812 - INFO - Total services found at depth 2: 3
+2025-06-15 14:30:04,812 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Posterior Uveitis
+2025-06-15 14:30:06,390 - INFO - Found 3 services on current page
+2025-06-15 14:30:06,390 - INFO - Total services found at depth 2: 3
+2025-06-15 14:30:06,391 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Progressive High Myopia
+2025-06-15 14:30:07,966 - INFO - Found 3 services on current page
+2025-06-15 14:30:07,966 - INFO - Total services found at depth 2: 3
+2025-06-15 14:30:07,967 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Retinal Detachment and Retinal Tear
+2025-06-15 14:30:09,764 - INFO - Found 3 services on current page
+2025-06-15 14:30:09,764 - INFO - Total services found at depth 2: 3
+2025-06-15 14:30:09,764 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Retinal Neovascularization
+2025-06-15 14:30:11,325 - INFO - Found 3 services on current page
+2025-06-15 14:30:11,325 - INFO - Total services found at depth 2: 3
+2025-06-15 14:30:11,326 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Serous Detachment Retina
+2025-06-15 14:30:13,039 - INFO - Found 3 services on current page
+2025-06-15 14:30:13,039 - INFO - Total services found at depth 2: 3
+2025-06-15 14:30:13,039 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Stye
+2025-06-15 14:30:14,789 - INFO - Found 3 services on current page
+2025-06-15 14:30:14,789 - INFO - Total services found at depth 2: 3
+2025-06-15 14:30:14,790 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Thyroid Eye Disease
+2025-06-15 14:30:15,918 - INFO - Found 2 services on current page
+2025-06-15 14:30:15,918 - INFO - Total services found at depth 2: 2
+2025-06-15 14:30:15,919 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Trichiasis
+2025-06-15 14:30:17,569 - INFO - Found 4 services on current page
+2025-06-15 14:30:17,569 - INFO - Total services found at depth 2: 4
+2025-06-15 14:30:17,569 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Visual Field Defects
+2025-06-15 14:30:19,276 - INFO - Found 3 services on current page
+2025-06-15 14:30:19,276 - INFO - Total services found at depth 2: 3
+2025-06-15 14:30:19,276 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Vitreous Hemorrhage
+2025-06-15 14:30:20,898 - INFO - Found 3 services on current page
+2025-06-15 14:30:20,898 - INFO - Total services found at depth 2: 3
+2025-06-15 14:30:20,899 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Wet Age-Related Macular Degeneration
+2025-06-15 14:30:22,518 - INFO - Found 3 services on current page
+2025-06-15 14:30:22,518 - INFO - Total services found at depth 2: 3
+2025-06-15 14:30:22,518 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Anterior Vitrectomy
+2025-06-15 14:30:24,101 - INFO - Found 3 services on current page
+2025-06-15 14:30:24,101 - INFO - Total services found at depth 2: 3
+2025-06-15 14:30:24,101 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=B-Scan Ultrasound
+2025-06-15 14:30:25,598 - INFO - Found 3 services on current page
+2025-06-15 14:30:25,598 - INFO - Total services found at depth 2: 3
+2025-06-15 14:30:25,599 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Coreoplasty
+2025-06-15 14:30:27,219 - INFO - Found 3 services on current page
+2025-06-15 14:30:27,219 - INFO - Total services found at depth 2: 3
+2025-06-15 14:30:27,219 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Cornea Surgery
+2025-06-15 14:30:28,938 - INFO - Found 4 services on current page
+2025-06-15 14:30:28,938 - INFO - Total services found at depth 2: 4
+2025-06-15 14:30:28,938 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Cornea Transplant
+2025-06-15 14:30:30,516 - INFO - Found 3 services on current page
+2025-06-15 14:30:30,516 - INFO - Total services found at depth 2: 3
+2025-06-15 14:30:30,517 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Dilation of Outflow Canal
+2025-06-15 14:30:32,236 - INFO - Found 3 services on current page
+2025-06-15 14:30:32,236 - INFO - Total services found at depth 2: 3
+2025-06-15 14:30:32,237 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Eye Test
+2025-06-15 14:30:33,931 - INFO - Found 4 services on current page
+2025-06-15 14:30:33,932 - INFO - Total services found at depth 2: 4
+2025-06-15 14:30:33,932 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Eyelid Surgery
+2025-06-15 14:30:35,667 - INFO - Found 3 services on current page
+2025-06-15 14:30:35,667 - INFO - Total services found at depth 2: 3
+2025-06-15 14:30:35,668 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Farnsworth Lantern Test
+2025-06-15 14:30:37,204 - INFO - Found 3 services on current page
+2025-06-15 14:30:37,205 - INFO - Total services found at depth 2: 3
+2025-06-15 14:30:37,205 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Iridectomy
+2025-06-15 14:30:38,825 - INFO - Found 3 services on current page
+2025-06-15 14:30:38,825 - INFO - Total services found at depth 2: 3
+2025-06-15 14:30:38,825 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Iridotomy
+2025-06-15 14:30:40,385 - INFO - Found 3 services on current page
+2025-06-15 14:30:40,386 - INFO - Total services found at depth 2: 3
+2025-06-15 14:30:40,386 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Ocular Surface Reconstruction
+2025-06-15 14:30:42,009 - INFO - Found 4 services on current page
+2025-06-15 14:30:42,009 - INFO - Total services found at depth 2: 4
+2025-06-15 14:30:42,009 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Pterygium Surgery
+2025-06-15 14:30:43,649 - INFO - Found 4 services on current page
+2025-06-15 14:30:43,650 - INFO - Total services found at depth 2: 4
+2025-06-15 14:30:43,650 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Repair of Eye Laceration
+2025-06-15 14:30:45,169 - INFO - Found 3 services on current page
+2025-06-15 14:30:45,170 - INFO - Total services found at depth 2: 3
+2025-06-15 14:30:45,170 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Repair of Retinal Detachment or Retinal Tear
+2025-06-15 14:30:46,736 - INFO - Found 3 services on current page
+2025-06-15 14:30:46,736 - INFO - Total services found at depth 2: 3
+2025-06-15 14:30:46,737 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Tear Duct Surgery
+2025-06-15 14:30:48,351 - INFO - Found 4 services on current page
+2025-06-15 14:30:48,351 - INFO - Total services found at depth 2: 4
+2025-06-15 14:30:48,351 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Trabeculotomy Ab Externo
+2025-06-15 14:30:49,818 - INFO - Found 3 services on current page
+2025-06-15 14:30:49,818 - INFO - Total services found at depth 2: 3
+2025-06-15 14:30:49,818 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Ultrasound
+2025-06-15 14:30:51,316 - INFO - Found 3 services on current page
+2025-06-15 14:30:51,316 - INFO - Total services found at depth 2: 3
+2025-06-15 14:30:51,316 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Vision Screening
+2025-06-15 14:30:52,804 - INFO - Found 3 services on current page
+2025-06-15 14:30:52,804 - INFO - Total services found at depth 2: 3
+2025-06-15 14:30:52,805 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Vitrectomy
+2025-06-15 14:30:53,999 - INFO - Found 2 services on current page
+2025-06-15 14:30:54,000 - INFO - Total services found at depth 2: 2
+2025-06-15 14:30:54,000 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Vitreoretinal Surgery
+2025-06-15 14:30:55,598 - INFO - Found 3 services on current page
+2025-06-15 14:30:55,598 - INFO - Total services found at depth 2: 3
+2025-06-15 14:30:55,599 - INFO - Total services found at depth 1: 6
+2025-06-15 14:30:55,599 - INFO - Crawling URL (depth 1): https://www.sharecare.com/doctor/sharon-keh-y9pf8bz?mtcc=MTPROV&mtsc=nypres&mtfc=5A9573
+2025-06-15 14:30:56,806 - INFO - Found 2 services on current page
+2025-06-15 14:30:56,809 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/group-profile/ny-new-york/new-york/practice-u342dp7
+2025-06-15 14:30:57,974 - INFO - Found 2 services on current page
+2025-06-15 14:30:57,974 - INFO - Total services found at depth 2: 2
+2025-06-15 14:30:57,975 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/group-profile/ny-new-york/scarsdale/practice-u386tnb
+2025-06-15 14:30:59,102 - INFO - Found 2 services on current page
+2025-06-15 14:30:59,102 - INFO - Total services found at depth 2: 2
+2025-06-15 14:30:59,103 - INFO - Total services found at depth 1: 2
+2025-06-15 14:30:59,103 - INFO - Crawling URL (depth 1): https://www.sharecare.com/doctor/dr-aakriti-shukla-xyllddy?mtcc=MTPROV&mtsc=nypres&mtfc=5A9573
+2025-06-15 14:31:00,538 - INFO - Found 2 services on current page
+2025-06-15 14:31:00,542 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/group-profile/ny-new-york/new-york/cuimc-edward-s-harkness-eye-institute-u38vtqb
+2025-06-15 14:31:01,645 - INFO - Found 3 services on current page
+2025-06-15 14:31:01,646 - INFO - Total services found at depth 2: 3
+2025-06-15 14:31:01,646 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/group-profile/ny-new-york/new-york/practice-u33cjkx
+2025-06-15 14:31:02,783 - INFO - Found 2 services on current page
+2025-06-15 14:31:02,783 - INFO - Total services found at depth 2: 2
+2025-06-15 14:31:02,783 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Eye Melanoma
+2025-06-15 14:31:04,528 - INFO - Found 3 services on current page
+2025-06-15 14:31:04,528 - INFO - Total services found at depth 2: 3
+2025-06-15 14:31:04,528 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Malignant Neoplasm of Eye
+2025-06-15 14:31:06,109 - INFO - Found 3 services on current page
+2025-06-15 14:31:06,110 - INFO - Total services found at depth 2: 3
+2025-06-15 14:31:06,110 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Retinal Cysts
+2025-06-15 14:31:07,689 - INFO - Found 3 services on current page
+2025-06-15 14:31:07,689 - INFO - Total services found at depth 2: 3
+2025-06-15 14:31:07,689 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Retinoschisis
+2025-06-15 14:31:09,253 - INFO - Found 3 services on current page
+2025-06-15 14:31:09,253 - INFO - Total services found at depth 2: 3
+2025-06-15 14:31:09,254 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Cataract Surgery Complications
+2025-06-15 14:31:10,430 - INFO - Found 2 services on current page
+2025-06-15 14:31:10,430 - INFO - Total services found at depth 2: 2
+2025-06-15 14:31:10,430 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Chronic Endophthalmitis
+2025-06-15 14:31:12,308 - INFO - Found 3 services on current page
+2025-06-15 14:31:12,308 - INFO - Total services found at depth 2: 3
+2025-06-15 14:31:12,309 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Contusion of the Eyeball
+2025-06-15 14:31:13,945 - INFO - Found 3 services on current page
+2025-06-15 14:31:13,945 - INFO - Total services found at depth 2: 3
+2025-06-15 14:31:13,945 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Convergence Insufficiency
+2025-06-15 14:31:15,478 - INFO - Found 3 services on current page
+2025-06-15 14:31:15,478 - INFO - Total services found at depth 2: 3
+2025-06-15 14:31:15,478 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Dislocation of Lens
+2025-06-15 14:31:17,217 - INFO - Found 3 services on current page
+2025-06-15 14:31:17,217 - INFO - Total services found at depth 2: 3
+2025-06-15 14:31:17,217 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Eyeball Contusion
+2025-06-15 14:31:18,754 - INFO - Found 3 services on current page
+2025-06-15 14:31:18,754 - INFO - Total services found at depth 2: 3
+2025-06-15 14:31:18,754 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Foveal and Macular Hypoplasia
+2025-06-15 14:31:20,343 - INFO - Found 3 services on current page
+2025-06-15 14:31:20,343 - INFO - Total services found at depth 2: 3
+2025-06-15 14:31:20,343 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Hypopyon
+2025-06-15 14:31:21,891 - INFO - Found 3 services on current page
+2025-06-15 14:31:21,891 - INFO - Total services found at depth 2: 3
+2025-06-15 14:31:21,892 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Ischemic Optic Neuropathy
+2025-06-15 14:31:23,567 - INFO - Found 3 services on current page
+2025-06-15 14:31:23,567 - INFO - Total services found at depth 2: 3
+2025-06-15 14:31:23,568 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Purulent Endophthalmitis
+2025-06-15 14:31:25,240 - INFO - Found 3 services on current page
+2025-06-15 14:31:25,240 - INFO - Total services found at depth 2: 3
+2025-06-15 14:31:25,240 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Retinal Ischemia
+2025-06-15 14:31:26,836 - INFO - Found 3 services on current page
+2025-06-15 14:31:26,836 - INFO - Total services found at depth 2: 3
+2025-06-15 14:31:26,837 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Staphyloma Posticum
+2025-06-15 14:31:28,449 - INFO - Found 3 services on current page
+2025-06-15 14:31:28,449 - INFO - Total services found at depth 2: 3
+2025-06-15 14:31:28,450 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Glaucoma Medical Therapy
+2025-06-15 14:31:29,634 - INFO - Found 2 services on current page
+2025-06-15 14:31:29,634 - INFO - Total services found at depth 2: 2
+2025-06-15 14:31:29,634 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Glaucoma Treatment
+2025-06-15 14:31:31,161 - INFO - Found 3 services on current page
+2025-06-15 14:31:31,161 - INFO - Total services found at depth 2: 3
+2025-06-15 14:31:31,161 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Humphrey Visual Field Test for Glaucoma
+2025-06-15 14:31:32,555 - INFO - Found 2 services on current page
+2025-06-15 14:31:32,555 - INFO - Total services found at depth 2: 2
+2025-06-15 14:31:32,556 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Incisional Glaucoma Surgery
+2025-06-15 14:31:33,763 - INFO - Found 2 services on current page
+2025-06-15 14:31:33,764 - INFO - Total services found at depth 2: 2
+2025-06-15 14:31:33,764 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Medical and Surgical Management of Glaucoma
+2025-06-15 14:31:35,085 - INFO - Found 2 services on current page
+2025-06-15 14:31:35,085 - INFO - Total services found at depth 2: 2
+2025-06-15 14:31:35,085 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Peripheral Iridotomy
+2025-06-15 14:31:36,312 - INFO - Found 2 services on current page
+2025-06-15 14:31:36,312 - INFO - Total services found at depth 2: 2
+2025-06-15 14:31:36,313 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Trabeculectomy
+2025-06-15 14:31:38,041 - INFO - Found 3 services on current page
+2025-06-15 14:31:38,041 - INFO - Total services found at depth 2: 3
+2025-06-15 14:31:38,041 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Vitreous Surgery
+2025-06-15 14:31:39,659 - INFO - Found 4 services on current page
+2025-06-15 14:31:39,660 - INFO - Total services found at depth 2: 4
+2025-06-15 14:31:39,660 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=YAG Laser Capsulotomy
+2025-06-15 14:31:50,074 - ERROR - Error scraping https://www.sharecare.com/find-a-doctor/search?what=YAG Laser Capsulotomy: HTTPSConnectionPool(host='providers.sharecare.com', port=443): Read timed out. (read timeout=10)
+2025-06-15 14:31:50,075 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=YAG Selective Laser Trabeculoplasty
+2025-06-15 14:31:51,268 - INFO - Found 2 services on current page
+2025-06-15 14:31:51,269 - INFO - Total services found at depth 2: 2
+2025-06-15 14:31:51,269 - INFO - Total services found at depth 1: 5
+2025-06-15 14:31:51,269 - INFO - Crawling URL (depth 1): https://www.sharecare.com/doctor/dr-c-gustavo-de-moraes-xynghb6?mtcc=MTPROV&mtsc=nypres&mtfc=5A9573
+2025-06-15 14:31:52,692 - INFO - Found 2 services on current page
+2025-06-15 14:31:52,697 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Anisocoria
+2025-06-15 14:31:54,205 - INFO - Found 3 services on current page
+2025-06-15 14:31:54,205 - INFO - Total services found at depth 2: 3
+2025-06-15 14:31:54,205 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Anterior Scleritis
+2025-06-15 14:31:55,786 - INFO - Found 3 services on current page
+2025-06-15 14:31:55,787 - INFO - Total services found at depth 2: 3
+2025-06-15 14:31:55,787 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Black Eye
+2025-06-15 14:31:57,310 - INFO - Found 3 services on current page
+2025-06-15 14:31:57,310 - INFO - Total services found at depth 2: 3
+2025-06-15 14:31:57,311 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Central Serous Chorioretinopathy
+2025-06-15 14:31:58,927 - INFO - Found 3 services on current page
+2025-06-15 14:31:58,927 - INFO - Total services found at depth 2: 3
+2025-06-15 14:31:58,928 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Chlamydial Conjunctivitis
+2025-06-15 14:32:00,485 - INFO - Found 3 services on current page
+2025-06-15 14:32:00,485 - INFO - Total services found at depth 2: 3
+2025-06-15 14:32:00,485 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Idiopathic Intracranial Hypertension
+2025-06-15 14:32:02,177 - INFO - Found 3 services on current page
+2025-06-15 14:32:02,178 - INFO - Total services found at depth 2: 3
+2025-06-15 14:32:02,178 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Optic Papillitis
+2025-06-15 14:32:03,772 - INFO - Found 3 services on current page
+2025-06-15 14:32:03,772 - INFO - Total services found at depth 2: 3
+2025-06-15 14:32:03,772 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Retinal Hemorrhage
+2025-06-15 14:32:05,380 - INFO - Found 3 services on current page
+2025-06-15 14:32:05,380 - INFO - Total services found at depth 2: 3
+2025-06-15 14:32:05,380 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Trachoma
+2025-06-15 14:32:06,820 - INFO - Found 3 services on current page
+2025-06-15 14:32:06,820 - INFO - Total services found at depth 2: 3
+2025-06-15 14:32:06,820 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Foreign Body Removal from Eye
+2025-06-15 14:32:08,379 - INFO - Found 4 services on current page
+2025-06-15 14:32:08,379 - INFO - Total services found at depth 2: 4
+2025-06-15 14:32:08,379 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Paracentesis of Anterior Eye
+2025-06-15 14:32:09,941 - INFO - Found 3 services on current page
+2025-06-15 14:32:09,941 - INFO - Total services found at depth 2: 3
+2025-06-15 14:32:09,941 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Removal of Foreign Body from External Eye
+2025-06-15 14:32:11,643 - INFO - Found 4 services on current page
+2025-06-15 14:32:11,643 - INFO - Total services found at depth 2: 4
+2025-06-15 14:32:11,643 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Scleral Reinforcement Surgery
+2025-06-15 14:32:13,223 - INFO - Found 3 services on current page
+2025-06-15 14:32:13,223 - INFO - Total services found at depth 2: 3
+2025-06-15 14:32:13,223 - INFO - Total services found at depth 1: 4
+2025-06-15 14:32:13,224 - INFO - Crawling URL (depth 1): https://www.sharecare.com/doctor/dr-george-a-cioffi?mtcc=MTPROV&mtsc=nypres&mtfc=5A9573
+2025-06-15 14:32:14,622 - INFO - Found 2 services on current page
+2025-06-15 14:32:14,627 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Esophoria
+2025-06-15 14:32:16,162 - INFO - Found 3 services on current page
+2025-06-15 14:32:16,162 - INFO - Total services found at depth 2: 3
+2025-06-15 14:32:16,163 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Heterophoria
+2025-06-15 14:32:17,721 - INFO - Found 3 services on current page
+2025-06-15 14:32:17,721 - INFO - Total services found at depth 2: 3
+2025-06-15 14:32:17,721 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Hypertropia
+2025-06-15 14:32:19,323 - INFO - Found 3 services on current page
+2025-06-15 14:32:19,323 - INFO - Total services found at depth 2: 3
+2025-06-15 14:32:19,324 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Hypotropia
+2025-06-15 14:32:20,873 - INFO - Found 3 services on current page
+2025-06-15 14:32:20,873 - INFO - Total services found at depth 2: 3
+2025-06-15 14:32:20,873 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Ophthalmoplegic Migraine
+2025-06-15 14:32:22,569 - INFO - Found 3 services on current page
+2025-06-15 14:32:22,570 - INFO - Total services found at depth 2: 3
+2025-06-15 14:32:22,571 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Ulcerative Blepharitis
+2025-06-15 14:32:24,052 - INFO - Found 3 services on current page
+2025-06-15 14:32:24,052 - INFO - Total services found at depth 2: 3
+2025-06-15 14:32:24,053 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Anterior Polar Cataract 2
+2025-06-15 14:32:25,535 - INFO - Found 3 services on current page
+2025-06-15 14:32:25,535 - INFO - Total services found at depth 2: 3
+2025-06-15 14:32:25,535 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Blepharoconjunctivitis
+2025-06-15 14:32:27,143 - INFO - Found 3 services on current page
+2025-06-15 14:32:27,144 - INFO - Total services found at depth 2: 3
+2025-06-15 14:32:27,144 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Choroidal Hemorrhage Rupture
+2025-06-15 14:32:28,701 - INFO - Found 4 services on current page
+2025-06-15 14:32:28,701 - INFO - Total services found at depth 2: 4
+2025-06-15 14:32:28,701 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Focal Segmental Glomerulosclerosis
+2025-06-15 14:32:29,816 - INFO - Found 2 services on current page
+2025-06-15 14:32:29,816 - INFO - Total services found at depth 2: 2
+2025-06-15 14:32:29,816 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Juvenile Macular Degeneration
+2025-06-15 14:32:31,563 - INFO - Found 3 services on current page
+2025-06-15 14:32:31,563 - INFO - Total services found at depth 2: 3
+2025-06-15 14:32:31,563 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Marfan Syndrome
+2025-06-15 14:32:33,349 - INFO - Found 3 services on current page
+2025-06-15 14:32:33,349 - INFO - Total services found at depth 2: 3
+2025-06-15 14:32:33,349 - INFO - Crawling URL (depth 2): https://www.sharecare.com/find-a-doctor/search?what=Ocular Prosthetics
+2025-06-15 14:32:34,942 - INFO - Found 3 services on current page
+2025-06-15 14:32:34,942 - INFO - Total services found at depth 2: 3
+2025-06-15 14:32:34,942 - INFO - Total services found at depth 1: 4
+2025-06-15 14:32:34,943 - INFO - Crawling URL (depth 1): https://www.sharecare.com/doctor/daniel-diamond-xypy2ct?mtcc=MTPROV&mtsc=nypres&mtfc=5A9573
+2025-06-15 14:32:36,139 - INFO - Found 2 services on current page
+2025-06-15 14:32:36,142 - INFO - Total services found at depth 1: 2
+2025-06-15 14:32:36,142 - INFO - Crawling URL (depth 1): https://www.sharecare.com/find-a-doctor/group-profile/ny-new-york/new-square/refuah-health-center-xx9fcn
+2025-06-15 14:32:37,388 - INFO - Found 2 services on current page
+2025-06-15 14:32:37,391 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-tzvi-h-aaron
+2025-06-15 14:32:38,536 - INFO - Found 2 services on current page
+2025-06-15 14:32:38,536 - INFO - Total services found at depth 2: 2
+2025-06-15 14:32:38,536 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/stephanie-abraitis-y9tqj5z
+2025-06-15 14:32:39,705 - INFO - Found 2 services on current page
+2025-06-15 14:32:39,706 - INFO - Total services found at depth 2: 2
+2025-06-15 14:32:39,706 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-joshua-azar-ycqmycu788
+2025-06-15 14:32:40,880 - INFO - Found 2 services on current page
+2025-06-15 14:32:40,881 - INFO - Total services found at depth 2: 2
+2025-06-15 14:32:40,881 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-yehoshua-bachrach-ury2dv
+2025-06-15 14:32:42,023 - INFO - Found 2 services on current page
+2025-06-15 14:32:42,023 - INFO - Total services found at depth 2: 2
+2025-06-15 14:32:42,023 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-steven-becker-2cypc
+2025-06-15 14:32:43,407 - INFO - Found 2 services on current page
+2025-06-15 14:32:43,407 - INFO - Total services found at depth 2: 2
+2025-06-15 14:32:43,408 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-mahmood-behnam
+2025-06-15 14:32:44,756 - INFO - Found 2 services on current page
+2025-06-15 14:32:44,757 - INFO - Total services found at depth 2: 2
+2025-06-15 14:32:44,757 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/rosita-benjamin-eiij9x5903
+2025-06-15 14:32:45,977 - INFO - Found 2 services on current page
+2025-06-15 14:32:45,977 - INFO - Total services found at depth 2: 2
+2025-06-15 14:32:45,977 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-peter-bernard
+2025-06-15 14:32:47,362 - INFO - Found 3 services on current page
+2025-06-15 14:32:47,362 - INFO - Total services found at depth 2: 3
+2025-06-15 14:32:47,363 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-sugulsun-berrak
+2025-06-15 14:32:48,702 - INFO - Found 2 services on current page
+2025-06-15 14:32:48,702 - INFO - Total services found at depth 2: 2
+2025-06-15 14:32:48,702 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-bibeka-bhattaraikoirala
+2025-06-15 14:32:49,896 - INFO - Found 2 services on current page
+2025-06-15 14:32:49,896 - INFO - Total services found at depth 2: 2
+2025-06-15 14:32:49,897 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/lauren-bub-isorrzy158
+2025-06-15 14:32:51,066 - INFO - Found 2 services on current page
+2025-06-15 14:32:51,066 - INFO - Total services found at depth 2: 2
+2025-06-15 14:32:51,067 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-michael-bunzel-16c1fzuu59
+2025-06-15 14:32:52,265 - INFO - Found 2 services on current page
+2025-06-15 14:32:52,265 - INFO - Total services found at depth 2: 2
+2025-06-15 14:32:52,265 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/leah-carpe-psthjmd595
+2025-06-15 14:32:53,564 - INFO - Found 2 services on current page
+2025-06-15 14:32:53,564 - INFO - Total services found at depth 2: 2
+2025-06-15 14:32:53,564 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-nestor-cerda-xyn73r2
+2025-06-15 14:32:54,820 - INFO - Found 2 services on current page
+2025-06-15 14:32:54,820 - INFO - Total services found at depth 2: 2
+2025-06-15 14:32:54,820 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-rina-b-chesner
+2025-06-15 14:32:56,134 - INFO - Found 2 services on current page
+2025-06-15 14:32:56,134 - INFO - Total services found at depth 2: 2
+2025-06-15 14:32:56,134 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-stuart-deutsch
+2025-06-15 14:32:57,417 - INFO - Found 2 services on current page
+2025-06-15 14:32:57,417 - INFO - Total services found at depth 2: 2
+2025-06-15 14:32:57,417 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-esther-diamant
+2025-06-15 14:32:58,759 - INFO - Found 2 services on current page
+2025-06-15 14:32:58,759 - INFO - Total services found at depth 2: 2
+2025-06-15 14:32:58,759 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/michael-dineen-eiizr8t809
+2025-06-15 14:32:59,976 - INFO - Found 2 services on current page
+2025-06-15 14:32:59,977 - INFO - Total services found at depth 2: 2
+2025-06-15 14:32:59,977 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/rena-dzikowski-y8bk8
+2025-06-15 14:33:01,209 - INFO - Found 2 services on current page
+2025-06-15 14:33:01,209 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:01,209 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/batsheva-feldman-xymtsm5
+2025-06-15 14:33:02,410 - INFO - Found 2 services on current page
+2025-06-15 14:33:02,410 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:02,410 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-ariel-felsen-uqvx6y
+2025-06-15 14:33:03,972 - INFO - Found 2 services on current page
+2025-06-15 14:33:03,972 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:03,973 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-loren-g-fickies
+2025-06-15 14:33:05,424 - INFO - Found 2 services on current page
+2025-06-15 14:33:05,424 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:05,424 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-richard-i-finkel
+2025-06-15 14:33:06,710 - INFO - Found 3 services on current page
+2025-06-15 14:33:06,710 - INFO - Total services found at depth 2: 3
+2025-06-15 14:33:06,710 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/joyce-friedman-xyls4cp
+2025-06-15 14:33:07,947 - INFO - Found 2 services on current page
+2025-06-15 14:33:07,947 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:07,948 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-morris-friedman
+2025-06-15 14:33:09,388 - INFO - Found 2 services on current page
+2025-06-15 14:33:09,388 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:09,389 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-dan-frimerman
+2025-06-15 14:33:10,631 - INFO - Found 2 services on current page
+2025-06-15 14:33:10,631 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:10,631 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-ruth-s-gershen
+2025-06-15 14:33:12,092 - INFO - Found 2 services on current page
+2025-06-15 14:33:12,092 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:12,092 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-melissa-glass-a543z
+2025-06-15 14:33:13,218 - INFO - Found 2 services on current page
+2025-06-15 14:33:13,218 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:13,218 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-david-glassberg-xynppdt
+2025-06-15 14:33:14,370 - INFO - Found 2 services on current page
+2025-06-15 14:33:14,370 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:14,370 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-pamela-golden-xylgc6d
+2025-06-15 14:33:15,802 - INFO - Found 2 services on current page
+2025-06-15 14:33:15,803 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:15,803 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-bruce-gribetz
+2025-06-15 14:33:16,991 - INFO - Found 2 services on current page
+2025-06-15 14:33:16,991 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:16,992 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/hana-gurwitz-xymvstp
+2025-06-15 14:33:18,172 - INFO - Found 2 services on current page
+2025-06-15 14:33:18,172 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:18,173 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-bassel-s-haddad
+2025-06-15 14:33:19,315 - INFO - Found 2 services on current page
+2025-06-15 14:33:19,316 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:19,316 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-joshua-m-hain
+2025-06-15 14:33:20,608 - INFO - Found 2 services on current page
+2025-06-15 14:33:20,608 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:20,608 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-allen-helfer
+2025-06-15 14:33:21,759 - INFO - Found 2 services on current page
+2025-06-15 14:33:21,762 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:21,762 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-shari-hirsch-gsvaqeo367
+2025-06-15 14:33:22,976 - INFO - Found 2 services on current page
+2025-06-15 14:33:22,977 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:22,977 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-ronen-hizami
+2025-06-15 14:33:24,167 - INFO - Found 2 services on current page
+2025-06-15 14:33:24,167 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:24,167 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-adam-hofmann-smtyucx002
+2025-06-15 14:33:25,434 - INFO - Found 2 services on current page
+2025-06-15 14:33:25,434 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:25,434 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/miriam-horowitz-acs7z
+2025-06-15 14:33:26,604 - INFO - Found 2 services on current page
+2025-06-15 14:33:26,604 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:26,605 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-david-v-inslicht
+2025-06-15 14:33:28,354 - INFO - Found 2 services on current page
+2025-06-15 14:33:28,354 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:28,354 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/elise-israel-2fljw
+2025-06-15 14:33:29,544 - INFO - Found 2 services on current page
+2025-06-15 14:33:29,544 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:29,545 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/amy-israel-sohn-y9ndv
+2025-06-15 14:33:30,759 - INFO - Found 2 services on current page
+2025-06-15 14:33:30,759 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:30,759 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-eli-jankelovits-xynrq6t
+2025-06-15 14:33:31,901 - INFO - Found 2 services on current page
+2025-06-15 14:33:31,901 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:31,901 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/michael-kaplan-3d82k
+2025-06-15 14:33:33,146 - INFO - Found 2 services on current page
+2025-06-15 14:33:33,146 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:33,146 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/ellen-karen-y7brn
+2025-06-15 14:33:34,273 - INFO - Found 2 services on current page
+2025-06-15 14:33:34,274 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:34,274 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-andrew-karpf
+2025-06-15 14:33:35,450 - INFO - Found 2 services on current page
+2025-06-15 14:33:35,450 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:35,450 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-doron-z-katz
+2025-06-15 14:33:36,978 - INFO - Found 2 services on current page
+2025-06-15 14:33:36,978 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:36,979 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-tamir-b-katz
+2025-06-15 14:33:38,554 - INFO - Found 2 services on current page
+2025-06-15 14:33:38,555 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:38,555 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/sarah-krakowski-xknjx
+2025-06-15 14:33:39,803 - INFO - Found 2 services on current page
+2025-06-15 14:33:39,803 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:39,804 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-malka-krupka
+2025-06-15 14:33:41,315 - INFO - Found 2 services on current page
+2025-06-15 14:33:41,316 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:41,316 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/cynthia-lansang-3rr6h
+2025-06-15 14:33:42,605 - INFO - Found 2 services on current page
+2025-06-15 14:33:42,605 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:42,605 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/stacey-lav-xynlyly
+2025-06-15 14:33:43,912 - INFO - Found 2 services on current page
+2025-06-15 14:33:43,912 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:43,912 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/aviva-levitin-xylww7t
+2025-06-15 14:33:45,186 - INFO - Found 2 services on current page
+2025-06-15 14:33:45,186 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:45,187 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-abraham-levy-4jthfc6493
+2025-06-15 14:33:46,464 - INFO - Found 2 services on current page
+2025-06-15 14:33:46,464 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:46,464 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/jeffrey-lubin-yjldm
+2025-06-15 14:33:47,629 - INFO - Found 2 services on current page
+2025-06-15 14:33:47,630 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:47,630 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/cheryl-mayerfeld-2ndpp
+2025-06-15 14:33:48,924 - INFO - Found 2 services on current page
+2025-06-15 14:33:48,924 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:48,925 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/elizabeth-mcsweeney-yfjqt
+2025-06-15 14:33:50,098 - INFO - Found 2 services on current page
+2025-06-15 14:33:50,098 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:50,098 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-joshua-nabatian-xymr8bd
+2025-06-15 14:33:51,357 - INFO - Found 3 services on current page
+2025-06-15 14:33:51,357 - INFO - Total services found at depth 2: 3
+2025-06-15 14:33:51,357 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-faisal-nagarwala
+2025-06-15 14:33:53,041 - INFO - Found 2 services on current page
+2025-06-15 14:33:53,041 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:53,042 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-bijal-naik-xhbxw
+2025-06-15 14:33:54,221 - INFO - Found 2 services on current page
+2025-06-15 14:33:54,221 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:54,221 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-adi-j-neuman
+2025-06-15 14:33:55,586 - INFO - Found 2 services on current page
+2025-06-15 14:33:55,586 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:55,587 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/ann-nolan-yfn8g
+2025-06-15 14:33:56,756 - INFO - Found 2 services on current page
+2025-06-15 14:33:56,757 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:56,757 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/nicole-nugent-xynjrtr
+2025-06-15 14:33:58,043 - INFO - Found 2 services on current page
+2025-06-15 14:33:58,043 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:58,043 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-nachum-s-ozeri
+2025-06-15 14:33:59,707 - INFO - Found 2 services on current page
+2025-06-15 14:33:59,707 - INFO - Total services found at depth 2: 2
+2025-06-15 14:33:59,707 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-ira-parness
+2025-06-15 14:34:01,046 - INFO - Found 2 services on current page
+2025-06-15 14:34:01,046 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:01,046 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/leora-perl-xylphgc
+2025-06-15 14:34:02,349 - INFO - Found 2 services on current page
+2025-06-15 14:34:02,350 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:02,350 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/aliza-plittman-xynl3pt
+2025-06-15 14:34:03,527 - INFO - Found 2 services on current page
+2025-06-15 14:34:03,527 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:03,527 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-prasannata-pradhan-xynbq4v
+2025-06-15 14:34:04,774 - INFO - Found 2 services on current page
+2025-06-15 14:34:04,774 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:04,774 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/miriam-rackoff-xynnc46
+2025-06-15 14:34:05,891 - INFO - Found 2 services on current page
+2025-06-15 14:34:05,891 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:05,892 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/samuel-rosenberg-2m2q3
+2025-06-15 14:34:07,154 - INFO - Found 2 services on current page
+2025-06-15 14:34:07,154 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:07,155 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/sarah-rosenberg-xyngrqm
+2025-06-15 14:34:08,796 - INFO - Found 2 services on current page
+2025-06-15 14:34:08,796 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:08,797 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-lauren-rothstein
+2025-06-15 14:34:10,039 - INFO - Found 2 services on current page
+2025-06-15 14:34:10,039 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:10,040 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-edward-rudolph
+2025-06-15 14:34:11,205 - INFO - Found 2 services on current page
+2025-06-15 14:34:11,205 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:11,205 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-loren-schneider
+2025-06-15 14:34:12,408 - INFO - Found 2 services on current page
+2025-06-15 14:34:12,408 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:12,408 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-shlomit-schwalb-xymd8d8
+2025-06-15 14:34:13,563 - INFO - Found 2 services on current page
+2025-06-15 14:34:13,563 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:13,564 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-jerrold-f-schwartz
+2025-06-15 14:34:14,866 - INFO - Found 2 services on current page
+2025-06-15 14:34:14,866 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:14,867 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-shepard-schwartz-y9h7g
+2025-06-15 14:34:16,066 - INFO - Found 2 services on current page
+2025-06-15 14:34:16,067 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:16,067 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-gershon-segal-x3xr3
+2025-06-15 14:34:17,235 - INFO - Found 2 services on current page
+2025-06-15 14:34:17,236 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:17,236 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-ari-m-simckes
+2025-06-15 14:34:18,505 - INFO - Found 2 services on current page
+2025-06-15 14:34:18,505 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:18,505 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/taryn-singer-xylf5r3
+2025-06-15 14:34:19,666 - INFO - Found 2 services on current page
+2025-06-15 14:34:19,666 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:19,666 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-terry-sobler
+2025-06-15 14:34:20,882 - INFO - Found 2 services on current page
+2025-06-15 14:34:20,882 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:20,882 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/sherryl-spence-3ppkm
+2025-06-15 14:34:22,059 - INFO - Found 2 services on current page
+2025-06-15 14:34:22,059 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:22,059 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-ariella-stahl
+2025-06-15 14:34:23,458 - INFO - Found 2 services on current page
+2025-06-15 14:34:23,458 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:23,458 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-karen-m-tam
+2025-06-15 14:34:24,764 - INFO - Found 2 services on current page
+2025-06-15 14:34:24,764 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:24,764 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-daniel-tavelinsky
+2025-06-15 14:34:25,991 - INFO - Found 2 services on current page
+2025-06-15 14:34:25,992 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:25,992 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-rachel-e-tehrani
+2025-06-15 14:34:27,339 - INFO - Found 2 services on current page
+2025-06-15 14:34:27,339 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:27,340 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-bettina-thomas-ceoro7v524
+2025-06-15 14:34:28,518 - INFO - Found 2 services on current page
+2025-06-15 14:34:28,518 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:28,518 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-jonathan-s-torkan
+2025-06-15 14:34:29,962 - INFO - Found 2 services on current page
+2025-06-15 14:34:29,963 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:29,963 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-salvatore-trentalancia
+2025-06-15 14:34:31,165 - INFO - Found 2 services on current page
+2025-06-15 14:34:31,165 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:31,165 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-rose-e-varon
+2025-06-15 14:34:32,566 - INFO - Found 2 services on current page
+2025-06-15 14:34:32,567 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:32,567 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-navid-vosoughi
+2025-06-15 14:34:33,726 - INFO - Found 2 services on current page
+2025-06-15 14:34:33,726 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:33,726 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-sharon-l-weibman
+2025-06-15 14:34:35,008 - INFO - Found 2 services on current page
+2025-06-15 14:34:35,008 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:35,009 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/peri-weiss-xylrxrs
+2025-06-15 14:34:36,232 - INFO - Found 2 services on current page
+2025-06-15 14:34:36,232 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:36,232 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-edward-n-weissberg
+2025-06-15 14:34:37,410 - INFO - Found 2 services on current page
+2025-06-15 14:34:37,410 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:37,410 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-johannes-weltin
+2025-06-15 14:34:38,876 - INFO - Found 2 services on current page
+2025-06-15 14:34:38,876 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:38,876 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/sarah-westreich-y9pyjmz
+2025-06-15 14:34:40,093 - INFO - Found 2 services on current page
+2025-06-15 14:34:40,094 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:40,094 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/makeda-woods-deans-pssblql271
+2025-06-15 14:34:41,381 - INFO - Found 2 services on current page
+2025-06-15 14:34:41,381 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:41,381 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/alberta-yohuno-yg7px
+2025-06-15 14:34:42,611 - INFO - Found 2 services on current page
+2025-06-15 14:34:42,611 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:42,611 - INFO - Crawling URL (depth 2): https://www.sharecare.com/doctor/dr-yana-menis
+2025-06-15 14:34:43,785 - INFO - Found 2 services on current page
+2025-06-15 14:34:43,785 - INFO - Total services found at depth 2: 2
+2025-06-15 14:34:43,786 - INFO - Total services found at depth 1: 5
+2025-06-15 14:34:43,786 - INFO - Crawling URL (depth 1): https://www.sharecare.com/eye-health/macular-degeneration/nutrients-that-prevent-macular-degeneration
+2025-06-15 14:34:44,405 - INFO - Found 9 services on current page
+2025-06-15 14:34:44,409 - INFO - Crawling URL (depth 2): https://www.sharecare.com/eye-health
+2025-06-15 14:34:45,487 - INFO - Found 9 services on current page
+2025-06-15 14:34:45,487 - INFO - Total services found at depth 2: 9
+2025-06-15 14:34:45,487 - INFO - Crawling URL (depth 2): https://www.sharecare.com/editorial-bios/#michael-gollust
+2025-06-15 14:34:46,020 - INFO - Found 10 services on current page
+2025-06-15 14:34:46,020 - INFO - Total services found at depth 2: 10
+2025-06-15 14:34:46,021 - INFO - Crawling URL (depth 2): https://www.sharecare.com/editorial-bios/#megan-burke
+2025-06-15 14:34:46,551 - INFO - Found 10 services on current page
+2025-06-15 14:34:46,551 - INFO - Total services found at depth 2: 10
+2025-06-15 14:34:46,551 - INFO - Crawling URL (depth 2): https://www.sharecare.com/weight-management/weight-loss-basics
+2025-06-15 14:34:47,187 - INFO - Found 9 services on current page
+2025-06-15 14:34:47,187 - INFO - Total services found at depth 2: 9
+2025-06-15 14:34:47,188 - INFO - Crawling URL (depth 2): https://www.sharecare.com/eye-health/simple-sight-saving-tips
+2025-06-15 14:34:48,350 - INFO - Found 9 services on current page
+2025-06-15 14:34:48,350 - INFO - Total services found at depth 2: 9
+2025-06-15 14:34:48,350 - INFO - Crawling URL (depth 2): https://www.sharecare.com/eye-health/macular-degeneration/prioritize-vision-wet-amd
+2025-06-15 14:34:49,958 - INFO - Found 10 services on current page
+2025-06-15 14:34:49,958 - INFO - Total services found at depth 2: 10
+2025-06-15 14:34:49,958 - INFO - Crawling URL (depth 2): https://www.sharecare.com/eye-health/macular-degeneration/doctor-wet-amd
+2025-06-15 14:34:51,172 - INFO - Found 10 services on current page
+2025-06-15 14:34:51,172 - INFO - Total services found at depth 2: 10
+2025-06-15 14:34:51,172 - INFO - Crawling URL (depth 2): https://www.sharecare.com/eye-health/macular-degeneration/3-ways-low-vision-rehabilitation-can-help-with-geographic-atrophy
+2025-06-15 14:34:52,278 - INFO - Found 10 services on current page
+2025-06-15 14:34:52,278 - INFO - Total services found at depth 2: 10
+2025-06-15 14:34:52,279 - INFO - Total services found at depth 1: 14
+2025-06-15 14:34:52,279 - INFO - Crawling URL (depth 1): https://www.sharecare.com/eye-health/symptoms-of-cataracts
+2025-06-15 14:34:52,922 - INFO - Found 12 services on current page
+2025-06-15 14:34:52,925 - INFO - Crawling URL (depth 2): https://www.sharecare.com/editorial-bios/#joanne-perron
+2025-06-15 14:34:53,640 - INFO - Found 10 services on current page
+2025-06-15 14:34:53,640 - INFO - Total services found at depth 2: 10
+2025-06-15 14:34:53,641 - INFO - Crawling URL (depth 2): https://www.sharecare.com/eye-health/how-is-presbyopia-treated
+2025-06-15 14:34:54,775 - INFO - Found 21 services on current page
+2025-06-15 14:34:54,775 - INFO - Total services found at depth 2: 21
+2025-06-15 14:34:54,776 - INFO - Crawling URL (depth 2): https://www.sharecare.com/eye-health/contact-mistakes-making-fix
+2025-06-15 14:34:55,651 - INFO - Found 9 services on current page
+2025-06-15 14:34:55,651 - INFO - Total services found at depth 2: 9
+2025-06-15 14:34:55,651 - INFO - Total services found at depth 1: 27
+2025-06-15 14:34:55,652 - INFO - Crawling URL (depth 1): https://www.sharecare.com/eye-health/aging-eye
+2025-06-15 14:34:56,505 - INFO - Found 12 services on current page
+2025-06-15 14:34:56,508 - INFO - Crawling URL (depth 2): https://www.sharecare.com/eye-health/slowing-progression-amd
+2025-06-15 14:34:57,357 - INFO - Found 8 services on current page
+2025-06-15 14:34:57,357 - INFO - Total services found at depth 2: 8
+2025-06-15 14:34:57,357 - INFO - Crawling URL (depth 2): https://www.sharecare.com/eye-health/slowing-progression-amd#treatment
+2025-06-15 14:34:58,041 - INFO - Found 8 services on current page
+2025-06-15 14:34:58,041 - INFO - Total services found at depth 2: 8
+2025-06-15 14:34:58,041 - INFO - Crawling URL (depth 2): https://www.sharecare.com/eye-health/slowing-progression-amd#low-vision
+2025-06-15 14:34:58,854 - INFO - Found 8 services on current page
+2025-06-15 14:34:58,855 - INFO - Total services found at depth 2: 8
+2025-06-15 14:34:58,855 - INFO - Crawling URL (depth 2): https://www.sharecare.com/eye-health/slowing-progression-amd#support
+2025-06-15 14:34:59,653 - INFO - Found 8 services on current page
+2025-06-15 14:34:59,654 - INFO - Total services found at depth 2: 8
+2025-06-15 14:34:59,654 - INFO - Crawling URL (depth 2): https://www.sharecare.com/eye-health/slowing-progression-amd#education
+2025-06-15 14:35:00,473 - INFO - Found 8 services on current page
+2025-06-15 14:35:00,473 - INFO - Total services found at depth 2: 8
+2025-06-15 14:35:00,473 - INFO - Crawling URL (depth 2): https://www.sharecare.com/editorial-bios/#jameson-kowalczyk
+2025-06-15 14:35:01,000 - INFO - Found 10 services on current page
+2025-06-15 14:35:01,000 - INFO - Total services found at depth 2: 10
+2025-06-15 14:35:01,001 - INFO - Crawling URL (depth 2): https://www.sharecare.com/eye-health/macular-degeneration/treatment-options-wet-amd
+2025-06-15 14:35:01,817 - INFO - Found 11 services on current page
+2025-06-15 14:35:01,817 - INFO - Total services found at depth 2: 11
+2025-06-15 14:35:01,817 - INFO - Crawling URL (depth 2): https://www.sharecare.com/eye-health/macular-degeneration/what-to-expect-anti-vegf-therapy
+2025-06-15 14:35:02,752 - INFO - Found 13 services on current page
+2025-06-15 14:35:02,752 - INFO - Total services found at depth 2: 13
+2025-06-15 14:35:02,752 - INFO - Crawling URL (depth 2): https://www.sharecare.com/eye-health/macular-degeneration/living-with-managing-amd
+2025-06-15 14:35:03,677 - INFO - Found 10 services on current page
+2025-06-15 14:35:03,677 - INFO - Total services found at depth 2: 10
+2025-06-15 14:35:03,678 - INFO - Crawling URL (depth 2): https://www.sharecare.com/eye-health/live-better-with-low-vision
+2025-06-15 14:35:04,717 - INFO - Found 9 services on current page
+2025-06-15 14:35:04,717 - INFO - Total services found at depth 2: 9
+2025-06-15 14:35:04,718 - INFO - Crawling URL (depth 2): https://www.sharecare.com/eye-health/macular-degeneration/supporting-loved-one-amd
+2025-06-15 14:35:05,524 - INFO - Found 9 services on current page
+2025-06-15 14:35:05,524 - INFO - Total services found at depth 2: 9
+2025-06-15 14:35:05,524 - INFO - Total services found at depth 1: 22
+2025-06-15 14:35:05,524 - INFO - Crawling URL (depth 1): https://www.sharecare.com/eye-health/worst-case-slept-contact-lenses
+2025-06-15 14:35:06,134 - INFO - Found 11 services on current page
+2025-06-15 14:35:06,137 - INFO - Crawling URL (depth 2): https://www.sharecare.com/editorial-bios/#olivia-delong
+2025-06-15 14:35:06,873 - INFO - Found 10 services on current page
+2025-06-15 14:35:06,873 - INFO - Total services found at depth 2: 10
+2025-06-15 14:35:06,873 - INFO - Crawling URL (depth 2): https://www.sharecare.com/editorial-bios/#amy-gonzales
+2025-06-15 14:35:07,421 - INFO - Found 10 services on current page
+2025-06-15 14:35:07,421 - INFO - Total services found at depth 2: 10
+2025-06-15 14:35:07,421 - INFO - Crawling URL (depth 2): https://www.sharecare.com/eye-health/eye-exam-information
+2025-06-15 14:35:08,049 - INFO - Found 16 services on current page
+2025-06-15 14:35:08,049 - INFO - Total services found at depth 2: 16
+2025-06-15 14:35:08,050 - INFO - Crawling URL (depth 2): https://www.sharecare.com/coronavirus/how-to-wash-hands
+2025-06-15 14:35:08,688 - INFO - Found 9 services on current page
+2025-06-15 14:35:08,689 - INFO - Total services found at depth 2: 9
+2025-06-15 14:35:08,689 - INFO - Total services found at depth 1: 20
+2025-06-15 14:35:08,689 - INFO - Total services found at depth 0: 277
+2025-06-15 14:35:08,689 - INFO - Extracted 277 services for Dr Marilyn Mann & Dr Margaret Siegrist Ptrs
+2025-06-15 14:35:08,689 - INFO - Extracting social media presence...
+2025-06-15 14:35:14,525 - INFO - Extracting patient reviews...
+2025-06-15 14:35:20,298 - INFO - Extracting competitors...
+2025-06-15 14:35:20,444 - INFO - Extracting location data...
+2025-06-15 14:35:20,448 - INFO - Saved enhanced results to: output/enhanced_Dr_Marilyn_Mann__Dr_Margaret_Siegrist_Ptrs.json
+2025-06-15 14:35:23,452 - INFO - Processing complete. Successfully processed 20 physician groups
+2025-06-15 14:35:23,479 - INFO - Enhanced scraper finished

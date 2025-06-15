@@ -1,0 +1,79 @@
+{
+  "group_name": "Spring Lake Park Chiropractic Pa",
+  "physician_name": "Spring Lake Park Chiropractic Pa",
+  "address": "1611 County Highway 10",
+  "website": "https://www.springlakeparkchiro.com/",
+  "services": [
+    "How Can Chiropractic Care Help You?",
+    "Chiropractic Care for Kids in Spring Lake Park",
+    "HOW CHIROPRACTIC CARE CAN HELP YOU",
+    "Services",
+    "Chiropractic Care For Kids",
+    "Wellness Care",
+    "Healthcare Disclaimer"
+  ],
+  "social_media_presence": {
+    "facebook": {
+      "url": "https://www.facebook.com/springlakeparkchiro/?locale=ga_IE",
+      "title": "Spring Lake Park Chiropractic",
+      "snippet": "Dr. Trevor Velin is a chiropractor at Spring Lake Park Chiropractic in Spring Lake Park, MN. If you. \udb85\ude76. Lean. \udb81\udfdd. Posts."
+    },
+    "instagram": {
+      "url": "https://www.instagram.com/p/DKSQ5S8zDY9/",
+      "title": "Gill~Chiropractic~By~The~Sea | Spring Lake, are you in ...",
+      "snippet": "Our chiropractor in Spring Lake can help you regain strength and mobility if you've had an accident in the workplace or at home. Contact us for ..."
+    },
+    "linkedin": {
+      "url": "https://pr.linkedin.com/company/spring-lake-park-chiropractic",
+      "title": "Spring Lake Park Chiropractic",
+      "snippet": "Servicios de bienestar y mantenimiento f\u00edsico \u00b7 Empleados en Spring Lake Park Chiropractic \u00b7 Inicia sesi\u00f3n para ver a qui\u00e9n conoces en Spring Lake Park ..."
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/@springlakeparkchiro",
+      "title": "Spring Lake Park Chiro",
+      "snippet": "Dr. Trevor Velin is a chiropractor at Spring Lake Park Chiropractic in Spring Lake Park, MN. If you are struggling with neck or back pain, ..."
+    }
+  },
+  "patient_reviews": {
+    "yelp": {
+      "url": "https://www.yelp.com/biz/spring-lake-park-chiropractic-clinic-minneapolis",
+      "title": "SPRING LAKE PARK CHIROPRACTIC CLINIC - Updated ...",
+      "snippet": "this might be the worst chiropractor I've ever been to in my life, they hurt me really bad and were cracking my neck to a point where there were pain. also ..."
+    }
+  },
+  "competitors": [
+    {
+      "name": "Service Directory (by State) - Optometry",
+      "url": "https://www.va.gov/optometry/service_directory_by_state.asp",
+      "snippet": "Dr. Nicole Guyette. Job Title: Staff optometrist. Degree(s): OD,MS Full-time. Phone: 205-428-3495 x 7935 205-933-8101 x 1193. Fax: 205-212-3104"
+    },
+    {
+      "name": "Eye Doctor | Kentucky Eye Institute | Kentucky Eye Care",
+      "url": "https://kyeye.com/",
+      "snippet": "Kentucky Eye Institute is a full-service \"eye doctor\" with locations throughout Kentucky. We provide comprehensive eye care, including surgical options."
+    },
+    {
+      "name": "Update and guidance on management of myopia. ...",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8369912/",
+      "snippet": "Various clinical studies have demonstrated the effectiveness of inhibiting myopic progression with ortho-K."
+    },
+    {
+      "name": "BLUEGRASS EYE & LASER, Winchester, KY",
+      "url": "https://www.healthgrades.com/group-directory/ky-kentucky/winchester/bluegrass-eye-laser-x7lnps",
+      "snippet": "BLUEGRASS EYE & LASER is a medical group practice located in Winchester, KY that specializes in Optometry and Ophthalmology."
+    },
+    {
+      "name": "Optimising the ocular surface to achieve good vision after ...",
+      "url": "https://europe.ophthalmologytimes.com/view/optimising-the-ocular-surface-to-achieve-good-vision-after-surgery",
+      "snippet": "An optimised ocular surface supports accurate preoperative measurements including refractions, keratometry, corneal topography and biometry."
+    }
+  ],
+  "location_data": {
+    "full_address": "1611 County Highway 10",
+    "city": "",
+    "state": "",
+    "population": "",
+    "median_income": ""
+  },
+  "scraped_at": "2025-06-15T14:16:58.988693"
+}

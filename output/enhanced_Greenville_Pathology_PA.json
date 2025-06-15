@@ -1,0 +1,71 @@
+{
+  "group_name": "Greenville Pathology PA",
+  "physician_name": "Greenville Pathology PA",
+  "address": "2515 Bowman Gray Dr",
+  "website": "https://greenvillepathology.com/",
+  "services": [],
+  "social_media_presence": {
+    "instagram": {
+      "url": "https://www.instagram.com/p/DC227uno_te/",
+      "title": "ECU Pre-Professional Advising | Greenville Pathology, P.A. ...",
+      "snippet": "Greenville Pathology, P.A., a privately-owned CAP accredited pathology practice is seeking a gross room assistant. In this position students ..."
+    },
+    "linkedin": {
+      "url": "https://www.linkedin.com/company/greenvillepathology",
+      "title": "Greenville Pathology, P.A.",
+      "snippet": "Greenville Pathology PA offers high quality, state-of-the-art Histopathology services for processing and interpretation of your pathology tissue specimens."
+    }
+  },
+  "patient_reviews": {
+    "yelp": {
+      "url": "https://www.yelp.com/biz/greenville-pathology-greenville",
+      "title": "GREENVILLE PATHOLOGY - Updated May 2025",
+      "snippet": "GREENVILLE PATHOLOGY in Greenville, reviews by real people. Yelp is a ... 2515 Bowman Gray Dr. Greenville, NC 27834. Directions. (252) 561-7992. Call Now ..."
+    },
+    "healthgrades": {
+      "url": "https://www.healthgrades.com/group-directory/nc-north-carolina/greenville/greenville-pathology-pa-x2mjcf",
+      "title": "Greenville Pathology PA",
+      "snippet": "Greenville Pathology PA is a medical group practice located in Greenville, NC that specializes in Cytopathology and Anatomic & Clinical Pathology."
+    },
+    "vitals": {
+      "url": "https://www.vitals.com/doctors/Dr_William_Ballance.html",
+      "title": "Dr. William Alton Ballance, MD - Greenville, NC",
+      "snippet": "Dr. William Alton Ballance, MD, is a specialist in pathology who treats patients in Greenville, NC. This provider has 41 years of experience and is ..."
+    }
+  },
+  "competitors": [
+    {
+      "name": "Middleton Eye Care | Optometrist Middleton",
+      "url": "https://www.eyedrdrew.org/",
+      "snippet": "208-585-9500 Taking Care of the People Behind the Glasses The goal of our optometry practice is to provide you with dedicated and friendly eye care service."
+    },
+    {
+      "name": "Idaho Eyecare Center",
+      "url": "https://www.idahoeyecare.com/",
+      "snippet": "We welcome patients of all ages to our comfortable optometry office. Our kind and trusted eye doctors provide personalized optical and medical eye care ..."
+    },
+    {
+      "name": "grange eye care",
+      "url": "https://www.grangeeyecare.com/",
+      "snippet": "Started in May of 2022, Grange Eye Care seeks to be the premiere provider of cataract surgery and retina treatment for the Treasure Valley."
+    },
+    {
+      "name": "One",
+      "url": "https://greenvillepathology.com/about-us/one/",
+      "snippet": "... 2515 Bowman Gray Dr Greenville NC 27834. Phone: 252-561-7992 \u00b7 FacebookLinkedIn \u00b7 Services \u00b7 General Information \u00b7 Histology \u00b7 Cytology \u00b7 Molecular Pathology."
+    },
+    {
+      "name": "Envision Specialty EyeCare & Dry Eye Center: Eye Doctor in ...",
+      "url": "https://www.envisionspecialtyeyecare.com/",
+      "snippet": "Premier Eye Doctor in Meridian, ID. Envision Specialty EyeCare & Dry Eye Center offers state-of-the-art treatments for dry eye syndrome."
+    }
+  ],
+  "location_data": {
+    "full_address": "2515 Bowman Gray Dr",
+    "city": "",
+    "state": "",
+    "population": "",
+    "median_income": ""
+  },
+  "scraped_at": "2025-06-15T14:16:04.920166"
+}

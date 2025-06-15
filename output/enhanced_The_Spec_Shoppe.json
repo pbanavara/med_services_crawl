@@ -1,0 +1,79 @@
+{
+  "group_name": "The Spec Shoppe",
+  "physician_name": "The Spec Shoppe",
+  "address": "2925 N Belt Hwy",
+  "website": "https://www.specshoppe.com/",
+  "services": [
+    "Eye Care Articles",
+    "eye\u00a0 care\u00a0 articles"
+  ],
+  "social_media_presence": {
+    "facebook": {
+      "url": "https://m.facebook.com/100057303114411/reels/",
+      "title": "The Spec Shoppe, Inc.",
+      "snippet": "The Spec Shoppe, Inc. provides Northwest Missouri with comprehensive eye care, including eye exams, contact lens fittings, frames for any budget, ..."
+    },
+    "instagram": {
+      "url": "https://www.instagram.com/reel/DJHlsR4Bmm1/",
+      "title": "The Spectacle Shoppe | Coming to The Spectacle Shoppe for ...",
+      "snippet": "Follow along with Dr. Seger as she takes you through what to expect at your first eye appointment with us, from the moment you walk through ..."
+    },
+    "twitter": {
+      "url": "https://twitter.com/specshoppetn/status/1874471266662383807",
+      "title": "The Spectacle Shoppe",
+      "snippet": "Happy New Year from The Spectacle Shoppe! As we look forward to 2025, we're excited to continue providing you with exceptional eye care, ..."
+    },
+    "linkedin": {
+      "url": "https://www.linkedin.com/company/spec-shoppe-inc",
+      "title": "The Spec Shoppe, Inc.",
+      "snippet": "* We are a family-owned and operated business with almost 40 years of experience in providing quality eye care. Our experienced doctors are knowledgeable and ..."
+    }
+  },
+  "patient_reviews": {
+    "yelp": {
+      "url": "https://www.yelp.com/biz/the-spec-shoppe-saint-joseph",
+      "title": "THE SPEC SHOPPE - Updated June 2025 - 13 Reviews",
+      "snippet": "They are rude and will not help with a single thing the screws fell out of my glasses and they said I would have to pay for one screw just so I could see."
+    },
+    "healthgrades": {
+      "url": "https://www.healthgrades.com/providers/annie-nguyen-mwgi9pa021",
+      "title": "Dr. Annie Nguyen, OD - Optometrist in Kansas City, MO",
+      "snippet": "Practice. The Spec. Shoppe of St. Joseph Inc.2925 N Belt Hwy Saint Joseph, MO 64506. 2. Call; Fax; Directions \u00b7 (816) 364-0450 \u00b7 Call \u00b7 Fax; Directions. Eye ..."
+    }
+  },
+  "competitors": [
+    {
+      "name": "Joyce K Stroud, OD - Spec Shoppe, 2925 N Belt Hwy, Saint ...",
+      "url": "https://www.mapquest.com/us/missouri/joyce-k-stroud-od-spec-shoppe-372538117",
+      "snippet": "2925 N Belt Hwy. Saint Joseph, MO 64506. +1 (816) 364-0450 \u00b7 http://thespecshoppe.com. The Spec Shoppe in Saint Joseph, MO offers comprehensive eye exams and a ..."
+    },
+    {
+      "name": "Clarkson Eyecare - St. Joseph | Eye-Exams, Optometrist in ...",
+      "url": "https://www.carecredit.com/doctor-locator/st-joseph-mo/clarkson-eyecare-st-joseph-732vvh/",
+      "snippet": "Clarkson Eyecare - St. Joseph. Vision. 2925 N Belt Highway, St Joseph, MO 64506. (816) 364-0450. (816) 364-0450. Specialties: Optometrist, Eye Exams."
+    },
+    {
+      "name": "Stacy Simmons, OD - Spec Shoppe - MapQuest",
+      "url": "https://www.mapquest.com/us/missouri/stacy-simmons-od-spec-shoppe-264680473",
+      "snippet": "For nearly 30 years, The Spec Shoppe in St. Joseph, Missouri has been known for providing quality eyecare and personalized attention to patients of all ages."
+    },
+    {
+      "name": "Dr. Stacy Bell-Simmons, OD | Optometry in Saint Joseph, MO",
+      "url": "https://care.healthline.com/find-care/provider/stacy-bell-simmons-1154379535",
+      "snippet": "... Dr. Stacy Bell-Simmons, OD. (816) 364-0450. Practice 2925 N Belt Hwy Saint Joseph, MO 64506. Are you Dr. Stacy Bell-Simmons, OD? Claim your profile through ..."
+    },
+    {
+      "name": "Our Doctors",
+      "url": "https://www.specshoppe.com/our-doctors.html",
+      "snippet": "... eye care in the St Joseph community. askthedoc@specshoppe.com. The Spec Shoppe 2925 N. Belt Hwy St. Joseph, MO 64506. Phone: (816) 364-0450. Fax: (816) 364 ..."
+    }
+  ],
+  "location_data": {
+    "full_address": "2925 N Belt Hwy",
+    "city": "",
+    "state": "",
+    "population": "",
+    "median_income": ""
+  },
+  "scraped_at": "2025-06-15T14:20:36.900876"
+}

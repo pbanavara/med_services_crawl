@@ -1,0 +1,81 @@
+{
+  "group_name": "Ara Keshishian MD",
+  "physician_name": "Ara Keshishian MD",
+  "address": "10 Congress St",
+  "website": "https://www.dssurgery.com/about-us/ara-keshishian-md/",
+  "services": [],
+  "social_media_presence": {
+    "facebook": {
+      "url": "https://www.facebook.com/dssurgery/",
+      "title": "Dr. Ara Keshishian",
+      "snippet": "Dr. Ara Keshishian offers more than 20 years surgical experience in weight loss surgical procedures such as Duodenal Switch, Sleeve Gastrectomy and Revisional ..."
+    },
+    "instagram": {
+      "url": "https://www.instagram.com/cvbsurgeon/",
+      "title": "Dr. Ara Keshishian (@cvbsurgeon)",
+      "snippet": "He has performed 2,500+ #duodenalswitch, 3000+ #vsg & 600+ revisions from other #WLS #RNY #sg. 10 Congress St., Suite 405, Pasadena, California 91105. www."
+    },
+    "linkedin": {
+      "url": "https://www.linkedin.com/posts/bariatric-surgery-corner_ara-keshishian-md-facs-fasmbs-activity-7023715654419501057-zocB",
+      "title": "Welcome to the BSC, Dr. | Bariatric Surgery Corner",
+      "snippet": "Welcome to the BSC, Dr. Keshishian! To learn more about Dr. Keshishian, click the link below #BariatricSurgeon #BariatricSurgeryCorner ..."
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/user/keshishiana",
+      "title": "Ara Keshishian M.D. FACS, FASMBS General & Bariatric ...",
+      "snippet": "This channel has videos about various surgical procedures including Lap-Band\u00ae revision, laparoscopic sleeve gastrectomy, revision of failed gastric bypass ..."
+    }
+  },
+  "patient_reviews": {
+    "yelp": {
+      "url": "https://www.yelp.com/biz/ara-keshishian-md-facs-fasmbs-pasadena",
+      "title": "ARA KESHISHIAN, MD FACS FASMBS - Updated June 2025",
+      "snippet": "hands down best surgeon! He not only did my gastric he also fix my stomach hernia and I feel great. 7 days post surgery date and I'm up driving doing work ..."
+    },
+    "healthgrades": {
+      "url": "https://www.healthgrades.com/physician/dr-ara-keshishian-xfmrh",
+      "title": "Dr. Ara Keshishian, MD - General Surgeon in Pasadena, CA",
+      "snippet": "I love Dr. K. He is one of the most dedicated physicians I have ever seen. He spends as much time with you as you need and never makes you feel rushed. He is ..."
+    },
+    "vitals": {
+      "url": "https://www.vitals.com/doctors/Dr_Ara_Keshishian.html",
+      "title": "Dr. Ara Keshishian, MD | Pasadena, CA | Surgery",
+      "snippet": "Dr. Keshishian has an average rating of 4.3 stars based on 49 patient ratings. Dr. Ara Keshishian has 3 areas of expertise, Biliopancreatic Diversion, Plastic ..."
+    }
+  },
+  "competitors": [
+    {
+      "name": "Pasadena Eye Medical Group",
+      "url": "https://pasadenaeyemed.com/",
+      "snippet": "Eye Care Customized to You. With decades of expertise, our team of leading ophthalmologists is dedicated to providing top-tier eye care ... 10 Congress Street"
+    },
+    {
+      "name": "Pasadena Eye Medical Group, 10 Congress St, Ste 340 ...",
+      "url": "https://www.mapquest.com/us/california/pasadena-eye-medical-group-427609596",
+      "snippet": "Located on the 3rd floor in the heart of Pasadena, our clinic offers convenient access and top-tier eye care services."
+    },
+    {
+      "name": "American Academy of Ophthalmology: Protecting Sight ...",
+      "url": "https://www.aao.org/",
+      "snippet": "The mission of the American Academy of Ophthalmology is to protect sight and empower lives by serving as an advocate for patients and the public."
+    },
+    {
+      "name": "Pasadena Eye Medical Group",
+      "url": "https://www.healthgrades.com/group-directory/ca-california/pasadena/pasadena-eye-medical-group-xbclcq",
+      "snippet": "Pasadena Eye Medical Group. Ophthalmology \u2022 5 Providers. 10 Congress St Ste 340, Pasadena CA, 91105. Make an Appointment. Show Phone Number. Pasadena Eye ..."
+    },
+    {
+      "name": "Finding an Eye Doctor",
+      "url": "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/finding-eye-doctor",
+      "snippet": "Use these online tools to find an eye doctor near you. If you have health insurance, you can also check your plan's website to find eye doctors in your area."
+    }
+  ],
+  "location_data": {
+    "full_address": "10 Congress St",
+    "city": "",
+    "state": "",
+    "population": "",
+    "median_income": ""
+  },
+  "scraped_at": "2025-06-15T14:18:30.753856"
+}

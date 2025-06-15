@@ -1,0 +1,22 @@
+{
+  "group_name": "Freehold Family Eyecare PC",
+  "physician_name": "Freehold Family Eyecare PC",
+  "address": "3333 Highway 9 North Chadwick Square",
+  "website": "https://www.freeholdfamilyeyecare.com/",
+  "services": [
+    "Eye Exams",
+    "Plus frames to fit every budget...",
+    "Freehold Family Eyecare"
+  ],
+  "social_media_presence": {},
+  "patient_reviews": {},
+  "competitors": [],
+  "location_data": {
+    "full_address": "3333 Highway 9 North Chadwick Square",
+    "city": "",
+    "state": "",
+    "population": "",
+    "median_income": ""
+  },
+  "scraped_at": "2025-06-15T14:25:15.325476"
+}

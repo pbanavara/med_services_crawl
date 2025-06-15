@@ -1,0 +1,94 @@
+{
+  "group_name": "Women Center LA",
+  "physician_name": "Women Center LA",
+  "address": "5901 W Olympic Blvd",
+  "website": "https://www.laser90210.com/",
+  "services": [
+    "Contraception",
+    "FEATURED SERVICES",
+    "MAKE AN APPOINTMENT",
+    "Menopause and HRT",
+    "Comprehensive Prenatal Care",
+    "Fibroids",
+    "Abnormal Pap Smears",
+    "Welcome to Women Center L.A.",
+    "PROCEDURES",
+    "Labiaplasty/Vaginal Surgery",
+    "Endometriosis",
+    "Irregular Bleeding"
+  ],
+  "social_media_presence": {
+    "facebook": {
+      "url": "https://www.facebook.com/Olympiacares/",
+      "title": "Olympia Medical Center",
+      "snippet": "... Clinic was recently relocated to 5901 W. Olympic Blvd, Suite 407 - come and check out the new space! For more information, call 323-932-5068; or visit our ..."
+    },
+    "instagram": {
+      "url": "https://www.instagram.com/drvmedical/?hl=en",
+      "title": "Dr V Medical (@drvmedical)",
+      "snippet": "Judgment-Free Primary Care. @wearfigs Ambassador. Outdoors Adventurer. 5901 W Olympic Blvd, Los Angeles, California 90036. www.drvmedical.com"
+    },
+    "linkedin": {
+      "url": "https://www.linkedin.com/company/downtown-womens-center",
+      "title": "Downtown Women's Center",
+      "snippet": "The Downtown Women's Center (DWC) is the only organization in Los Angeles focused exclusively on serving and empowering women experiencing homelessness."
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/watch?v=5m9BjExqjNU",
+      "title": "Welcome to the Los Angeles Center for Women's Health ...",
+      "snippet": "Our Los Angeles Center for Women's Health serves the downtown LA and surrounding region with comprehensive care for every woman's unique Healthcare needs."
+    }
+  },
+  "patient_reviews": {
+    "yelp": {
+      "url": "https://www.yelp.com/biz/women-center-la-los-angeles",
+      "title": "WOMEN CENTER LA - Los Angeles, CA",
+      "snippet": "5901 W Olympic Blvd. Ste 503. Los Angeles, CA 90036. Mid-Wilshire. Directions. (323) 934-8877. Call Now \u00b7 Visit Website. https://www.laser90210.com. More Info."
+    },
+    "healthgrades": {
+      "url": "https://www.healthgrades.com/group-directory/ca-california/los-angeles/women-center-la-xb3klb",
+      "title": "Women Center L.A, Los Angeles, CA",
+      "snippet": "Women Center L.A is a medical group practice located in Los Angeles, CA that specializes in Obstetrics & Gynecology and Gynecology."
+    },
+    "zocdoc": {
+      "url": "https://www.zocdoc.com/practice/women-center-l-a-6503",
+      "title": "Women Center L.A. (Los Angeles) - Book Appointment ...",
+      "snippet": "Book appointments online with Women Center L.A. of Los Angeles, CA. Available doctors, insurances and verified patient reviews for Women Center L.A.."
+    }
+  },
+  "competitors": [
+    {
+      "name": "Directions | Des Moines Eye",
+      "url": "https://www.dmeyesurgeons.com/des-moines-location/",
+      "snippet": "Our eye doctors provide LASIK, cataract surgery, comprehensive eye care, eyelid surgery, cosmetic services, and the Eye Designs Optical Shop."
+    },
+    {
+      "name": "Elite Eye Care: Full Service Adult & Pediatric Optometry",
+      "url": "https://eyedoctordesmoines.com/",
+      "snippet": "Elite Eye Care is a full service, pediatric and adult optometric clinic with locations in Ankeny, Norwalk & Waukee, serving patients throughout Central ..."
+    },
+    {
+      "name": "Eye Doctor West Des Moines",
+      "url": "https://www.dmeyesurgeons.com/eye-doctor-west-des-moines/",
+      "snippet": "Call us at 1-800-258-2508. 5901 Westown Parkway, Suite 200, West Des Moines, IA 50266. Our Eye Doctors & Staff."
+    },
+    {
+      "name": "Focus Eye Care - Eye Exams and Glasses in Waukee, IA",
+      "url": "https://focuseyecarewaukee.com/",
+      "snippet": "Focus Eye Care provides comprehensive eye exams, contact lenses, glasses, and kids vision exam. Online appointment scheduling available."
+    },
+    {
+      "name": "EyeQ Eyecare and Eyewear | Eye Doctor in Waukee, IA",
+      "url": "https://eyeqeyecareia.com/",
+      "snippet": "Our optometrist brings over 13 years of well-rounded experience serving patients like you with comprehensive eye exams, pediatric eye care, eye disease ..."
+    }
+  ],
+  "location_data": {
+    "full_address": "5901 W Olympic Blvd",
+    "city": "",
+    "state": "",
+    "population": "",
+    "median_income": ""
+  },
+  "scraped_at": "2025-06-15T14:17:52.849915"
+}

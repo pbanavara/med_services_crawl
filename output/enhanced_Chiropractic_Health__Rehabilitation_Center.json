@@ -1,0 +1,86 @@
+{
+  "group_name": "Chiropractic Health & Rehabilitation Center",
+  "physician_name": "Chiropractic Health & Rehabilitation Center",
+  "address": "N1734 Municipal Dr",
+  "website": "https://www.greenvillechiropracticcenter.com/",
+  "services": [
+    "Chiropractic Services",
+    "Safe and Natural Solutions to Health Care",
+    "Accepting New Patients/DOT Exams Now Available!",
+    "Establish a Treatment Plan That Works for You"
+  ],
+  "social_media_presence": {
+    "facebook": {
+      "url": "https://www.facebook.com/p/Chiropractic-Health-Center-100063658404313/",
+      "title": "Chiropractic Health Center",
+      "snippet": "Chiropractic Health Center, Greenville, South Carolina. 909 likes \u00b7 53 were here. Our mission is to provide quality chiropractic care, physical rehab,..."
+    },
+    "instagram": {
+      "url": "https://www.instagram.com/chiropracticandrehab/",
+      "title": "Chiropractic & Rehabilitation (@chiropracticandrehab)",
+      "snippet": "Accident pain? Let us help. Call today for a same day Chiropractic appointment at 305-570-1965. 14645 NW 77th Avenue ste 107, Miami Lakes, Florida 33014."
+    },
+    "linkedin": {
+      "url": "https://www.linkedin.com/in/gareth-juays-228b10155",
+      "title": "Gareth Juays - Firefighter / Paramedic - Longview Fire Dept",
+      "snippet": "Marketing Consultant at Juays Consultants \u00b7 Experience: Longview Fire Dept \u00b7 Education: Kilgore College \u00b7 Location: Longview-Marshall Area \u00b7 36 connections ..."
+    },
+    "youtube": {
+      "url": "https://www.youtube.com/@chawcrva",
+      "title": "Chiropractic Health and Wellness Center",
+      "snippet": "Doctors Carmen Johanning, Cally Womble, Cara Zellner and Rebekah Liberty are chiropractors at Chiropractic Health and Wellness Center in Richmond, VA."
+    }
+  },
+  "patient_reviews": {
+    "yelp": {
+      "url": "https://www.yelp.com/biz/greenville-chiropractic-greenville-4",
+      "title": "GREENVILLE CHIROPRACTIC - Updated June 2025",
+      "snippet": "Dr Pat and Dr Gabe are fantastic! They both take the time to listen to how you are doing and personalize a treatment plan just for you!"
+    },
+    "healthgrades": {
+      "url": "https://www.healthgrades.com/chiropractic-directory/wi-wisconsin/greenville",
+      "title": "Chiropractors Near Me in Greenville, WI",
+      "snippet": "... Dr. Dorn. Dr. Timothy O'Connor, DC. Specialty: Chiropractic. 5.0Rated 5.0 out of 5 stars(3 ratings). N1734 Municipal DrGreenville, WI 54942. 0.4 mi ..."
+    },
+    "zocdoc": {
+      "url": "https://www.zocdoc.com/chiropractors/brooklyn-79621pm",
+      "title": "Book 100+ of the best Chiropractors near me in Brooklyn, NY",
+      "snippet": "You can use Zocdoc to find Chiropractors in Brooklyn who are highly rated by other patients. These ratings are based on verified reviews submitted by real ..."
+    }
+  },
+  "competitors": [
+    {
+      "name": "Manchester Eye Care Center, P.C.: Optometrist / Eye Doctor in ...",
+      "url": "https://visionsource-manchestereyecarecenter.com/",
+      "snippet": "Manchester Eye Care Center, PC offers comprehensive eye care services and in-demand lenses and frames to Manchester and the surrounding communities."
+    },
+    {
+      "name": "Beachwood, OH Eye Clinic | Ophthalmologists",
+      "url": "https://clevelandeyeclinic.com/locations/beachwood/",
+      "snippet": "Cleveland Eye Clinic has the leading Ophthalmologists for LASIK, glaucoma, and other eye care services in Beachwood, Ohio."
+    },
+    {
+      "name": "Comprehensive Pediatric Eye and Vision Examination",
+      "url": "https://www.aoa.org/aoa/documents/practice%20management/clinical%20guidelines/ebo%20guidelines/comprehensive%20pediatric%20eye%20and%20vision%20exam.pdf",
+      "snippet": "The recommendations in this guideline were developed to assist doctors of optometry and ophthalmologists involved in providing eye and vision examinations for."
+    },
+    {
+      "name": "Dr. Michael Good, O.D. - Optometrist Avon Lake",
+      "url": "https://clevelandeyeclinic.com/our-doctors-ohio/michael-good-o-d/",
+      "snippet": "He specializes in family eye care, contact lenses, and treatment and management of ocular disease. ... Office Staff: 216-359-1734. Optical: 216-359-3002."
+    },
+    {
+      "name": "Lisa M Borkowski, MD | Ophthalmology",
+      "url": "https://www.ohiohealth.com/find-a-doctor/profile/1734/Lisa-Borkowski",
+      "snippet": "Lisa M Borkowski, MD specializes in Ophthalmology at Midwest Retina, Inc in Dublin, OH."
+    }
+  ],
+  "location_data": {
+    "full_address": "N1734 Municipal Dr",
+    "city": "",
+    "state": "",
+    "population": "",
+    "median_income": ""
+  },
+  "scraped_at": "2025-06-15T14:19:16.102170"
+}
